@@ -1,0 +1,45 @@
+\documentclass[a4paper,12pt,oneside,onecolumn,openany,final]{memoir}
+
+% Preamble
+%-----------------------------------------------------------------------------------------
+\usepackage{thesis_preamble}
+\usepackage{import}
+
+\title{Applications of Galois Theory}
+\author{Sandesh Thakuri}
+
+%------------------------------------------------------------------------------------------
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+
+
+\mainmatter
+
+\maxtocdepth{subsection} % put 3 levels into the ToC
+\tableofcontents  %table of contents
+
+\part{Galois Theory}
+\chapter{Field Extension}
+\input{chapters/chapter1}
+
+\chapter{Galois Theory}
+\input{chapters/chapter3}
+
+\chapter{Structure of Galois Extension}
+\input{chapters/chapter4}
+
+
+
+\part{Applications}
+\chapter{Galois Group of a Polynomial}
+\input{chapters/chapter5}
+
+\end{document}
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
