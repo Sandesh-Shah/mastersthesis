@@ -1,8 +1,9 @@
-\contentsline {chapter}{Contents}{1}{}%
+\contentsline {chapter}{Contents}{ii}{}%
+\contentsline {chapter}{Symbol Conventions Used}{1}{}%
 \contentsline {part}{\partnumberline {I}Galois Theory}{2}{}%
 \contentsline {chapter}{\chapternumberline {1}Field Extension}{3}{}%
-\contentsline {section}{\numberline {1.1}Structure of Field Extension}{3}{}%
-\contentsline {subsection}{\numberline {1.1.1}Existence of Extension field}{3}{}%
+\contentsline {section}{\numberline {1.1}Structure of a Field Extension}{3}{}%
+\contentsline {subsection}{\numberline {1.1.1}Existence of an Extension field}{3}{}%
 \contentsline {section}{\numberline {1.2}Algebraic and Transcendental element}{3}{}%
 \contentsline {section}{\numberline {1.3}Isomorphism of Extension fields}{4}{}%
 \contentsline {chapter}{\chapternumberline {2}Galois Theory}{5}{}%
