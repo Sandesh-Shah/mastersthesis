@@ -1,66 +1,18 @@
-The Galois group of a polynomial \(f \in K[x]\) is the group \(Aut_K^F\), where \(F\) is a splitting field of \(f\) over \(K\).
+Galois fields are the finite fields. They can be completely characterized in terms of splitting fields and the Galois group of an extension of a finite field by a finite field is shown to be cyclic.\\
 
-\textbf{Theorem} \hspace{3mm} Let \(G\) be a Galois group of a polynomial \(f \in K[x]\).
+\begin{definition}[Prime Fields]
+Let \(F\) be a field and let \(P\) be the intersection of all subfields of \(F\). Then \(P\) is a field with no proper subfields. This field \(P\) is called the Prime subfield of \(F\).
+\end{definition}
+
 \begin{enumerate}
-\item[i)] \(G\) is isomorphic to a subgroup of some symmetric group \(S_n\)..
-  \item[ii)] If \(f\) is separable of degree \(n\), the \(n\) divides \(|G|\) and \(G\) isomorphic to a transitive subgroup of \(S_n\).
+\item If \(charF=p(prime)\), then \(P\cong {\mathbb{Z}}_p\).
+\item If \(charF=0\), then \(P\cong \mathbb{Q}\).
 \end{enumerate}
 
+\begin{theorem}
+A field \(F\) is a finite field with \(p^n\) elements if and only if \(F\) is a splitting field of \(x^{p^n} - x\) over \(\mathbb{Z}_p\).\\
+\end{theorem}
 
-So, the Galois group of polynomial is identified with the subgroup of \(S_n\).\\[2mm]
-
-\textbf{Corollary}
-\begin{enumerate}
-\item[i)] If the degree of \(f\) is \(2\) then the Galois group \(G=Z_2\).
-  \item[ii)] If the degree of \(f\) is \(3\) then the Galois group \(G\) is either \(S_3\) or \(A_3\).
-\end{enumerate}
-
-\section{Galois group of cubic polynomials}
-\textbf{Discriminant of \(f\)} \\hspace{3mm} Let \(K\) be a field with \(char K \neq 2\) and \(f \in K[x]\) a polynomial of degree \(n\) with \(n\) distinct roots \(u_1,u_2,...,u_n\) in some splitting field \(F\) of \(f\) over \(K\). Let \(\Delta = \prod\limits_{i<j}(u_i-u_j) = (u_1-u_2)(u_1-u_3)...(u_{n-1}-u_n) \in F\).\\
-
-The discriminant of \(f\) is the element \(D= {\Delta}^2\).\\[2mm]
-
-
-\textbf{Theorem}
-\begin{enumerate}
-\item[i)] The discriminant \({\Delta}^2\) of \(f\) actually lies in \(K\).
-  \item[ii)] For each \(\sigma \in Aut_K^F < S_n, \sigma\) is an even[resp. odd] if and only if \(\sigma(\Delta) = \Delta\)[resp. \(\sigma(\Delta) = - \Delta\)].
-\end{enumerate}
-
-Because the \({\Delta}^2 \in K\) and \(\Delta \in F\), in the Galois correspondence the subfield \(K(\Delta)\) corresponds to the subgroup \(G \cap A_n\). In particular, \(G\) consists of even permutations if and only if \(\Delta \in K\).\\[3mm]
-
-\textbf{Corollary} \hspace{3mm} If \(f\) is a separable polynomial of degree \(3\),then the Galois group of \(f\) is \(A_3\) if and only if the discriminant of \(f\) is the square of an element of \(K\).\\[3mm]
-
-\textbf{Theorem} \hspace{3mm} Let \(K\) be a field of \(char K \neq 2,3 \). If \(f(x)=x^3+bx^2+cx+d \in K[x]\) has three distinct roots in some splitting field, then the polynomial \(g(x)=f(x-b/3) \in K[x]\) has the form \(x^3+p^2+q\) and the discriminant of \(f\) is \(-4p^3-27q^2\).\\[3mm]
-
-\textbf{Theorem} \hspace{3mm} Let \(K, f, F, u_i, V, and G=Aut_K^F<S_4\) be as in the preceding paragraph.\\
-If \(\alpha=u_1u_2+u_3+u_4, \beta=u_1u_3+u_2+u_4, \gamma=u_1u_4+u_2+u_3\), then under the Galois correspondence the subfield \(K(\alpha, \beta, \gamma)\) corresponds to the normal subgroup \(V \cap G\).\\
-Hence \(K(\alpha, \beta, \gamma)\)is Galois over \(K\) and \(Aut_K^{K(\alpha, \beta, \gamma)} = G/(G \cap V\).
-
-
-\subsection{Resolvant Cubic of Quartic}
-The elements \(\alpha, \beta, \gamma\) play a crucial role in determining the Galois Groups of arbitrary quartics. The polynomial \\
-\( (x- \alpha)(x- \beta)(x- \gamma) \) is called the resolvant cubic of \(f\).\\
-The resolvant cubic is actually a polynomial over \(K\).\\[3mm]
-
-\textbf{Theorem} \hspace{3mm} If \(K\) is a field and \(f = x^4+bx^3+cx^2+dx+e \in K[x]\), then the resolvant cubic of \(f\) is the polynomial \(x^3-cx^2+(bd-4e)x-b^2e+4ce-d^2 \in K[x]\).\\[3mm]
-
-\textbf{Theorem} \hspace{3mm} Let \(K\) be a field and \(f \in K[x]\) a separable quartic with Galois Group \(G\). Let \(\alpha, \beta, \gamma\) be the roots of the resolvant cubic of \(f\) and let \(m= [K(\alpha, \beta, \gamma) : K]\). Then:
-\begin{enumerate}
-\item[i)] \(m=6 \Longleftrightarrow G=S_4\);
-\item[ii)] \(m=3 \Longleftrightarrow G=A_4\);
-\item[iii)] \(m=1 \Longleftrightarrow G=V\);
-  \item[iv)] \(m=2 \Longleftrightarrow G=D_4\) or \(G=Z_4\); in this case \(G=Z_4\) if \(f\) is irreducible over \(K(\alpha, \beta, \gamma)\) and \(G=Z_4\) otherwise.
-\end{enumerate}
-
-
-
-
-
-
-
-
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: "n"
-%%% End:
+\begin{theorem}
+  If \(F\) is a finite dimensional extension field of a finite field \(K\), then \(F\) is finite and is Galois over \(K\). The Galois group \(Aut_K^F\) is cyclic.
+\end{theorem}

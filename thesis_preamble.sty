@@ -1,24 +1,51 @@
 \ProvidesPackage{thesis_preamble}
 
-\usepackage{url}
-\urlstyle{same}
-
-\usepackage{amsmath, amssymb}
-
 % Page Layout
 \setlrmarginsandblock{1.5in}{1in}{*}
 \setulmarginsandblock{2.5cm}{*}{1}
 
 \checkandfixthelayout[nearest]
 
+
+\usepackage{url}
+\urlstyle{same}
+
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{titling}
+
+% mathematics----------------------------------------------------------------------------------------------------
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+
+\theoremstyle{definition}
+\newtheorem{example}{Example}
+\newtheorem{exe}{Exercise}
+\newtheorem{prob}{Problem}
+\newtheorem{task}{TASK}
+
+% numbered theorems
+\theoremstyle{theorem}
+\newtheorem{theorem}{Theorem}
+
+\theoremstyle{definition}
+\newtheorem{corollary}{Corollary}[theorem]
+
+\theoremstyle{definition}
+\newtheorem{lemma}{Lemma}
+
+% unnumbered theorems
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+%--------------------------------------------------------------------------------------------------------------------------------
+
 % line spacing
 \OnehalfSpacing
 
 % page style
 \pagestyle{plain}
-
-
-
 
 % Subsection numbering
 \setsecnumdepth{subsection}

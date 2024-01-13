@@ -1,25 +1,26 @@
-\contentsline {chapter}{Contents}{ii}{}%
-\contentsline {chapter}{Symbol Conventions Used}{1}{}%
+\contentsline {chapter}{\bfseries STUDENT DECLARATION}{ii}{}%
+\contentsline {chapter}{\bfseries RECOMMENDATION}{iii}{}%
+\contentsline {chapter}{\bfseries LETTER OF APPROVAL}{iv}{}%
+\contentsline {chapter}{Contents}{v}{}%
+\contentsline {chapter}{\bfseries Symbol Conventions Used}{1}{}%
 \contentsline {part}{\partnumberline {I}Galois Theory}{2}{}%
-\contentsline {chapter}{\chapternumberline {1}Field Extension}{3}{}%
+\contentsline {chapter}{\chapternumberline {1}Galois Correspondence}{3}{}%
 \contentsline {section}{\numberline {1.1}Structure of a Field Extension}{3}{}%
-\contentsline {subsection}{\numberline {1.1.1}Existence of an Extension field}{3}{}%
-\contentsline {section}{\numberline {1.2}Algebraic and Transcendental element}{3}{}%
-\contentsline {section}{\numberline {1.3}Isomorphism of Extension fields}{4}{}%
-\contentsline {chapter}{\chapternumberline {2}Galois Theory}{5}{}%
-\contentsline {section}{\numberline {2.1}Galois Group}{5}{}%
-\contentsline {section}{\numberline {2.2}Galois extension}{5}{}%
-\contentsline {subsection}{\numberline {2.2.1}Fixed Field}{6}{}%
-\contentsline {section}{\numberline {2.3}Fundamental Theorem of Galois Theory}{6}{}%
-\contentsline {subsection}{\numberline {2.3.1}Closed Field and Subgroup}{6}{}%
-\contentsline {subsection}{\numberline {2.3.2}Stable Intermediate}{7}{}%
-\contentsline {subsection}{\numberline {2.3.3}Proof of the Fundamental Theorem}{7}{}%
-\contentsline {chapter}{\chapternumberline {3}Structure of Galois Extension}{9}{}%
-\contentsline {section}{\numberline {3.1}Splitting Field}{9}{}%
-\contentsline {subsection}{\numberline {3.1.1}Algebraic Closure of a Field}{9}{}%
-\contentsline {section}{\numberline {3.2}Separable Extension}{10}{}%
-\contentsline {section}{\numberline {3.3}Galois extension}{10}{}%
-\contentsline {part}{\partnumberline {II}Applications}{11}{}%
-\contentsline {chapter}{\chapternumberline {4}Galois Group of a Polynomial}{12}{}%
-\contentsline {section}{\numberline {4.1}Galois group of cubic polynomials}{12}{}%
-\contentsline {subsection}{\numberline {4.1.1}Resolvant Cubic of Quartic}{13}{}%
+\contentsline {subsection}{\numberline {1.1.1}Algebraic and Transcendental element}{3}{}%
+\contentsline {section}{\numberline {1.2}Galois Group}{4}{}%
+\contentsline {section}{\numberline {1.3}Galois extension}{4}{}%
+\contentsline {subsection}{\numberline {1.3.1}Fixed Field}{5}{}%
+\contentsline {section}{\numberline {1.4}Fundamental Theorem of Galois Theory}{5}{}%
+\contentsline {subsection}{\numberline {1.4.1}Closed Field and Subgroup}{5}{}%
+\contentsline {subsection}{\numberline {1.4.2}Stable Intermediate}{6}{}%
+\contentsline {subsection}{\numberline {1.4.3}Proof of the Fundamental Theorem}{6}{}%
+\contentsline {chapter}{\chapternumberline {2}Structure of Galois Extension}{8}{}%
+\contentsline {section}{\numberline {2.1}Splitting Field}{8}{}%
+\contentsline {subsection}{\numberline {2.1.1}Algebraic Closure of a Field}{8}{}%
+\contentsline {section}{\numberline {2.2}Separable Extension}{9}{}%
+\contentsline {section}{\numberline {2.3}Galois extension}{9}{}%
+\contentsline {part}{\partnumberline {II}Applications}{10}{}%
+\contentsline {chapter}{\chapternumberline {3}Galois Group of a Polynomial}{11}{}%
+\contentsline {section}{\numberline {3.1}Galois Group of Cubic polynomials}{11}{}%
+\contentsline {section}{\numberline {3.2}Galois Group of Quartic polynomials}{12}{}%
+\contentsline {chapter}{\chapternumberline {4}Galois Fields}{13}{}%
