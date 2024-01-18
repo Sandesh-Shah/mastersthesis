@@ -3,40 +3,27 @@
 % Page Layout
 \setlrmarginsandblock{1.5in}{1in}{*}
 \setulmarginsandblock{2.5cm}{*}{1}
-
 \checkandfixthelayout[nearest]
-
 
 \usepackage{url}
 \urlstyle{same}
-
-\usepackage{graphicx}
-\usepackage{xcolor}
-\usepackage{titling}
+\usepackage{graphicx, xcolor, titling}
 
 % mathematics----------------------------------------------------------------------------------------------------
 \usepackage{amsmath, amssymb, amsthm, mathtools}
 
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}
-
 \theoremstyle{definition}
 \newtheorem{example}{Example}
-\newtheorem{exe}{Exercise}
-\newtheorem{prob}{Problem}
-\newtheorem{task}{TASK}
-
-% numbered theorems
-\theoremstyle{theorem}
-\newtheorem{theorem}{Theorem}
-
 \theoremstyle{definition}
 \newtheorem{corollary}{Corollary}[theorem]
-
 \theoremstyle{definition}
 \newtheorem{lemma}{Lemma}
 
-% unnumbered theorems
+\theoremstyle{theorem}    
+\newtheorem{theorem}{Theorem}
+
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 %--------------------------------------------------------------------------------------------------------------------------------
@@ -47,5 +34,5 @@
 % page style
 \pagestyle{plain}
 
-% Subsection numbering
+% Set numbering of headings to subsections
 \setsecnumdepth{subsection}
