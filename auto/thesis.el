@@ -1,6 +1,8 @@
 (TeX-add-style-hook
  "thesis"
  (lambda ()
+   (setq TeX-command-extra-options
+         "-shell-escape")
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("memoir" "a4paper" "12pt" "oneside" "onecolumn" "openany" "final")))
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
@@ -10,6 +12,7 @@
    (TeX-run-style-hooks
     "latex2e"
     "premilinaries/titlepage"
+    "premilinaries/dedication"
     "premilinaries/studentsdecelaration"
     "premilinaries/recommendation"
     "premilinaries/approval"
@@ -20,6 +23,8 @@
     "chapters/chapter5"
     "memoir"
     "memoir12"
-    "thesis_preamble"))
+    "thesis_preamble")
+   (LaTeX-add-bibliographies
+    "bib_database/myref"))
  :latex)
 

@@ -1,14 +1,16 @@
 (TeX-add-style-hook
  "thesis_preamble"
  (lambda ()
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (setq TeX-command-extra-options
+         "-shell-escape")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "url"
     "graphicx"
-    "color"
+    "xcolor"
     "titling"
     "amsmath"
     "amssymb"
@@ -17,12 +19,9 @@
    (LaTeX-add-amsthm-newtheorems
     "definition"
     "example"
-    "exe"
-    "prob"
-    "task"
+    "lemma"
     "theorem"
     "corollary"
-    "lemma"
     "remark"))
  :latex)
 

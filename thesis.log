@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  13 JAN 2024 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  20 JAN 2024 19:16
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **thesis.tex
@@ -393,13 +393,22 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@height=\dimen183
 \Gin@req@width=\dimen184
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 149.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
@@ -515,51 +524,48 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \c@definition=\count325
 \c@example=\count326
-\c@exe=\count327
-\c@prob=\count328
-\c@task=\count329
+\c@lemma=\count327
 
 
-Package amsthm Warning: Unknown theoremstyle `theorem' on input line 30.
+Package amsthm Warning: Unknown theoremstyle `theorem' on input line 23.
 
-\c@theorem=\count330
-\c@corollary=\count331
-\c@lemma=\count332
+\c@theorem=\count328
+\c@corollary=\count329
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count333
+\l__color_backend_stack_int=\count330
 \l__pdf_internal_box=\box58
 )
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count334
+\scratchcounter=\count331
 \scratchdimen=\dimen260
 \scratchbox=\box59
-\nofMPsegments=\count335
-\nofMParguments=\count336
+\nofMPsegments=\count332
+\nofMParguments=\count333
 \everyMPshowfont=\toks36
-\MPscratchCnt=\count337
+\MPscratchCnt=\count334
 \MPscratchDim=\dimen261
-\MPnumerator=\count338
-\makeMPintoPDFobject=\count339
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
 \everyMPtoPDFconversion=\toks37
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -580,7 +586,15 @@ Package pdftex.def Info: pictures/tulogo.png  used on input line 9.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pictures/tulogo.png>]) (
-./premilinaries/studentsdecelaration.tex
+./premilinaries/dedication.tex
+File: pictures/tulogo.png Graphic file (type png)
+<use pictures/tulogo.png>
+Package pdftex.def Info: pictures/tulogo.png  used on input line 3.
+(pdftex.def)             Requested size: 62.39746pt x 72.89479pt.
+ [2
+
+])
+(./premilinaries/studentsdecelaration.tex
 File: pictures/tulogo.png Graphic file (type png)
 <use pictures/tulogo.png>
 Package pdftex.def Info: pictures/tulogo.png  used on input line 6.
@@ -601,7 +615,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--20
 
  []
 
-[2
+[3
 
 ]) (./premilinaries/recommendation.tex
 File: pictures/tulogo.png Graphic file (type png)
@@ -618,7 +632,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--20
 
  []
 
-[3
+[4
 
 ]) (./premilinaries/approval.tex
 File: pictures/tulogo.png Graphic file (type png)
@@ -640,77 +654,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--30
 
  []
 
+) (./thesis.toc [5
 
-./premilinaries/approval.tex:40: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 	  Kirtipur, Kathmandu, Nepal.\\ \\
-                                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (./thesis.toc [4
-
-]) [5] (./premilinaries/symbolconvention.tex
+] [6]) [7] (./premilinaries/symbolconvention.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
-
-
-./premilinaries/symbolconvention.tex:17: LaTeX Error: \mathbb allowed only in m
-ath mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 \item \mathbb
-                  {Z} \hspace{5mm} set of integers
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./premilinaries/symbolconvention.tex:18: LaTeX Error: \mathbb allowed only in m
-ath mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 \item \mathbb
-                  {Q} \hspace{5mm} set of rationals
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./premilinaries/symbolconvention.tex:19: LaTeX Error: \mathbb allowed only in m
-ath mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \item \mathbb
-                  {R} \hspace{5mm} set of reals
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./premilinaries/symbolconvention.tex:20: LaTeX Error: \mathbb allowed only in m
-ath mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 \item \mathbb
-                  {C} \hspace{5mm} set of complex numbers
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 ) [1
 
@@ -836,16 +785,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
 ) [13
 
+] (./thesis.bbl
+bibitemlist
+) [14
+
+
 ]
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
  (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 6945 strings out of 480247
- 102901 string characters out of 5896152
- 424843 words of memory out of 5000000
- 24808 multiletter control sequences out of 15000+600000
+ 7355 strings out of 480247
+ 107548 string characters out of 5896152
+ 434195 words of memory out of 5000000
+ 25210 multiletter control sequences out of 15000+600000
  479919 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  70i,11n,76p,669b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -861,10 +815,10 @@ ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (18 pages, 228067 bytes).
+Output written on thesis.pdf (21 pages, 229356 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 135 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

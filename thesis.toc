@@ -1,8 +1,9 @@
-\contentsline {chapter}{\bfseries STUDENT DECLARATION}{ii}{}%
-\contentsline {chapter}{\bfseries RECOMMENDATION}{iii}{}%
-\contentsline {chapter}{\bfseries LETTER OF APPROVAL}{iv}{}%
-\contentsline {chapter}{Contents}{v}{}%
-\contentsline {chapter}{\bfseries Symbol Conventions Used}{1}{}%
+\contentsline {chapter}{\bfseries DEDICATION}{ii}{}%
+\contentsline {chapter}{\bfseries STUDENT DECLARATION}{iii}{}%
+\contentsline {chapter}{\bfseries RECOMMENDATION}{iv}{}%
+\contentsline {chapter}{\bfseries LETTER OF APPROVAL}{v}{}%
+\contentsline {chapter}{Contents}{vi}{}%
+\contentsline {chapter}{\bfseries {Symbol Conventions Used}}{1}{}%
 \contentsline {part}{\partnumberline {I}Galois Theory}{2}{}%
 \contentsline {chapter}{\chapternumberline {1}Galois Correspondence}{3}{}%
 \contentsline {section}{\numberline {1.1}Structure of a Field Extension}{3}{}%
@@ -24,3 +25,5 @@
 \contentsline {section}{\numberline {3.1}Galois Group of Cubic polynomials}{11}{}%
 \contentsline {section}{\numberline {3.2}Galois Group of Quartic polynomials}{12}{}%
 \contentsline {chapter}{\chapternumberline {4}Galois Fields}{13}{}%
+\contentsline {chapter}{Bibliography}{14}{}%
+\contentsline {chapter}{BIBLIOGRAPHY}{14}{}%
