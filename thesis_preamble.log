@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  20 JAN 2024 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  26 JAN 2024 19:23
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -126,7 +126,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.10 \usepackage{
-                 graphicx, xcolor, titling}
+                 graphicx, wrapfig, xcolor, titling}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -367,7 +367,42 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 29--32
  []
 
 ./thesis_preamble.sty:34: Undefined control sequence.
-l.34 \OnehalfSpacing
+l.34 \graphicspath
+                  {pictures/}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./thesis_preamble.sty:34: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 \graphicspath{p
+                    ictures/}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no p in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 34--35
+[] 
+ []
+
+./thesis_preamble.sty:37: Undefined control sequence.
+l.37 \OnehalfSpacing
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -375,8 +410,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./thesis_preamble.sty:40: Undefined control sequence.
-l.40 \setsecnumdepth
+./thesis_preamble.sty:43: Undefined control sequence.
+l.43 \setsecnumdepth
                     {subsection}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -385,13 +420,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./thesis_preamble.sty:40: LaTeX Error: Missing \begin{document}.
+./thesis_preamble.sty:43: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \setsecnumdepth{s
+l.43 \setsecnumdepth{s
                       ubsection}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
