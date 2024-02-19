@@ -71,9 +71,20 @@ This is because we have \([K(\alpha,\beta,\gamma):K] = |G/G \cap V|\).
 The polynomial is \(f(x)=x^4-2 \in \mathbb{Q}[x]\).\\
 This polynomial is irreducible and so separable over \(\mathbb{Q}\). The resolvant cubic is \(x^3+8x = x(x+2i\sqrt{2})(x-2i\sqrt{2})\) and 
 \(\mathbb{Q}(\alpha,\beta, \gamma)=\mathbb{Q}(i\sqrt{2})\) has dimension \(2\) over \(mathbb{Q}\).\\
-\(x^4-2\) is irreducible over \(\mathbb{Q}(i\sqrt{2})\) because \(\sqrt[\leftroot{-3}\uproot{3}4]{2} \not\in \mathbb{Q}(i\sqrt{2})\).
+\(x^4-2\) is irreducible over \(\mathbb{Q}(i\sqrt{2})\) because \(\sqrt[\leftroot{-3}\uproot{3}4]{2} \not\in \mathbb{Q}(i\sqrt{2})\). 
 Therefore the Galois group \(G \cong D_8\).
 \end{example}
+
+Let \(F \subset \mathbb{C}\) be a splitting field over \(mathbb{Q}\) of \(f(x)=x^4-2 \in \mathbb{Q}[x]\). If \(u\) is the positive real fourth root of 2, then the roots 
+of \(f\) are \(u,\; -u,\; ui,\; -ui\). In order to consider the Galois group \(G = Aut_{\mathbb{Q}}^F\) of \(f\) as a subgroup of \(S_4\), we must choose an ordering of the roots, say 
+\(u_1=u\), \(u_2=ui\), \(u_3=-u\), \(u_4= -ui\). \\
+The complex conjugation is an \(\mathbb{R}\)-automorphism of \(\mathbb{C}\) which clearly sends:\\
+\(u \mapsto u\), \(-u \mapsto -u\), \(ui \mapsto -ui\) and \(-ui \mapsto ui\). \\
+This induces a \(\mathbb{Q}\)-automorphism \(\tau\) of \(F=\mathbb{Q}(u,ui)\). As an element of \(S_4\), \(\tau=(24)\). 
+Now the generator of \(D_8\) containing \(\tau = (24)\) is \(\sigma = (1234)\). We have \(F=\mathbb{Q}(u,ui)=\mathbb{Q}(u,i)\), 
+so every \(\mathbb{Q}\)-automorphism of \(F\) is completely determined by its action on \(u\) and \(i\). Thus the elements of \(G\) 
+may be described either in terms of \(\sigma\) and \(\tau\) or by their action on \(u\) and \(i\). The information is summarized in the table:
+
 
 
 
