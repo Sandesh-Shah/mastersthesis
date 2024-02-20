@@ -1,0 +1,71 @@
+
+\begin{enumerate}
+\item Is every polynomial equation solvable by the method of radicals?
+\item Equivalently does there exist an explicit "formula" which gives all solutions of an arbitrary polynomial equation?
+\end{enumerate}
+
+If the degree of  the polynomial \(f\) is at most four then the answer is "yes".
+
+\section{Formulation of the Classic Problem}
+The "formula" by the method of radicals means the formula involving only field operations and the extraction of nth roots. 
+The existence of a "formula" means there is a finite sequence of steps, each step being a field operatioin or the extraction of an nth roots, which yields all solutions of the given polynomial. 
+Performing a field operatioin leaves the base field unchanged, but the extraction of an nth root of an element 
+\(c\) in a field \(K\) amounts to constructing an extenstion field \(K(u)\) with \(u^n \in \K\). Thus the existence of a "formula" for solving \(f(x)=0\) would imply 
+the existence of a finite tower of fields \\
+\[K=E_0 \subset E_1 \subset ... \subset E_n\]
+such that \(E_n\) contains a splitting field of \(f\) over \(K\) and for each \(i \geq 1\), \(E_i=E_{i-1}(u_i)\) with some positive power of \(u_i\) lying in \(E_{i-1}\).\\
+
+Conversely suppose there exists such a tower of fields and that \(E_n\) contains a splitting field of \(f\). Then 
+\[E_n = K(u_1,u_2,...,u_n)\]
+and each solution is of the form \(f(u_1,...,u_n)/g(u_1,...,u_n)\) where \(f,g \in K[x_1,...,x_n]\). \\
+Thus each solution is expressible in terms of a finite number of elements of \(K\), a finite number of field operations and \(u_1,...,u_n\). But 
+this amounts to saying that there is a "formula" for the solutions of the particular given equation. \\
+
+\begin{definition}[Radical Extension]
+An extenstion field \(F\) of a field \(K\) is a radical extenstion of \(K\) if \(F=K(u_1,...,u_n)\), some power of \(u_1\) lies in \(K\) and for each \(i \geq 2\), some power of \(u_i\) lies in \(K(u_1,...,u_{i-1})\).
+\end{definition}
+
+\begin{remark}
+If \(u_i^m \in K(u_1,...,u_{i-1})\) then \(u_i\) is a root of \(x^m-u_i^m \in K(u_1,...,u_{i-1}[x])\). \\
+Therefore every radical extenstion \(F\) of \(K\) is finite dimensional algebraic over \(K\).
+\end{remark}
+
+\begin{definition}
+The equation \(f(x)=0\) is \texit{solvable by radicals} if there exists a radical extenstion \(F\) of \(K\) and splitting field \(E\) of \(f\) over \(K\) such that \(F \superset E \superset \K\).
+\end{definition}
+
+\begin{theorem}
+If \(F\) is a radical extenstion of \(K\) and \(E\) is an intermediate field, then \(Aut_K^E\) is a solvable group.
+\end{theorem}
+
+\begin{corollary}
+If the equation \(f(x)=0\) is solvable by radicals, then the Galois group of \(f\) is a solvable group.
+\end{corollary}
+
+\section{Group Theoritic Concepts}
+Let \(G\) be a group. 
+
+\begin{definition}[Solvable Series]
+A finite chain of subgroups \(G=G_0>G_1>...>G_n={e}\) such that \(G_{i+1}\) is normal in \(G_i\) for \(0 \leq i < n\) is called a subnormal series of \(G\).\\
+A subnormal series is a solvable series if each factor group \(G_i/G_{i+1}\) is abelian.
+\end{definition}
+
+\begin{definition}[Solvable Group]
+A group is solvable if and only if it has a solvable series.
+\end{definition}
+
+If \(F\) is a radical extension of \(K\) then \(F\) is Galois over \(K\) and by the Fundamental Theorem of Galois \(Aut_K^E\) has a solvable series where \(E\) is an intermediate field. So \(Aut_K^E\) is solvable.
+
+\sectioin{Conclusion}
+\begin{theorem}
+The symmetric group \(S_n\) is not solvable for \(n \geq 5\).
+\end{theorem}
+
+The polynomial \(f(x)=x^5-4x+2 \in \mathbb{Q}[x]\) has Galois group \(S_5\), which is not a solvable group. \\ \\
+The quantic polynomials over \(mathbb{Q}\) are not solvable by radicals. That is there does not exist an explicit formula for solving the quantics. \\
+Moreover, polynomials of degree \(n \geq 5\) are not solvable by radicals.
+
+\begin{remark}
+The base field plays an important role here. The polynomial \(x^5-4x+2\) is not solvable by radicals over \(mathbb{Q}\), but it is solvable by radicals over \(mathbb{R}\) of real numbers. In fact, every polynomial equation over \(mathbb{R}\) is solvable by radicals since all the solutions lie in the algebraic closure \(mathbb{C}\) which is a radical extension of \(mathbb{R}\).
+\end{remark}
+
