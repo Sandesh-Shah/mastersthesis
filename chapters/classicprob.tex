@@ -1,24 +1,23 @@
 
 \begin{enumerate}
 \item Is every polynomial equation solvable by the method of radicals?
-\item Equivalently does there exist an explicit "formula" which gives all solutions of an arbitrary polynomial equation?
+\item Equivalently, does there exist an explicit "formula" which gives all solutions of an arbitrary polynomial equation?
 \end{enumerate}
 
 If the degree of  the polynomial \(f\) is at most four then the answer is "yes".
 
 \section{Formulation of the Classic Problem}
-The "formula" by the method of radicals means the formula involving only field operations and the extraction of nth roots. 
-The existence of a "formula" means there is a finite sequence of steps, each step being a field operatioin or the extraction of an nth roots, which yields all solutions of the given polynomial. 
-Performing a field operatioin leaves the base field unchanged, but the extraction of an nth root of an element 
-\(c\) in a field \(K\) amounts to constructing an extenstion field \(K(u)\) with \(u^n \in K\). Thus the existence of a "formula" for solving \(f(x)=0\) would imply 
-the existence of a finite tower of fields \\
+The "formula" by the method of radicals means the formula involving only field operations and the extraction of nth roots.
+The existence of a "formula" means there is a finite sequence of steps, each step being a field operatioin or the extraction of an nth roots, which yields all solutions of the given polynomial.
+Performing a field operatioin leaves the base field unchanged, but the extraction of an nth root of an element
+\(c\) in a field \(K\) amounts to constructing an extenstion field \(K(u)\) with \(u^n \in K\). Thus the existence of a "formula" for solving \(f(x)=0\) would imply
+the existence of a finite tower of fields
 \[K=E_0 \subset E_1 \subset ... \subset E_n\]
 such that \(E_n\) contains a splitting field of \(f\) over \(K\) and for each \(i \geq 1\), \(E_i=E_{i-1}(u_i)\) with some positive power of \(u_i\) lying in \(E_{i-1}\).\\
-
-Conversely suppose there exists such a tower of fields and that \(E_n\) contains a splitting field of \(f\). Then 
+Conversely suppose there exists such a tower of fields and that \(E_n\) contains a splitting field of \(f\). Then
 \[E_n = K(u_1,u_2,...,u_n)\]
 and each solution is of the form \(f(u_1,...,u_n)/g(u_1,...,u_n)\) where \(f,g \in K[x_1,...,x_n]\). \\
-Thus each solution is expressible in terms of a finite number of elements of \(K\), a finite number of field operations and \(u_1,...,u_n\). But 
+Thus each solution is expressible in terms of a finite number of elements of \(K\), a finite number of field operations and \(u_1,...,u_n\). But
 this amounts to saying that there is a "formula" for the solutions of the particular given equation. \\
 
 \begin{definition}[Radical Extension]
@@ -43,7 +42,7 @@ If the equation \(f(x)=0\) is solvable by radicals, then the Galois group of \(f
 \end{corollary}
 
 \section{Group Theoritic Concepts}
-Let \(G\) be a group. 
+Let \(G\) be a group.
 
 \begin{definition}[Solvable Series]
 A finite chain of subgroups \(G=G_0>G_1>...>G_n={e}\) such that \(G_{i+1}\) is normal in \(G_i\) for \(0 \leq i < n\) is called a subnormal series of \(G\).\\
@@ -68,4 +67,3 @@ Moreover, polynomials of degree \(n \geq 5\) are not solvable by radicals.
 \begin{remark}
 The base field plays an important role here. The polynomial \(x^5-4x+2\) is not solvable by radicals over \(\mathbb{Q}\), but it is solvable by radicals over \(\mathbb{R}\) of real numbers. In fact, every polynomial equation over \(\mathbb{R}\) is solvable by radicals since all the solutions lie in the algebraic closure \(\mathbb{C}\) which is a radical extension of \(\mathbb{R}\).
 \end{remark}
-
