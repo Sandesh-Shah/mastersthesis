@@ -1,46 +1,48 @@
 \section{Cryptography}
-It is the science of safeguarding message during transmission by converting the original message into something unreadable.\\
+It is the science of safe-guarding messages during transmission by converting the original message into something unreadable.\\
 Galois Fields are the life of modern cryptography used in digital communication.
 
 \section{Advance Encryption Standard(AES)}
 This is the standard of Encryption used these days. The generic algorithm of AES consists of smaller sub-algorithms namely Sub-Bytes, Shift-Rows, Mix-Columns and Add-Round-Key.
 
-\subsection{State}
-First the data is broken into smaller chunks of bytes called states which is representation by the entries of a matrix. 
+\subsection{States}
+First the data is broken into smaller chunks of bytes called states which is representation by the entries of a matrix.
 Mathematical operations are not applicable to the data directly so the significance of this step is to make the data applicable for mathematical operations.\\
-For the 128-bit key encryption the algorithm forms \(4 \times 4\) matrix with each entry of a size byte. This matrix can afford to evaluate a data of size 16 byte at a time.
+For the 128-bit key encryption the algorithm forms a \(4 \times 4\) matrix with each entry of a size one byte. This matrix can afford to evaluate a data of size 16 byte at a time.
 
-\subsection{Sub-Byte}
-In this step, first each byte of the matrix is replaced with its multiplicative inverse if it has one. Then it transforms each bytes using invertible affine transformation,\(x \mapsto Ax+b\).
+\subsection{Sub-Bytes}
+In this step, first each byte of the matrix is replaced with its multiplicative inverse if it has one. Then it transforms each bytes using an invertible affine transformation, \(x \mapsto Ax+b\).
 
 \subsection{Shift-Rows}
 In this step entries of a row is shifted to scramble data. Row-n shifted to the left by \(n-1\) unit. Here,\\
 \(1-1=0\), so row-1 is left unchanged. \(2-1=1\), so row-2 is shifted to the left by 1 unit and row-3 by 2 unit and so on as shown below.
 
-\vspace{2mm}
+\vspace{3mm}
 If \(A=\begin{bmatrix}
     a_{11}&a_{12}&a_{13}&a_{14}\\
     a_{21}&a_{22}&a_{23}&a_{24}\\
     a_{31}&a_{32}&a_{33}&a_{34}\\
     a_{41}&a_{42}&a_{43}&a_{44}
-    \end{bmatrix}\) then \(A'=\begin{bmatrix}
+    \end{bmatrix}\) \hspace{3mm} then \(A'=\begin{bmatrix}
     a_{11}&a_{12}&a_{13}&a_{14}\\
     a_{22}&a_{23}&a_{24}&a_{21}\\
     a_{33}&a_{34}&a_{31}&a_{32}\\
     a_{44}&a_{41}&a_{42}&a_{43}
-    \end{bmatrix}\) \vspace{2mm} \\ is the matrix after Shit-Row
+    \end{bmatrix}\) \vspace{2mm} \\[3mm] is the matrix after Shit-Row
 
 \subsection{Mix-Columns}
-In this step each column is transformed using a linear transformation. Since linear transformation is invertible this step is invertible. Note every step of this algorithm must be invertible to be able to decrypt the data.
+In this step each column is transformed using a linear transformation, \(c \mapsto Bc\) where \(c\) is a column of the matrix obtained above. Since linear transformation is invertible this step is invertible. Note every step of this algorithm must be invertible to be able to decrypt the data.
 
 \subsection{Add-Round-Key}
 This is the step where the encrypted data gets uniqueness. Each user is assigned an "unique key" and this key is added to the matrix obtained from the last step.
 
 \section{Illustration}
-Let us encrypt the sentence "Fun Cryptography". This consists of exactly 16 characters.
+Let us encrypt the sentence "Fun Cryptography". This consists of exactly 16 characters.\vspace{2mm}
 
 \begin{enumerate}
-    \item First we write the \(ASCII\) representation of each character of the sentence as shown below. We do so because the ASCII representation gives the binary representation of each character which has a size of a byte. The ASCII representaion of "F" is \(70\) which is \(01000110\) in binary.
+\item First we write the ASCII representation of each character of the sentence as shown below. We do so because the ASCII representation gives the binary representation of each character which has a size of a byte. The ASCII representaion of "F" is \(70\) which is \(01000110\) in binary.
+  \vspace{2mm}
+
     \[\begin{bmatrix}
         70 & 117 & 110 & 32 \\
         67 & 114 & 121 & 112\\
@@ -55,7 +57,7 @@ Let us encrypt the sentence "Fun Cryptography". This consists of exactly 16 char
     \end{bmatrix}
     \]
 
-    \item After performing Sub-Bytes, Shift-Rows, Mix-Columns, we get the following matrix.
+    \item After performing Sub-Bytes, Shift-Rows, Mix-Columns, we get the following matrix. \vspace{3mm}
     \[\begin{bmatrix}
        11100111 & 00011000 & 00100100 & 01110000\\
        00101010 & 10101011 & 00111001 & 01100011\\
@@ -68,9 +70,10 @@ Let us encrypt the sentence "Fun Cryptography". This consists of exactly 16 char
         21 & 101 & 247 & 167\\
         171 & 246 & 3 & 164
     \end{bmatrix}
-    \]
+  \]
+  \vspace{3mm}
 
-    \item We have omitted the Add-Round-Key step just for the sake of simplicity. The matrix obtained at last in step-2 form a human readable sentence.
+    \item We have omitted the Add-Round-Key step just for the sake of simplicity. The matrix obtained at last in step-2 translates to something different from our original sentence.
 
     \item The decryption process is applying the inverse of the encryption process.
 \end{enumerate}

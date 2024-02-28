@@ -91,39 +91,22 @@ may be described either in terms of \(\sigma\) and \(\tau\) or by their action o
   \(i \mapsto\) & \(i\) & \(-i\) & \(i\) & \(i\) & \(i\) & \(-i\) & \(-i\) & \(-i\) \\
   \hline
 \end{tabular}
-\\ \\
 
+\vspace{15mm}
 \begin{tikzpicture}
-  \hspace{5mm}
-  \node[
-  minimum width=3mm,
-  minimum height=3mm,
-  align=center
-  ] (i) {(1)};
 
-  \node[
-  below of=i,
-  minimum width=3mm,
-  minimum height=3mm,
-  align=center,
-  ]
-  (ss) {\(<{\sigma}^2>\)};
+  \node[minimum width=3mm, minimum height=3mm, align=center] (i) {(1)};
 
-  \node[
-  left of=ss,
-  minimum width=3mm,
-  minimum height=3mm,
-  align=center,
-  xshift=-15mm
-  ]
-  (sst) {\(<{\sigma}^2 \tau>\)};
+  \node[below of=i, minimum width=3mm, minimum height=3mm, align=center, yshift=-11mm] (ss) {\(<{\sigma}^2>\)};
+
+  \node[left of=ss, minimum width=3mm, minimum height=3mm, align=center, xshift=-20mm] (sst) {\(<{\sigma}^2 \tau>\)};
 
   \node[
   left of=sst,
   minimum width=3mm,
   minimum height=3mm,
   align=center,
-  xshift=-15mm
+  xshift=-20mm
   ] (t) {\(<\tau>\)\>};
 
   \node[
@@ -131,7 +114,7 @@ may be described either in terms of \(\sigma\) and \(\tau\) or by their action o
   minimum width=3mm,
   minimum height=3mm,
   align=center,
-  xshift=15mm
+  xshift=20mm
   ]
   (st) {\(<\sigma\tau>\)};
 
@@ -140,10 +123,66 @@ may be described either in terms of \(\sigma\) and \(\tau\) or by their action o
   minimum width=3mm,
   minimum height=3mm,
   align=center,
-  xshift=15mm
+  xshift=20mm
   ]
   (ssst) {\(<{\sigma}^3\tau>\)};
+
+  \node[
+  below of=ss,
+  minimum width=3mm,
+  minimum height=3mm,
+  align=center,
+  yshift=-11mm
+  ]
+  (s) {\(<\sigma>\)};
+
+  \node[
+  left of=s,
+  minimum width=3mm,
+  minimum height=3mm,
+  align=center,
+  xshift=-30mm
+  ]
+  (iss) {\(<(1),{\sigma}^2,\sigma,\tau,{\sigma}^2\tau>\)};
+
+  \node[
+  right of=s,
+  minimum width=3mm,
+  minimum height=3mm,
+  align=center,
+  xshift=25mm
+  ]
+  (v) {\(V\)};
+
+  \node[
+  below of=s,
+  minimum width=3mm,
+  minimum height=3mm,
+  align=center,
+  yshift=-11mm
+  ]
+  (g) {\(G\)};
+
+  \draw[->, thick] (i)--(t);
+  \draw[->, thick] (i)--(sst);
+  \draw[->, thick] (i)--(ss);
+  \draw[->, thick] (i)--(st);
+  \draw[->, thick] (i)--(ssst);
+
+  \draw[->, thick] (ss)--(iss);
+  \draw[->, thick] (ss)--(s);
+  \draw[->, thick] (ss)--(v);
+
+  \draw[->, thick] (s)--(g);
+  \draw[->, thick] (t)--(iss);
+  \draw[->, thick] (sst)--(iss);
+  \draw[->, thick] (st)--(v);
+  \draw[->, thick] (ssst)--(v);
+
+  \draw[->, thick] (iss)--(g);
+  \draw[->, thick] (v)--(g);
 \end{tikzpicture}
+\captionof{figure}{\footnotesize Subgroup diagram of the Galois group}
 \clearpage
 
 \section{Galois group of Quantic polynomials}

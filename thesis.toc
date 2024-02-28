@@ -34,5 +34,27 @@
 \contentsline {section}{\numberline {5.1}Formulation of the Classic Problem}{15}{}%
 \contentsline {section}{\numberline {5.2}Group Theoritic Concepts}{16}{}%
 \contentsline {section}{\numberline {5.3}Conclusion}{16}{}%
-\contentsline {chapter}{\chapternumberline {6}Galois Fields}{18}{}%
-\contentsline {chapter}{Bibliography}{19}{}%
+\contentsline {part}{\partnumberline {III}Galois-Field}{18}{}%
+\contentsline {chapter}{\chapternumberline {6}Galois Fields}{19}{}%
+\contentsline {section}{\numberline {6.1}Representation of Finite Fields}{19}{}%
+\contentsline {subsection}{\numberline {6.1.1}Integer representation}{19}{}%
+\contentsline {subsection}{\numberline {6.1.2}Polynomial representation}{20}{}%
+\contentsline {section}{\numberline {6.2}Operations in Galois Field}{20}{}%
+\contentsline {chapter}{\chapternumberline {7}Application in Coding Theory}{21}{}%
+\contentsline {section}{\numberline {7.1}Linear Codes}{22}{}%
+\contentsline {section}{\numberline {7.2}Illustration}{23}{}%
+\contentsline {section}{\numberline {7.3}Syndrome Decoding}{23}{}%
+\contentsline {subsection}{\numberline {7.3.1}Decoding Process}{24}{}%
+\contentsline {section}{\numberline {7.4}Perfect Code}{24}{}%
+\contentsline {section}{\numberline {7.5}Cyclic Code}{25}{}%
+\contentsline {subsection}{\numberline {7.5.1}Usages}{25}{}%
+\contentsline {chapter}{\chapternumberline {8}Application in Cryptography}{26}{}%
+\contentsline {section}{\numberline {8.1}Cryptography}{26}{}%
+\contentsline {section}{\numberline {8.2}Advance Encryption Standard(AES)}{26}{}%
+\contentsline {subsection}{\numberline {8.2.1}States}{26}{}%
+\contentsline {subsection}{\numberline {8.2.2}Sub-Bytes}{26}{}%
+\contentsline {subsection}{\numberline {8.2.3}Shift-Rows}{27}{}%
+\contentsline {subsection}{\numberline {8.2.4}Mix-Columns}{27}{}%
+\contentsline {subsection}{\numberline {8.2.5}Add-Round-Key}{27}{}%
+\contentsline {section}{\numberline {8.3}Illustration}{27}{}%
+\contentsline {chapter}{Bibliography}{29}{}%
