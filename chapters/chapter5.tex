@@ -16,3 +16,51 @@ A  finite field \(F\) has \(p^n\) number of elements where \(p \in \mathbb{Z}_+\
 \begin{theorem}
   If \(F\) is a finite dimensional extension field of a finite field \(K\), then \(F\) is finite and is Galois over \(K\). The Galois group \(Aut_K^F\) is cyclic.
 \end{theorem}
+
+\section{Representation of Finite Fields}
+Basically there are two types of representation of a finite field. These two representations are equivalent. 
+\subsection{Integer representation}
+
+\(GF(p^n)=\{0,1,...,p-1\} \cup \{p,p+1,...,p+p-1\} \cup ... \cup \{p^{n-1},p^{n-1}+1,...,p^{n-1}+p^{n-2}+...+p-1\}\).
+
+\begin{example}
+    \(GF(2)=\{0,1\}\)\\
+    \(GF(2^3)=\{0,1\} \cup \{2,2+1\} \cup \{2^2,2^2+1,2^2+2,2^2+2+1\}=\{0,1,2,3,4,5,6,7\}\)
+\end{example}
+
+But the digits \(2,3,..,7\) of the field \(GF(2^3)\) do not lie on the field \(GF(2)\). If look the field \(GF(2^3)\) as an extension field of \(GF(2)\) and write its elements only using the elements of the base field \(GF(2)\) then we have the following representations:
+\vspace{3mm}
+
+\begin{tabular}{|c|c|c|}
+    \hline
+    Digits & \ & Binary rep..\\
+    \hline
+    3 & 2+1 & 011 \\
+    4 & 2^2+2^1 \times 0 +2^0 \times 0 & 100 \\
+    5 & 2^2+1 & 110 \\
+    \hline
+\end{tabular}
+\vspace{3mm}
+
+This is actually \textbf{Binary representation} of the field \(GF(2^3)\)
+
+
+
+\subsection{Polynomial representation}
+For a field \(F\) and and an irreducible polynomial \(f(x) \in F[x]\) the quotient ring \(F[x]/(f(x))\) is field.\\
+If \(F\) is a finite field consisting of \(p\) number of elements and \(f(x) \in F[x]\) is irreducible then \(F[x]/(f(x))\) is finite field. This field consists of all polynomials modulo \(f(x)\). If \(F=GF(2^3)\) then \(x^8+x^7+...+x+1 \in F[x]\) is irreducible in \(F[x]\). Since \(F\) has \(8\) elements which are modulo \(8\), \(F\) is represented by the factor ring \(F[x]/(f(x))\). \\
+
+
+In the example above \(5\) has the representation \(2^2+1\). This gives the polynomial representation \(x^2+1=(1,0,1)\)(coefficient of \(x^2\) is \(1\) of \(x\) is \(0\) and of constant is \(1\) ) Now the binary equivalent of \(5\) is \(101\).
+
+\section{Operations in Galois Field}
+Let the Galois field be \(GF(p^n)\). Since the elements of a Galois field can be represented as polynomials the operations are similar to polynomial operations. Let \(f(x)=a_0+a_1x+..+a_{n-1}x^{n-1}\) and \(g(x)=(b_0+b_1x+...+b_{n-1}x^{n-1}\).
+\begin{enumerate}
+  \item Addition \\
+  \(f(x)+g(x)\;\;\;\; (modp)\) 
+  
+  \item Multiplicaiton \\
+  \(f(x).g(x)\;\;\; (modp)\)
+\end{enumerate}
+
+
