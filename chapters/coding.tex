@@ -72,6 +72,78 @@ Now the code \(C\) is a subgroup of \(V\) under addition. Moreover, it is a norm
     Two vectors in \(V\) have the same syndrome if and only if they are in the same co-set of \(C\).
 \end{theorem}
 
+\section{Illustration}
+To apply \((n,k)\) coding first we need to group our information into blocks of length \(k\).
+\(u_1,...,u_k\),  \(u_k,...,u_{2k}\),... . This space has dimension \(k\). Now these block of codes are encoded separately each to a code of length \(n\) as shown.
+
+\begin{tikzpicture}
+    \hspace{2cm}
+        \node[] (u) {\((u_1,u_2,...,u_k\))};
+        \node[
+              right of=u,
+              rectangle,
+              draw,
+              thick,
+              fill=grey!10,
+              minimum width=35mm,
+              minimum height=15mm,
+              xshift=35mm] (e) {\bfseries {Encoder}};
+        \node[right of=e, xshift=35mm] (x) {\((x_1,x_2,...,x_n)\)};
+    
+        \draw[->,thick] (u)--(e);
+        \draw[->,thick] (e)--(x)
+    \end{tikzpicture}
+
+    \vspace{7mm}
+
+To continue and complete the diagram.\\ \vspace{1mm}
+
+\begin{tikzpicture}
+    \node[
+          rectangle,
+          draw,
+          thick,
+          fill=grey!10,
+          minimum width=15mm,
+          minimum height=10mm,
+          ] (t) {\bfseries Transmission};
+
+          \node[below of=t, yshift=-7mm] (y) {\((y_1,y_2,...,y_n\))};
+          
+          \node[
+          left of=y,
+          rectangle,
+          draw,
+          thick,
+          fill=grey!10,
+          minimum width=15mm,
+          minimum height=10mm,
+          xshift=-25mm] (c) {\bfseries Corrector};
+          
+          \node[left of=c, xshift=-25mm] (x) {\((x_1,x_2,...,x_n)\)};
+
+          \node[
+          left of=x,
+          rectangle,
+          draw,
+          thick,
+          fill=grey!10,
+          minimum width=15mm,
+          minimum height=10mm,
+          xshift=-20mm] (d) {\bfseries Decoder};
+
+         \node[left of=d, xshift=-20mm] (u) {\((u_1,u_2,...,u_k\))};
+          
+
+    \draw[->,thick] (-3,0)--(t);
+    \draw[->,thick] (t)--(y);
+    \draw[->,thick] (y)--(c);
+    \draw[->,thick] (c)--(x);
+    \draw[->,thick] (x)--(d);
+    \draw[->,thick] (d)--(u);
+\end{tikzpicture}
+
+
 \subsection{Decoding Process}
 Suppose the signal received is the vector \(y\).
 \begin{enumerate}
