@@ -2,25 +2,26 @@ Any information gets deteriorated or lost over time.
 
 \begin{enumerate}
 \item Paintings gets deteriorated over time and has to be renovated. 
-\item Some words spoken by teacher in the class is missed due to noise. 
+\item Some of the words spoken by teacher in the class is missed due to noise. 
 \end{enumerate}
 
-To be able to over come this issue, i.e to be able to detect and correct errors during transmission of information "coding theory" is developed.
-In computer system, information are transmitted as strings of \(0\) and \(1\). The idea of coding theory is to append some extra digits to the information and use this to detect and possibly correct the errors during transmission.
-So the fundamental of the coding theory in computer system is the manipulation of strings of binary digits. The proper and complete manipulation of these strings is possibly only if the space of the strings is a field. This field is finite and so it is a \textbf{Galois field}. This is where application of Galois theory comes.
+To be able to over come this issue , i.e to be able to detect and correct errors during transmission of information in digital system "coding theory" is developed.
+In digital system, information are transmitted as strings of \(0\) and \(1\). The idea of coding theory is to append some extra digits to the information and use this to detect and possibly correct the errors during transmission.
+So the fundamental of the coding theory in computer system is the manipulation of strings of binary digits. The proper and complete manipulation of these strings is possibly only if the space of the strings is a field. This field is finite so this field is a \textbf{Galois field}. This is where the application of Galois theory comes.
 Another advantage of using field is that the space of code forms a vector space over the base field. \\
-The widely used field for coding in electronically transmitting device is the field \({\mathbb{Z}}_2\) which is the binary field consisting of \(0\) and \(1\). Recent works has shown that it is possible to extend codes to more general type of numbers called rings. This rings are called "Galois rings".\\
+The widely used field for coding in electronically transmitting device is the field \({\mathbb{Z}}_2\) which is the field \(GF(2)\) consisting of \(0\) and \(1\). Recent works has shown that it is possible to extend codes to more general type of numbers called rings. This rings are called "Galois rings".\\
 
-Let \(A\) be non-empty set, which is called \textbf{alphabets}. A finite sequence of elements from \(A\) is called a \textbf{word} over \(A\). Let \(A^*\) be the set of all words over \(A\). A subset \(C\) of \(A\) is called a code.
+The non-empty set of symbols for the code \(\mathcal{A}\) called \textbf{alphabet}. A finite sequence of elements from \(\mathcal{A}\) is called a \textbf{word} over \(\mathcal{A}\). Let \(\mathcal{A}^*\) be the set of all words over \(\mathcal{A}\). A subset \(C\) of \(\mathcal{A}\) is called a code. 
+If the cardinality of the alphabet \(\mathcal{A}\) is \(q\) then the code \(C\) is called \(q-ary code\). For \(q=2\) it is called binary and for \(q=3\) it is caled terniary.
 
 \section{Linear Codes}
-Let us denote a Galois field \(K\) of cardinality \(q\) as \(GF(q)\). Then a finite extension of \(K\) of dimension \(n\) is \(V=GF(q)^n\).
+Let \(K=GF(q)\) be a Galois field. Then a finite extension of \(K\) of dimension \(n\) is \(V=GF(q)^n=GF(q^n)\).
 \begin{definition}
     A linear code \(C\) is a subspace of \(V\). \\
     The code \(C\) has dimension \(k \leq n\) and the length \(n\). It is called a \((n,k)\) code.
 \end{definition}
 
-The usefulness of linear code is that they are vector spaces over the base field so they have basis. All the code words can be generated with basis. Instead of storing all \(2^k\) number of code words (for \(k\)-dimensional binary codes), storing only \(k\) basis elements is sufficient which saves massive storage.\\[2mm]
+The usefulness of linear code is that they are vector spaces over the base field so they have a basis. All the code words can be generated with this basis. Instead of storing all \(2^k\) number of code words (for \(k\)-dimensional binary codes), storing only \(k\) basis elements is sufficient which saves massive storage.\\[2mm]
 Let \(C\) be \((n,k)\) code which is a subspace of \(V\).
 
 \begin{definition}[Generator Matrix]
@@ -136,3 +137,5 @@ This theorem determines all cyclic codes. They are ideals of \(R_n\) and these i
     The divisors of \(x^3-1 \in F=GF(2)^{3}\) are \(1, x+1, x^2+x+1, x^3-1\).\\
     For \(g(x)=x+1\) we have \(F[x]/(g(x))=\{(0),(1+x),(1+x^2),(x+x^2)\}\) so the corresponding cyclic code is \(\{(0,0,0),(1,1,0),(1,0,1),(0,1,1)\}\). 
 \end{example}
+
+Similar to general linear codes which are defined using the generator matrix or the parity-check matrix, cyclic codes are defined using generator polynomial or parity-check polynomial and due to this efficient algebaraic decoding algorithm exist.
