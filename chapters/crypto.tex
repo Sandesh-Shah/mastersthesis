@@ -1,21 +1,53 @@
 \section{Cryptography}
-It is the science of safe-guarding messages during transmission by converting the original message into something unreadable.\\
+It is the science of safe-guarding information by converting the original message into something unreadable.\\
 Galois Fields are the life of modern cryptography used in digital communication.
 
 \section{Advance Encryption Standard(AES)}
-This is the standard of Encryption used these days. The generic algorithm of AES consists of smaller sub-algorithms namely Sub-Bytes, Shift-Rows, Mix-Columns and Add-Round-Key.
+The Advance Encryption Standard is a Computer Security Standard for cryptography which is approved by the ``Federal Information Processing Standards Publications'' of USA which became effective on May 26, 2002. The AES algorithm is a \textit{symmetric block cipher} that can encrypt and decrypt digital information \cite{aes}. Symmetric key cryptography is used to share information between two parties where the two parties share a secret ``key'' and a public encryption algorithm.\\
 
-\subsection{States}
-First the data is broken into smaller chunks of bytes called states which is representation by the entries of a matrix.
+In 2000, National Institute of Standards and Technology(NIST) announced the selection of the ``Rijndael'' block cipher family as the winner of the AES cometition and since then AES has been the standard for digital cryptography \cite{aes} The Rijendael block cipher was developed by two Belgian cryptographers, \underline{Vincent Rijmen and Joan Daemen}.\\
+
+The generic algorithm of AES consists of smaller sub-algorithms namely\\ Sub-Bytes, Shift-Rows, Mix-Columns and Add-Round-Key \cite{aes}.
+
+\begin{table}[h!]
+  \centering
+\begin{tabular}{|l|l|}
+  \hline
+  Bit & \hspace{7mm}A binary digit: 0 or 1.\\
+    \hline
+  Byte & \hspace{7mm}A sequence of 8 bits.\\
+    \hline
+  Block & \hspace{7mm}A sequence of bits of a fixed length.\\
+  \ & \hspace{13mm}In this Standard, block consists of 128 bits.\\
+    \hline
+  Block cipher &  \hspace{7mm}A family of permutations of blocks.\\
+    \hline
+  Key & \hspace{7mm}The parameter that selects the permutation \\
+  \ & \hspace{13mm}from the block cipher.\\
+    \hline
+\end{tabular}
+\caption{Terms and their meanings \cite{aes}.}
+\end{table}
+
+
+\vspace{7mm}
+\section{The Cipher(Alogrithm)}
+\subsection{The State}
+First the data is broken into blocks and each block is broken into smaller chunks of a size byte (16 bytes for a block of size 128bits). This block is then represented in a  which consisting of bytes of the word. This matrix is called the State.\\
 Mathematical operations are not applicable to the data directly so the significance of this step is to make the data applicable for mathematical operations.\\
-For the 128-bit key encryption the algorithm forms a \(4 \times 4\) matrix with each entry of a size one byte. This matrix can afford to evaluate a data of size 16 byte at a time.
+For the 128-bit key encryption the algorithm forms a \(4 \times 4\) matrix with each entry of a size one byte. This matrix can afford to evaluate a data of size 16 byte at a time \cite{aes}.
 
+\vspace{3mm}
 \subsection{Sub-Bytes}
-In this step, first each byte of the matrix is replaced with its multiplicative inverse if it has one. Then it transforms each bytes using an invertible affine transformation, \(x \mapsto Ax+b\).
+In this step, first each byte of the matrix is replaced with its multiplicative inverse if it has one. Then it transforms each bytes using an invertible affine transformation, \(x \mapsto Ax+b\) \cite{aes}.
 
+\subsection{Mathematical Preliminaries}
+Each byte in the state i.e each entry in the matrix, is interpreted as one of the 256 elements of a finite field \(GF(2^8)\). Then the addition, multiplication operations are performed according to the respective field operations of the field \(GF(2^8)\).
+
+\vspace{3mm}
 \subsection{Shift-Rows}
 In this step entries of a row is shifted to scramble data. Row-n shifted to the left by \(n-1\) unit. Here,\\
-\(1-1=0\), so row-1 is left unchanged. \(2-1=1\), so row-2 is shifted to the left by 1 unit and row-3 by 2 unit and so on as shown below.
+\(1-1=0\), so row-1 is left unchanged. \(2-1=1\), so row-2 is shifted to the left by 1 unit and row-3 by 2 unit and so on as shown below \cite{aes}.
 
 \vspace{3mm}
 If \(A=\begin{bmatrix}
@@ -31,49 +63,81 @@ If \(A=\begin{bmatrix}
     \end{bmatrix}\) \vspace{2mm} \\[3mm] is the matrix after Shit-Row
 
 \subsection{Mix-Columns}
-In this step each column is transformed using a linear transformation, \(c \mapsto Bc\) where \(c\) is a column of the matrix obtained above. Since linear transformation is invertible this step is invertible. Note every step of this algorithm must be invertible to be able to decrypt the data.
+In this step each column is transformed using a linear transformation, \(c \mapsto Bc\) where \(c\) is a column of the matrix obtained above. Since linear transformation is invertible this step is invertible. Note every step of this algorithm must be invertible to be able to decrypt the data \cite{aes}.
 
 \subsection{Add-Round-Key}
-This is the step where the encrypted data gets uniqueness. Each user is assigned an "unique key" and this key is added to the matrix obtained from the last step.
+This is the step where the encrypted data gets uniqueness. Each user is assigned an "unique key" and this key is added to the matrix obtained from the last step \cite{aes}.
+
+\subsection{Algorithms}
+\begin{tcolorbox}[colback=gray!20, colframe=blue!30, left=2cm, title={\small \bfseries \textcolor{black}{Encryption Algorithm}}, width=15cm]
+\begin{verbatim}
+procedure CIPHER(state, key)
+    for round from 1 to 9 do
+        1)   SUBBYTES(state)
+        2)   SHIFTROWS(state)
+        3)   MIXCOLUMNS(state)
+        4)   ADDROUNDKEY(state, key)
+    end for
+end procedure
+\end{verbatim}
+\end{tcolorbox}
+
+\vspace{7mm}
+\begin{tcolorbox}[colback=gray!20, colframe=blue!30, left =2cm, title={\small \bfseries \textcolor{black}{Decryption Algorithm}}, width=15cm]
+\begin{verbatim}
+procedure CIPHER(state, key)
+    for round from 1 to 9 do
+        1)   InvADDROUNDKEY(state, key)
+        2)   InvMIXCOLUMNS(state)
+        3)   InvSHIFTROWS(state)
+        4)   InvSUBBYTES(state)
+    end for
+end procedure
+\end{verbatim}
+\end{tcolorbox}
 
 \section{Illustration}
 Let us encrypt the sentence "Fun Cryptography". This consists of exactly 16 characters.\vspace{2mm}
 
 \begin{enumerate}
-\item First we write the ASCII representation of each character of the sentence as shown below. We do so because the ASCII representation gives the binary representation of each character which has a size of a byte. The ASCII representaion of "F" is \(70\) which is \(01000110\) in binary.
-  \vspace{2mm}
+\item First we write the ASCII representation of each character of the sentence as shown below. We do so because the ASCII representation gives the binary representation of each character which has a size of a byte. The ASCII representaion of "F" is \(70\) which is \(01000110\) in binary.\vspace{2mm}
 
-    \[\begin{bmatrix}
-        70 & 117 & 110 & 32 \\
-        67 & 114 & 121 & 112\\
-        116 & 111 & 103 & 114 \\
-        97 & 112 & 104 & 121
+  \[\begin{bmatrix}
+      70 & 117 & 110 & 32 \\
+      67 & 114 & 121 & 112\\
+      116 & 111 & 103 & 114 \\
+      97 & 112 & 104 & 121
     \end{bmatrix}=
     \begin{bmatrix}
-        01000110 & 01110110 & 01101110 & 00010000 \\
-        01000011 & 01110010 & 01111001 & 01110000\\
-        01110100 & 01101111 & 01100111 & 01110010 \\
-        01100001 & 01110000 & 01101000 & 01111001
-    \end{bmatrix}
-    \]
-
-    \item After performing Sub-Bytes, Shift-Rows, Mix-Columns, we get the following matrix. \vspace{3mm}
-    \[\begin{bmatrix}
-       11100111 & 00011000 & 00100100 & 01110000\\
-       00101010 & 10101011 & 00111001 & 01100011\\
-       00010101 & 01100101 & 11110111 & 10100111\\
-       10101011 & 11110110 & 00000011 & 10100100
-    \end{bmatrix}=
-    \begin{bmatrix}
-        231 & 24 & 36 & 112\\
-        42 & 171 & 57 & 99\\
-        21 & 101 & 247 & 167\\
-        171 & 246 & 3 & 164
+      01000110 & 01110110 & 01101110 & 00010000 \\
+      01000011 & 01110010 & 01111001 & 01110000\\
+      01110100 & 01101111 & 01100111 & 01110010 \\
+      01100001 & 01110000 & 01101000 & 01111001
     \end{bmatrix}
   \]
-  \vspace{3mm}
 
-    \item We have omitted the Add-Round-Key step just for the sake of simplicity. The matrix obtained at last in step-2 translates to something different from our original sentence.
+  \vspace{5mm}
 
-    \item The decryption process is applying the inverse of the encryption process.
+\item After performing Sub-Bytes, Shift-Rows, Mix-Columns, we get the following matrix. \vspace{2mm}
+
+  \[\begin{bmatrix}
+      11100111 & 00011000 & 00100100 & 01110000\\
+      00101010 & 10101011 & 00111001 & 01100011\\
+      00010101 & 01100101 & 11110111 & 10100111\\
+      10101011 & 11110110 & 00000011 & 10100100
+    \end{bmatrix}=
+    \begin{bmatrix}
+      231 & 24 & 36 & 112\\
+      42 & 171 & 57 & 99\\
+      21 & 101 & 247 & 167\\
+      171 & 246 & 3 & 164
+    \end{bmatrix}
+  \]
+  \vspace{5mm}
+
+\item We have omitted the Add-Round-Key step just for the sake of simplicity. The matrix obtained at last in step-2 translates to something different from our original sentence.
+
+  \vspace{5mm}
+
+\item The decryption process is applying the inverse of the encryption process \cite{aes}.
 \end{enumerate}

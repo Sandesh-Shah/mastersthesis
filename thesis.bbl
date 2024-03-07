@@ -1,8 +1,43 @@
 \begin{thebibliography}{1}
 
+\bibitem{algorithm}
+H.~Lenstra A.~Lenstra and L.~Lovasz.
+\newblock {F}actoring polynomials with rational coefficients.
+\newblock {\em Mathematische Annalen}, 12(261), 1982.
+
+\bibitem{galois}
+Jean-Pierre Escofier.
+\newblock {\em {G}alois {T}heory}.
+\newblock Springer, New York.
+
+\bibitem{error_correct}
+Gregory~Reid Holdman.
+\newblock {\em {E}rror {C}orrecting {C}odes Over {G}alois {R}ings}.
+\newblock {G}raduation {D}issertation, Department of Mathematics, Whitman
+  college, 2016.
+
 \bibitem{hunger}
-T.~W. Hungerford.
+Thomas.~W. Hungerford.
 \newblock {\em Algebra}.
 \newblock Springer (India), New Dheli, 2012.
+
+\bibitem{coding}
+A.~Neubaer, J.~Freudenberger, and V.~Kuhn.
+\newblock {\em {C}oding {T}heory, {A}lgorithms, {A}rchitectures, and
+  {A}pplications}.
+\newblock John Wiley and Sons Ltd, Chichester, West Sussex, England, 2007.
+
+\bibitem{aes}
+National~Institute of~Standards and Technology(2001).
+\newblock {A}dvance {E}ncryption {S}tandard(aes).
+\newblock {\em Department of Commerce, Washington, D.C, Federal Information
+  Processing Standards Publication}, (197):1--25, May (2023.
+\newblock https://doi.org/10.6028/NIST.FIPS.197-upd1.
+
+\bibitem{wireless}
+Dikshita Sarma.
+\newblock {I}mplementation of {G}alois {F}ield for {A}pplication in {W}ireless
+  {C}ommunication {C}hannels.
+\newblock {\em MATEC Web of Conferences}, 210(03012):1--7, 2018.
 
 \end{thebibliography}

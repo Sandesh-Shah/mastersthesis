@@ -2,6 +2,13 @@
  "myref"
  (lambda ()
    (LaTeX-add-bibitems
-    "hunger"))
+    "hunger"
+    "coding"
+    "foote"
+    "galois"
+    "wireless"
+    "algorithm"
+    "aes"
+    "error_correct"))
  :bibtex)
 

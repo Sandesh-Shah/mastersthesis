@@ -1,17 +1,19 @@
-\begin{wrapfigure}{r}{0.27\textwidth}
-  \includegraphics[scale=0.7]{galois.jpg}
+\begin{wrapfigure}{r}{0.3\textwidth}
+  \includegraphics[width=45mm, height=57mm]{galois.jpg}
   \caption{\footnotesize Portrait of Galois}
 \end{wrapfigure}
 
-Galois Theory is a popular and one of the important theory in Abstract Algebra. It's foundation was first laid by the French Mathematician \textit{Évariste Galois} by determining the necessary and sufficient condition for solving the polynomial equation by radicals and thereby solving the problem that was open for 350 years old.\\ \\
-The core-part of the Galois Theory is the \textit{Fundamental Theorem} of Galois Theory which links two main parts of Abstract Algebra; Field Theory and Group Theory. This is a profound result in Abstract Algebra. \\
+Galois Theory is a popular and one of the important theory in Abstract Algebra. It's foundation was laid by the French Mathematician \textit{Évariste Galois} by determining the necessary and sufficient condition for solving a polynomial equation by radicals and thereby solving the problem that was open for 350 years old \cite{galois}.\\ \\
+The core-part of the Galois Theory is the \textit{Fundamental Theorem} of Galois Theory which links two main parts of Abstract Algebra; Field Theory and Group Theory. This is a profound result in Abstract Algebra.
 
+\vspace{15mm}
 \section{Approaches to the Theory}
 \begin{enumerate}
 \item Galois approached this problem by using the group of permutations of the roots of a polynomial equation. Only those permutations of the roots are considered which leaves any equation satisfied by the roots unchanged.
 
 \item The modern approach is to use the \textbf{field extension} of the underlying field of the polynomial and examine the groups of automorphism of the extension field that fixes the underlying field.
 \end{enumerate}
+So, the Galois theory is the theory of field extensions.
 \clearpage
 
 \section{Structure of a Field Extension}
@@ -22,14 +24,14 @@ So the structure of the extension field \(F=K(u)\) is:\\
 \(F= \{\frac{f(u)}{g(u)} \;| \; f,g \in K[x],g(u) \neq 0\}\).\\
 
 \begin{theorem}[Existence of an Extension field]
-If K is a field and \(f \in K[x]\) is a polynomial of degree \(n\),then there exists a simple extension field \(F=K(u)\) of K such that \(u\in F\) is a root of \(f\).~\cite{hunger}
+If K is a field and \(f \in K[x]\) is a polynomial of degree \(n\),then there exists a simple extension field \(F=K(u)\) of K such that \(u\in F\) is a root of \(f\)\cite{hunger}.
 \end{theorem}
 
 \section{Algebraic and Transcendental element}
 \begin{theorem}
 Let \(F\) be an extension field of a field \(F\).\\
 A map \(\phi:K[X] \rightarrow K[u]\) where \(u \in F\) defined by \(\phi (f(x))=f(u)\)\\
-i.e, \(\phi (a_0+a_1x+...+a_nx^n)= a_0+a_1u+...+a_nu^n\) is a ring homomorphism.
+i.e, \(\phi (a_0+a_1x+...+a_nx^n)= a_0+a_1u+...+a_nu^n\) is a ring homomorphism \cite{hunger}.
 \end{theorem}
 
 Thus \( K[x]\) and \(K[u]\) are homomorphic.
@@ -45,7 +47,7 @@ Thus \( K[x]\) and \(K[u]\) are homomorphic.
 
 \begin{theorem}[Isomorphism of Extension fields]
  Let K be a field.\\
- Then 'u' and 'v' are  roots of the same irreducible polynomial \(f \in K[x]\) if and only if there is an isomorphism of fields \(K[u] \cong K[v]\) which sends u onto v and is the identity on \(K\).
+ Then 'u' and 'v' are  roots of the same irreducible polynomial \(f \in K[x]\) if and only if there is an isomorphism of fields \(K[u] \cong K[v]\) which sends u onto v and is the identity on \(K\) \cite{hunger}.
 \end{theorem}
 
 

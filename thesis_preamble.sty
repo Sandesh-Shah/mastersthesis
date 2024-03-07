@@ -8,10 +8,15 @@
 \usepackage{url}
 \urlstyle{same}
 \usepackage{graphicx, wrapfig, xcolor, titling}
+
+
 \usepackage{tikz, pgfplots}
 \usepgflibrary{shadings}
-\usetikzlibrary{positioning, shapes.geometric, fit}
-\usepackage{caption}
+\usetikzlibrary{positioning, shapes.geometric, fit, arrows.meta}
+\pgfplotsset{compat=1.18}
+
+\usepackage{caption, cite}
+\usepackage[most]{tcolorbox}
 
 % mathematics----------------------------------------------------------------------------------------------------
 \usepackage{amsmath, amssymb, amsthm, mathtools}
@@ -45,3 +50,11 @@
 
 % Set numbering of headings to subsections
 \setsecnumdepth{subsection}
+
+
+% for verbatim
+\linenumberfrequency{1}
+\bvnumbersoutside
+\nobvbox
+%\bvboxsep=3pt
+\setverbatimfont{\normalfont\ttfamily\small}

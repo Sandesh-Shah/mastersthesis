@@ -3,44 +3,56 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: bib_database/myref.bib
-You've used 1 entry,
+I was expecting a `,' or a `}'---line 44 of file bib_database/myref.bib
+ :  
+ :  year = {2000},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Name 1 in "A. Lenstra, H. Lenstra, and L. Lovasz" has a comma at the end for entry algorithm
+while executing---line 1049 of file plain.bst
+Name 1 in "A. Lenstra, H. Lenstra, and L. Lovasz" has a comma at the end for entry algorithm
+while executing---line 1090 of file plain.bst
+Warning--empty year in galois
+Warning--there's a number but no volume in aes
+You've used 7 entries,
             2118 wiz_defined-function locations,
-            502 strings with 4063 characters,
-and the built_in function-call counts, 235 in all, are:
-= -- 19
-> -- 7
+            540 strings with 4989 characters,
+and the built_in function-call counts, 1738 in all, are:
+= -- 162
+> -- 72
 < -- 0
-+ -- 3
-- -- 2
-* -- 10
-:= -- 47
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 3
++ -- 29
+- -- 22
+* -- 102
+:= -- 317
+add.period$ -- 22
+call.type$ -- 7
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 12
-empty$ -- 23
-format.name$ -- 2
-if$ -- 47
+cite$ -- 9
+duplicate$ -- 77
+empty$ -- 146
+format.name$ -- 22
+if$ -- 355
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 8
+int.to.str$ -- 7
+missing$ -- 9
+newline$ -- 39
+num.names$ -- 14
+pop$ -- 40
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 25
 quote$ -- 0
-skip$ -- 6
+skip$ -- 44
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
+substring$ -- 56
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
-warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 12
+type$ -- 22
+warning$ -- 2
+while$ -- 16
+width$ -- 8
+write$ -- 77
+(There were 3 error messages)

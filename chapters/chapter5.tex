@@ -1,20 +1,20 @@
-Galois fields are the finite fields. They can be completely characterized in terms of splitting fields of some polynomials. It is found that the Galois group of an extension of a finite field by a finite field is cyclic. The Galois field with \(q\) elements is denoted by \(GF(q)\).
+Galois fields are the finite fields. They can be completely characterized in terms of splitting fields of some polynomials. It is found that the Galois group of an extension of a finite field by a finite field is cyclic. The Galois field with \(q\) elements is denoted by \(GF(q)\) \cite{hunger}.
 
 \begin{definition}[Prime Fields]
-Let \(F\) be a field and let \(P\) be the intersection of all subfields of \(F\). Then \(P\) is a field with no proper subfields. This field \(P\) is called the Prime subfield of \(F\).
+Let \(F\) be a field and let \(P\) be the intersection of all subfields of \(F\). Then \(P\) is a field with no proper subfields. This field \(P\) is called the Prime subfield of \(F\) \cite{hunger}.
 \end{definition}
 
 \begin{enumerate}
 \item If \(charF=p(prime)\), then \(P\cong {\mathbb{Z}}_p\).
-\item If \(charF=0\), then \(P\cong \mathbb{Q}\).
+\item If \(charF=0\), then \(P\cong \mathbb{Q}\) \cite{hunger}.
 \end{enumerate}
 
 \begin{theorem}
-A  finite field \(F\) has \(p^n\) number of elements where \(p \in \mathbb{Z}_+\) is a prime and it has \(p^n\) number of elements if and only if \(F\) is a splitting field of \(x^{p^n} - x\) over \(\mathbb{Z}_p\).\\
+A  finite field \(F\) has \(p^n\) number of elements where \(p \in \mathbb{Z}_+\) is a prime and it has \(p^n\) number of elements if and only if \(F\) is a splitting field of \(x^{p^n} - x\) over \(\mathbb{Z}_p\) \cite{hunger}.\\
 \end{theorem}
 
 \begin{theorem}
-  If \(F\) is a finite dimensional extension field of a finite field \(K\), then \(F\) is finite and is Galois over \(K\). The Galois group \(Aut_K^F\) is cyclic.
+  If \(F\) is a finite dimensional extension field of a finite field \(K\), then \(F\) is finite and is Galois over \(K\). The Galois group \(Aut_K^F\) is cyclic \cite{hunger}.
 \end{theorem}
 
 \section{Representation of Finite Fields}
@@ -31,15 +31,19 @@ Basically there are two types of representation of a finite field. These two rep
 But the digits \(2,3,..,7\) of the field \(GF(2^3)\) do not lie on the field \(GF(2)\). If we look the field \(GF(2^3)\) as an extension field of \(GF(2)\) and write its elements using only the elements of the base field \(GF(2)\) then we have the following representations:
 \vspace{3mm}
 
+\begin{table}[h!]
+  \centering
 \begin{tabular}{|c|c|c|}
     \hline
-    Digits & \ & Binary rep..\\
+    Digits & Expansion & Binary rep..\\
     \hline
     3 & \(2+1\) & 011 \\
     4 & \(2^2+2^1 \times 0 +2^0 \times 0\) & 100 \\
     5 & \(2^2+1\) & 110 \\
     \hline
 \end{tabular}
+\caption{\tiny Binary representation table of field elements.}
+\end{table}
 \vspace{3mm}
 
 This is actually \textbf{Binary representation} of the field \(GF(2^3)\)
@@ -48,7 +52,7 @@ This is actually \textbf{Binary representation} of the field \(GF(2^3)\)
 
 \subsection{Polynomial representation}
 For a field \(F\) and an irreducible polynomial \(f(x) \in F[x]\) the quotient ring \(F[x]/(f(x))\) is field.\\
-If \(F\) is a finite field consisting of \(p\) elements and \(f(x) \in F[x]\) is irreducible then \(F[x]/(f(x))\) is finite field. This field consists of all polynomials modulo \(f(x)\). If \(F=GF(2^3)\) then \(x^8+x^7+...+x+1 \in F[x]\) is irreducible in \(F[x]\). Since \(F\) has \(8\) elements which are modulo \(8\), elements of \(F\) is represented by the elements of the factor ring \(F[x]/(f(x))\). \\
+If \(F\) is a finite field consisting of \(p\) elements and \(f(x) \in F[x]\) is irreducible then \(F[x]/(f(x))\) is finite field. This field consists of all polynomials modulo \(f(x)\). If \(F=GF(2^3)\) then \(x^8+x^7+...+x+1 \in F[x]\) is irreducible in \(F[x]\). Since \(F\) has \(8\) elements which are modulo \(8\), elements of \(F\) is represented by the elements of the factor ring \(F[x]/(f(x))\) \cite{aes}. \\
 
 
 In the example-5, the number \(5\) has the representation \(2^2+1\). This gives the polynomial representation \(x^2+1=(1,0,1)\)(coefficient of \(x^2\) is \(1\) of \(x\) is \(0\) and of constant is \(1\) ) Now the binary equivalent of \(5\) is \(101\).
@@ -59,5 +63,5 @@ Let the Galois field be \(GF(p^n)\). Since the elements of a Galois field can be
   \item Addition \\
   \(f(x)+g(x)\;\;\;\; (modp)\)
   \item Multiplicaiton \\
-  \(f(x).g(x)\;\;\; (modp)\)
+  \(f(x).g(x)\;\;\; (modp)\) \cite{aes}.
 \end{enumerate}

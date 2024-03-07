@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  28 FEB 2024 23:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  7 MAR 2024 19:41
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -818,18 +818,25 @@ File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 zlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen307
+\pgfarrowlength=\dimen308
+\pgfarrowwidth=\dimen309
+\pgfarrowlinewidth=\dimen310
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen307
-\captionmargin@=\dimen308
-\captionwidth=\dimen309
-\caption@tempdima=\dimen310
-\caption@indent=\dimen311
-\caption@parindent=\dimen312
-\caption@hangindent=\dimen313
+\captionmargin=\dimen311
+\captionmargin@=\dimen312
+\captionwidth=\dimen313
+\caption@tempdima=\dimen314
+\caption@indent=\dimen315
+\caption@parindent=\dimen316
+\caption@hangindent=\dimen317
 Package caption Info: memoir document class detected.
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption-memoir.sto
@@ -839,10 +846,73 @@ File: caption-memoir.sto 2020/10/10 v2.1 Adaption of the caption package to the
 \c@caption@flags=\count338
 \c@continuedfloat=\count339
 Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen314
-\caption@adjustwidth@linewidth=\dimen315
+\caption@adjustwidth@hsize=\dimen318
+\caption@adjustwidth@linewidth=\dimen319
 Package caption Info: wrapfig package is loaded.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2022/01/07 version 5.0.2 text color boxes
+
+(/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/share/texlive/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks42
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count340
+)
+\tcb@titlebox=\box68
+\tcb@upperbox=\box69
+\tcb@lowerbox=\box70
+\tcb@phantombox=\box71
+\c@tcbbreakpart=\count341
+\c@tcblayer=\count342
+\c@tcolorbox@number=\count343
+\tcb@temp=\box72
+\tcb@temp=\box73
+\tcb@temp=\box74
+\tcb@temp=\box75
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '5.0.2'
+\c@tcbrastercolumn=\count344
+\c@tcbrasterrow=\count345
+\c@tcbrasternum=\count346
+\c@tcbraster=\count347
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '5.0.2'
+\tcb@waterbox=\box76
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '5.0.2'
+)) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdfcol.sty
+Package: pdfcol 2019/12/29 v1.6 Handle new color stacks for pdfTeX (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box77
+\tcb@totalupperbox=\box78
+\tcb@totallowerbox=\box79
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '5.0.2'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '5.0.2'
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip191
@@ -853,55 +923,146 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks42
-\ex@=\dimen316
+\@emptytoks=\toks43
+\ex@=\dimen320
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen317
+\pmbraise@=\dimen321
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count340
+\inf@bad=\count348
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count341
-\leftroot@=\count342
+\uproot@=\count349
+\leftroot@=\count350
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count343
-\DOTSCASE@=\count344
+\classnum@=\count351
+\DOTSCASE@=\count352
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box68
-\strutbox@=\box69
-\big@size=\dimen318
+\Mathstrutbox@=\box80
+\strutbox@=\box81
+\big@size=\dimen322
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count345
-\c@MaxMatrixCols=\count346
+\macc@depth=\count353
+\c@MaxMatrixCols=\count354
 \dotsspace@=\muskip17
-\c@parentequation=\count347
-\dspbrk@lvl=\count348
-\tag@help=\toks43
-\row@=\count349
-\column@=\count350
-\maxfields@=\count351
-\andhelp@=\toks44
-\eqnshift@=\dimen319
-\alignsep@=\dimen320
-\tagshift@=\dimen321
-\tagwidth@=\dimen322
-\totwidth@=\dimen323
-\lineht@=\dimen324
-\@envbody=\toks45
+\c@parentequation=\count355
+\dspbrk@lvl=\count356
+\tag@help=\toks44
+\row@=\count357
+\column@=\count358
+\maxfields@=\count359
+\andhelp@=\toks45
+\eqnshift@=\dimen323
+\alignsep@=\dimen324
+\tagshift@=\dimen325
+\tagwidth@=\dimen326
+\totwidth@=\dimen327
+\lineht@=\dimen328
+\@envbody=\toks46
 \multlinegap=\skip192
 \multlinetaggap=\skip193
-\mathdisplay@stack=\toks46
+\mathdisplay@stack=\toks47
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '5.0.2'
+\tcbfitdim=\dimen329
+\tcb@lowerfitdim=\dimen330
+\tcb@upperfitdim=\dimen331
+\tcb@cur@hbadness=\count360
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbxparse.code.tex
+Library (tcolorbox): 'tcbxparse.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count361
+\l__pdf_internal_box=\box82
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count362
+\lst@gtempboxa=\box83
+\lst@token=\toks48
+\lst@length=\count363
+\lst@currlwidth=\dimen332
+\lst@column=\count364
+\lst@pos=\count365
+\lst@lostspace=\dimen333
+\lst@width=\dimen334
+\lst@newlines=\count366
+\lst@lineno=\count367
+\lst@maxwidth=\dimen335
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count368
+\lst@skipnumbers=\count369
+\lst@framebox=\box84
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '5.0.2'
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+))
+\c@tcblisting=\count370
+))
+(/usr/share/texlive/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+))))
+(/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '5.0.2'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '5.0.2'
+) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '5.0.2'
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))) (/usr/share/texlive/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '5.0.2'
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -914,62 +1075,57 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks47
-\thm@bodyfont=\toks48
-\thm@headfont=\toks49
-\thm@notefont=\toks50
-\thm@headpunct=\toks51
+\thm@style=\toks49
+\thm@bodyfont=\toks50
+\thm@headfont=\toks51
+\thm@notefont=\toks52
+\thm@headpunct=\toks53
 \thm@preskip=\skip194
 \thm@postskip=\skip195
 \thm@headsep=\skip196
-\dth@everypar=\toks52
+\dth@everypar=\toks54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2021/02/02 v1.28 mathematical typesetting tools
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count352
-\calc@Bcount=\count353
-\calc@Adimen=\dimen325
-\calc@Bdimen=\dimen326
+\calc@Acount=\count371
+\calc@Bcount=\count372
+\calc@Adimen=\dimen336
+\calc@Bdimen=\dimen337
 \calc@Askip=\skip197
 \calc@Bskip=\skip198
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count354
+\calc@Ccount=\count373
 \calc@Cskip=\skip199
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count355
-\l_MT_multwidth_dim=\dimen327
+\g_MT_multlinerow_int=\count374
+\l_MT_multwidth_dim=\dimen338
 \origjot=\skip256
-\l_MT_shortvdotswithinadjustabove_dim=\dimen328
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen329
-\l_MT_above_intertext_sep=\dimen330
-\l_MT_below_intertext_sep=\dimen331
-\l_MT_above_shortintertext_sep=\dimen332
-\l_MT_below_shortintertext_sep=\dimen333
-\xmathstrut@box=\box70
-\xmathstrut@dim=\dimen334
+\l_MT_shortvdotswithinadjustabove_dim=\dimen339
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen340
+\l_MT_above_intertext_sep=\dimen341
+\l_MT_below_intertext_sep=\dimen342
+\l_MT_above_shortintertext_sep=\dimen343
+\l_MT_below_shortintertext_sep=\dimen344
+\xmathstrut@box=\box85
+\xmathstrut@dim=\dimen345
 )
-\c@definition=\count356
-\c@example=\count357
-\c@lemma=\count358
+\c@definition=\count375
+\c@example=\count376
+\c@lemma=\count377
 
 
-Package amsthm Warning: Unknown theoremstyle `theorem' on input line 27.
+Package amsthm Warning: Unknown theoremstyle `theorem' on input line 32.
 
-\c@theorem=\count359
-\c@corollary=\count360
-) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count361
-\l__pdf_internal_box=\box71
-)
-(./thesis.aux)
+\c@theorem=\count378
+\c@corollary=\count379
+) (./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -989,17 +1145,17 @@ LaTeX Font Info:    ... okay on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count362
-\scratchdimen=\dimen335
-\scratchbox=\box72
-\nofMPsegments=\count363
-\nofMParguments=\count364
-\everyMPshowfont=\toks53
-\MPscratchCnt=\count365
-\MPscratchDim=\dimen336
-\MPnumerator=\count366
-\makeMPintoPDFobject=\count367
-\everyMPtoPDFconversion=\toks54
+\scratchcounter=\count380
+\scratchdimen=\dimen346
+\scratchbox=\box86
+\nofMPsegments=\count381
+\nofMParguments=\count382
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count383
+\MPscratchDim=\dimen347
+\MPnumerator=\count384
+\makeMPintoPDFobject=\count385
+\everyMPtoPDFconversion=\toks56
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1009,16 +1165,20 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
-ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
-your preamble.
- on input line 13.
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count386
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks57
+\inpenc@posthook=\toks58
+)
 (./premilinaries/titlepage.tex
-<pictures/tulogo.png, id=4, 208.78pt x 243.91125pt>
+<pictures/tulogo.png, id=41, 208.78pt x 243.91125pt>
 File: pictures/tulogo.png Graphic file (type png)
 <use pictures/tulogo.png>
 Package pdftex.def Info: pictures/tulogo.png  used on input line 9.
@@ -1051,14 +1211,10 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 13--20
+) [3
 
- []
-
-[3
-
-]) (./premilinaries/recommendation.tex
+])
+(./premilinaries/recommendation.tex
 File: pictures/tulogo.png Graphic file (type png)
 <use pictures/tulogo.png>
 Package pdftex.def Info: pictures/tulogo.png  used on input line 5.
@@ -1081,8 +1237,8 @@ File: pictures/tulogo.png Graphic file (type png)
 Package pdftex.def Info: pictures/tulogo.png  used on input line 4.
 (pdftex.def)             Requested size: 62.39746pt x 72.89479pt.
 
-Underfull \hbox (badness 4341) in paragraph at lines 20--28
-\OT1/cmr/m/n/12 Tribhuvan Uni-ver-sity Kir-tipur, Kath-mandu,
+Underfull \hbox (badness 2521) in paragraph at lines 20--28
+\OT1/cmr/m/n/12 Tribhuvan Uni-ver-sity, Kir-tipur, Kath-mandu,
  []
 
 
@@ -1100,7 +1256,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--30
 ]
 Overfull \hbox (21.1923pt too wide) in paragraph at lines 8--9
 []\OT1/cmr/m/n/12 First of all I would like to thank my \OT1/cmr/bx/n/12 su-per
--vi-sor \OT1/cmr/m/n/12 Mr. Tu-lasi Prasad Nepal(Associate
+-vi-sor []\OT1/cmr/m/n/12 Mr. Tu-lasi Prasad Nepal[](Associate
  []
 
 
@@ -1121,7 +1277,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 13--22
 [6]) (./thesis.toc [7
 
 ]
-Overfull \hbox (1.3752pt too wide) detected at line 37
+Overfull \hbox (1.3752pt too wide) detected at line 43
 \OT1/cmr/bx/n/14.4 III 
  []
 
@@ -1135,24 +1291,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 ] [2
 
 ] (./chapters/chapter1.tex
-<pictures//galois.jpg, id=44, 197.73875pt x 255.95625pt>
+<pictures//galois.jpg, id=80, 197.73875pt x 255.95625pt>
 File: pictures//galois.jpg Graphic file (type jpg)
 <use pictures//galois.jpg>
 Package pdftex.def Info: pictures//galois.jpg  used on input line 2.
-(pdftex.def)             Requested size: 138.41617pt x 179.16814pt.
+(pdftex.def)             Requested size: 128.03987pt x 162.1789pt.
 
-Overfull \hbox (26.09439pt too wide) in paragraph at lines 2--3
+Overfull \hbox (3.2386pt too wide) in paragraph at lines 2--3
 [][] 
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 6--8
-[]\OT1/cmr/m/n/12 Galois The-ory is a pop-u-lar and one of the im-por-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--8
-
  []
 
 
@@ -1163,12 +1309,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 [3
 
  <./pictures//galois.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
@@ -1192,16 +1338,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
-) [7] (./chapters/chapter3.tex
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
+19.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+
+Overfull \hbox (17.46251pt too wide) in paragraph at lines 130--130
+[] 
+ []
+
+[7]
+Overfull \hbox (6.75209pt too wide) in paragraph at lines 141--142
+\OT1/cmr/m/n/12 The na-ture of a num-ber de-pends upon the un-der-ly-ing field.
+ As a field-automorphism
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 146--39
+
+ []
+
+[8] (./chapters/chapter3.tex
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
@@ -1216,7 +1395,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-[8
+[9
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
@@ -1233,14 +1412,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-) [9] [10
+) [10] [11
 
 ] (./chapters/chapter4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-[11
+[12
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 47--49
@@ -1257,62 +1436,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 77--84
-
- []
-
+[13]
 
 Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 185.
+(caption)                outside box or environment on input line 186.
 See the caption package documentation for explanation.
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+[14]
+<pictures//quantic2.png, id=128, 877.2775pt x 657.45625pt>
+File: pictures//quantic2.png Graphic file (type png)
+<use pictures//quantic2.png>
+Package pdftex.def Info: pictures//quantic2.png  used on input line 290.
+(pdftex.def)             Requested size: 369.88635pt x 199.16454pt.
 
- []
-
-) [14
-
-] (./chapters/classicprob.tex
-Underfull \hbox (badness 10000) in paragraph at lines 18--22
-
+Overfull \hbox (10.79134pt too wide) in paragraph at lines 308--308
+[] 
  []
 
 [15
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
+ <./pictures//quantic2.png (PNG copy)>]
+<pictures//seventh2.png, id=133, 282.05376pt x 416.55624pt>
+File: pictures//seventh2.png Graphic file (type png)
+<use pictures//seventh2.png>
+Package pdftex.def Info: pictures//seventh2.png  used on input line 316.
+(pdftex.def)             Requested size: 313.00159pt x 199.16927pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
 
  []
 
-[16]) [17] [18
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--329
+
+ []
+
+[16 <./pictures//seventh2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+
+ []
+
+) [17] (./chapters/classicprob.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+
+ []
+
+[18
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
+
+ []
+
+[19]) [20] [21
 
 ] (./chapters/chapter5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[19
+[22
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
 
-) [20] (./chapters/coding.tex
+) [23] (./chapters/coding.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--13
 
  []
 
-[21
+[24
 
-] [22]
+] [25]
 Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
-[23]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 167--174
 
  []
@@ -1322,13 +1529,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-[24
+[27
 
-]) [25] (./chapters/crypto.tex [26
+]) [28] (./chapters/crypto.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
-] [27]) [28] (./thesis.bbl
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29
+
+] [30]
+Overfull \hbox (10.79134pt too wide) in paragraph at lines 83--83
+[] 
+ []
+
+
+Overfull \hbox (10.79134pt too wide) in paragraph at lines 97--97
+[] 
+ []
+
+[31]) [32] (./thesis.bbl
 bibitemlist
-) [29
+) [33
 
 
 ]
@@ -1337,32 +1567,33 @@ bibitemlist
 
  (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 29480 strings out of 480247
- 711675 string characters out of 5896152
- 1102248 words of memory out of 5000000
- 46945 multiletter control sequences out of 15000+600000
- 481167 words of font info for 73 fonts, out of 8000000 for 9000
+ 36978 strings out of 480247
+ 894080 string characters out of 5896152
+ 1319713 words of memory out of 5000000
+ 54304 multiletter control sequences out of 15000+600000
+ 482457 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,12n,94p,727b,621s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,12n,110p,727b,866s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sandesh/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
 n/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cme
-x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/
-msbm10.pfb>
-Output written on thesis.pdf (37 pages, 321778 bytes).
+cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (41 pages, 415597 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
+ 269 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
