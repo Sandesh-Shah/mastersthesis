@@ -3,9 +3,9 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: thesis.aux
 The style file: plain.bst
 Database file #1: bib_database/myref.bib
-I was expecting a `,' or a `}'---line 44 of file bib_database/myref.bib
+I was expecting a `,' or a `}'---line 34 of file bib_database/myref.bib
  :  
- :  year = {2000},
+ :  year = 2000,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Name 1 in "A. Lenstra, H. Lenstra, and L. Lovasz" has a comma at the end for entry algorithm
@@ -16,7 +16,7 @@ Warning--empty year in galois
 Warning--there's a number but no volume in aes
 You've used 7 entries,
             2118 wiz_defined-function locations,
-            540 strings with 4989 characters,
+            540 strings with 4988 characters,
 and the built_in function-call counts, 1738 in all, are:
 = -- 162
 > -- 72

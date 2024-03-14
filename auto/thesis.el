@@ -32,10 +32,9 @@
     "chapters/coding"
     "chapters/crypto"
     "chapters/summary"
+    "mybib"
     "memoir"
     "memoir12"
-    "thesis_preamble")
-   (LaTeX-add-bibliographies
-    "bib_database/myref"))
+    "thesis_preamble"))
  :latex)
 

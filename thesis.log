@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  13 MAR 2024 13:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  14 MAR 2024 20:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1121,7 +1121,7 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \c@lemma=\count377
 
 
-Package amsthm Warning: Unknown theoremstyle `theorem' on input line 32.
+Package amsthm Warning: Unknown theoremstyle `theorem' on input line 31.
 
 \c@theorem=\count378
 \c@corollary=\count379
@@ -1262,9 +1262,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--30
 ) (./premilinaries/acknow.tex [6
 
 ]
-Overfull \hbox (21.1923pt too wide) in paragraph at lines 8--9
+Overfull \hbox (21.01424pt too wide) in paragraph at lines 8--9
 []\OT1/cmr/m/n/12 First of all I would like to thank my \OT1/cmr/bx/n/12 su-per
--vi-sor []\OT1/cmr/m/n/12 Mr. Tu-lasi Prasad Nepal[](Associate
+-vi-sor []\OT1/cmr/m/n/12 Mr. Tu-lasi Prasad Nepal[]\OT1/cmr/m/it/12 (Associate
+
  []
 
 
@@ -1278,7 +1279,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
  []
 
 
-Overfull \hbox (17.62482pt too wide) in paragraph at lines 13--22
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 16--25
 []$[]$ 
  []
 
@@ -1303,16 +1309,11 @@ Overfull \hbox (0.16266pt too wide) detected at line 6
 
 [10
 
-]
-Overfull \hbox (1.3752pt too wide) detected at line 46
-\OT1/cmr/bx/n/14.4 III 
- []
-
-) (./thesis.lof [11]) (./thesis.lot) [12] [1
+]) (./thesis.lof [11]) (./thesis.lot) [12] [1
 
 
 ] (./chapters/chapter1.tex
-<pictures//galois.jpg, id=96, 197.73875pt x 255.95625pt>
+<pictures//galois.jpg, id=97, 197.73875pt x 255.95625pt>
 File: pictures//galois.jpg Graphic file (type jpg)
 <use pictures//galois.jpg>
 Package pdftex.def Info: pictures//galois.jpg  used on input line 2.
@@ -1514,33 +1515,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--65
 
  []
 
-[18]) [19] [20
-
-] (./chapters/chapter5.tex
+[18]) [19] (./chapters/chapter5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-[21
+[20
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
 
-) [22] (./chapters/coding.tex
+) [21] (./chapters/coding.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--13
 
  []
 
-[23
+[22
 
-] [24]
+] [23]
 Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
-[25]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 167--174
 
  []
@@ -1550,9 +1549,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
-[26
+[25
 
-]) [27] (./chapters/crypto.tex
+]) [26] (./chapters/crypto.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
@@ -1565,9 +1564,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28
+[27
 
-] [29]
+] [28]
 Overfull \hbox (10.79134pt too wide) in paragraph at lines 83--83
 [] 
  []
@@ -1577,12 +1576,26 @@ Overfull \hbox (10.79134pt too wide) in paragraph at lines 97--97
 [] 
  []
 
-[30]) [31] (./chapters/summary.tex) (./thesis.bbl [32
-
+[29]) [30] (./chapters/summary.tex) [31
 
 ]
+<pictures//thesis_grant.jpg, id=204, 3886.52pt x 2695.06876pt>
+File: pictures//thesis_grant.jpg Graphic file (type jpg)
+<use pictures//thesis_grant.jpg>
+Package pdftex.def Info: pictures//thesis_grant.jpg  used on input line 74.
+(pdftex.def)             Requested size: 341.40993pt x 227.61794pt.
+<pictures//seminar.jpg, id=205, 3765.06625pt x 2631.8325pt>
+File: pictures//seminar.jpg Graphic file (type jpg)
+<use pictures//seminar.jpg>
+Package pdftex.def Info: pictures//seminar.jpg  used on input line 79.
+(pdftex.def)             Requested size: 341.4266pt x 227.61826pt.
+ [32
+
+
+ <./pictures//thesis_grant.jpg> <./pictures//seminar.jpg>] (./mybib.tex
 bibitemlist
 ) [33
+
 
 ]
 \tf@toc=\write5
@@ -1596,10 +1609,10 @@ bibitemlist
 
  (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 37016 strings out of 480247
- 894827 string characters out of 5896152
- 1319713 words of memory out of 5000000
- 54328 multiletter control sequences out of 15000+600000
+ 37035 strings out of 480247
+ 895298 string characters out of 5896152
+ 1319711 words of memory out of 5000000
+ 54345 multiletter control sequences out of 15000+600000
  482457 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,12n,110p,727b,866s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1619,10 +1632,10 @@ onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
 2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (45 pages, 477880 bytes).
+Output written on thesis.pdf (45 pages, 11026199 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
+ 287 PDF objects out of 1000 (max. 8388607)
  170 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 
