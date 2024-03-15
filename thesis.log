@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  14 MAR 2024 20:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  15 MAR 2024 12:40
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1245,13 +1245,13 @@ File: pictures/tulogo.png Graphic file (type png)
 Package pdftex.def Info: pictures/tulogo.png  used on input line 4.
 (pdftex.def)             Requested size: 62.39746pt x 72.89479pt.
 
-Underfull \hbox (badness 2521) in paragraph at lines 20--28
-\OT1/cmr/m/n/12 Tribhuvan Uni-ver-sity, Kir-tipur, Kath-mandu,
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
  []
 
 
 Overfull \hbox (23.41235pt too wide) in paragraph at lines 8--30
-[]$ $[]$ 
+[] $[]$ 
  []
 
 
@@ -1578,26 +1578,26 @@ Overfull \hbox (10.79134pt too wide) in paragraph at lines 97--97
 
 [29]) [30] (./chapters/summary.tex) [31
 
-]
-<pictures//thesis_grant.jpg, id=204, 3886.52pt x 2695.06876pt>
+] (./mybib.tex
+bibitemlist
+[32
+
+
+])
+<pictures//thesis_grant.jpg, id=208, 3886.52pt x 2695.06876pt>
 File: pictures//thesis_grant.jpg Graphic file (type jpg)
 <use pictures//thesis_grant.jpg>
-Package pdftex.def Info: pictures//thesis_grant.jpg  used on input line 74.
+Package pdftex.def Info: pictures//thesis_grant.jpg  used on input line 75.
 (pdftex.def)             Requested size: 341.40993pt x 227.61794pt.
-<pictures//seminar.jpg, id=205, 3765.06625pt x 2631.8325pt>
+<pictures//seminar.jpg, id=209, 3765.06625pt x 2631.8325pt>
 File: pictures//seminar.jpg Graphic file (type jpg)
 <use pictures//seminar.jpg>
-Package pdftex.def Info: pictures//seminar.jpg  used on input line 79.
+Package pdftex.def Info: pictures//seminar.jpg  used on input line 80.
 (pdftex.def)             Requested size: 341.4266pt x 227.61826pt.
- [32
+ [33
 
 
- <./pictures//thesis_grant.jpg> <./pictures//seminar.jpg>] (./mybib.tex
-bibitemlist
-) [33
-
-
-]
+ <./pictures//thesis_grant.jpg> <./pictures//seminar.jpg>]
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
@@ -1607,7 +1607,8 @@ bibitemlist
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
- (./thesis.aux) ) 
+
+(./thesis.aux) ) 
 Here is how much of TeX's memory you used:
  37035 strings out of 480247
  895298 string characters out of 5896152
@@ -1616,23 +1617,23 @@ Here is how much of TeX's memory you used:
  482457 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,12n,110p,727b,866s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/sandesh/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (45 pages, 11026199 bytes).
+ </home/sandesh/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen
+/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on thesis.pdf (45 pages, 11026291 bytes).
 PDF statistics:
  287 PDF objects out of 1000 (max. 8388607)
  170 compressed objects within 2 object streams
