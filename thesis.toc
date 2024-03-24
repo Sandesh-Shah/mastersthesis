@@ -20,54 +20,55 @@
 \contentsline {subsection}{\numberline {2.3.1}Closed Field and Subgroup}{5}{}%
 \contentsline {subsection}{\numberline {2.3.2}Stable Intermediate}{6}{}%
 \contentsline {subsection}{\numberline {2.3.3}Proof of the Fundamental Theorem}{6}{}%
-\contentsline {section}{\numberline {2.4}Illustration of The Fundamental Theorem}{7}{}%
-\contentsline {section}{\numberline {2.5}Insights to the Fundamental Theorem}{7}{}%
-\contentsline {subsection}{\numberline {2.5.1}}{7}{}%
-\contentsline {subsection}{\numberline {2.5.2}}{7}{}%
-\contentsline {chapter}{\chapternumberline {3}Structure of Galois Extension}{8}{}%
-\contentsline {section}{\numberline {3.1}Splitting Field}{8}{}%
-\contentsline {subsection}{\numberline {3.1.1}Algebraic Closure of a Field}{8}{}%
-\contentsline {section}{\numberline {3.2}Separable Extension}{9}{}%
-\contentsline {section}{\numberline {3.3}Galois extension}{9}{}%
-\contentsline {part}{\partnumberline {II}Applications}{10}{}%
+\contentsline {section}{\numberline {2.4}Application}{6}{}%
+\contentsline {section}{\numberline {2.5}Illustration of The Fundamental Theorem}{7}{}%
+\contentsline {section}{\numberline {2.6}Insights to the Fundamental Theorem}{7}{}%
+\contentsline {subsection}{\numberline {2.6.1}Nature of a Number}{7}{}%
+\contentsline {subsection}{\numberline {2.6.2}Structure of a Field}{8}{}%
+\contentsline {chapter}{\chapternumberline {3}Structure of Galois Extension}{9}{}%
+\contentsline {section}{\numberline {3.1}Splitting Field}{9}{}%
+\contentsline {subsection}{\numberline {3.1.1}Algebraic Closure of a Field}{9}{}%
+\contentsline {section}{\numberline {3.2}Separable Extension}{10}{}%
+\contentsline {section}{\numberline {3.3}Galois extension}{10}{}%
+\contentsline {part}{\partnumberline {II}Applications}{11}{}%
 \mbox {}\hrulefill \par 
-\contentsline {chapter}{\chapternumberline {4}Galois Group of a Polynomial}{11}{}%
-\contentsline {section}{\numberline {4.1}Galois Group of Cubic polynomials}{11}{}%
-\contentsline {section}{\numberline {4.2}Galois Group of Quartic polynomials}{12}{}%
-\contentsline {section}{\numberline {4.3}Galois Group of some Polynomials}{13}{}%
-\contentsline {section}{\numberline {4.4}Galois group of Quantic polynomials}{14}{}%
-\contentsline {section}{\numberline {4.5}Galois Group of Reducible polynomials}{15}{}%
-\contentsline {section}{\numberline {4.6}Galois groups of Multi-variable Polynomials}{16}{}%
-\contentsline {chapter}{\chapternumberline {5}The Classic Problem}{17}{}%
-\contentsline {section}{\numberline {5.1}Formulation of the Classic Problem}{17}{}%
-\contentsline {section}{\numberline {5.2}Group Theoritic Concepts}{18}{}%
-\contentsline {section}{\numberline {5.3}Conclusion}{18}{}%
-\contentsline {subsection}{\numberline {5.3.1}Illustrations}{19}{}%
+\contentsline {chapter}{\chapternumberline {4}Galois Group of a Polynomial}{12}{}%
+\contentsline {section}{\numberline {4.1}Galois Group of Cubic polynomials}{12}{}%
+\contentsline {section}{\numberline {4.2}Galois Group of Quartic polynomials}{13}{}%
+\contentsline {section}{\numberline {4.3}Galois Group of some Polynomials}{14}{}%
+\contentsline {section}{\numberline {4.4}Galois group of Quantic polynomials}{15}{}%
+\contentsline {section}{\numberline {4.5}Galois Group of Reducible polynomials}{16}{}%
+\contentsline {section}{\numberline {4.6}Galois groups of Multi-variable Polynomials}{17}{}%
+\contentsline {chapter}{\chapternumberline {5}The Classic Problem}{18}{}%
+\contentsline {section}{\numberline {5.1}Formulation of the Classic Problem}{18}{}%
+\contentsline {section}{\numberline {5.2}Group Theoritic Concepts}{19}{}%
+\contentsline {section}{\numberline {5.3}Conclusion}{19}{}%
+\contentsline {subsection}{\numberline {5.3.1}Illustrations}{20}{}%
 \mbox {}\hrulefill \par 
-\contentsline {chapter}{\chapternumberline {6}Galois Fields}{20}{}%
-\contentsline {section}{\numberline {6.1}Representation of Finite Fields}{20}{}%
-\contentsline {subsection}{\numberline {6.1.1}Integer representation}{20}{}%
-\contentsline {subsection}{\numberline {6.1.2}Polynomial representation}{21}{}%
-\contentsline {section}{\numberline {6.2}Operations in Galois Field}{21}{}%
-\contentsline {chapter}{\chapternumberline {7}Application in Coding Theory}{22}{}%
-\contentsline {section}{\numberline {7.1}Linear Codes}{23}{}%
-\contentsline {section}{\numberline {7.2}Illustration}{24}{}%
-\contentsline {section}{\numberline {7.3}Syndrome Decoding}{24}{}%
-\contentsline {subsection}{\numberline {7.3.1}Decoding Process}{25}{}%
-\contentsline {section}{\numberline {7.4}Perfect Code}{25}{}%
-\contentsline {section}{\numberline {7.5}Cyclic Code}{26}{}%
-\contentsline {subsection}{\numberline {7.5.1}Usages}{26}{}%
-\contentsline {chapter}{\chapternumberline {8}Application in Cryptography}{27}{}%
-\contentsline {section}{\numberline {8.1}Cryptography}{27}{}%
-\contentsline {section}{\numberline {8.2}Advance Encryption Standard(AES)}{27}{}%
-\contentsline {section}{\numberline {8.3}The Cipher(Alogrithm)}{28}{}%
-\contentsline {subsection}{\numberline {8.3.1}The State}{28}{}%
-\contentsline {subsection}{\numberline {8.3.2}Sub-Bytes}{28}{}%
-\contentsline {subsection}{\numberline {8.3.3}Mathematical Preliminaries}{28}{}%
-\contentsline {subsection}{\numberline {8.3.4}Shift-Rows}{28}{}%
-\contentsline {subsection}{\numberline {8.3.5}Mix-Columns}{29}{}%
-\contentsline {subsection}{\numberline {8.3.6}Add-Round-Key}{29}{}%
-\contentsline {subsection}{\numberline {8.3.7}Algorithms}{29}{}%
-\contentsline {section}{\numberline {8.4}Illustration}{30}{}%
-\contentsline {chapter}{\chapternumberline {9}Conclusion}{31}{}%
-\contentsline {chapter}{REFERENCES}{32}{}%
+\contentsline {chapter}{\chapternumberline {6}Galois Fields}{21}{}%
+\contentsline {section}{\numberline {6.1}Representation of Finite Fields}{21}{}%
+\contentsline {subsection}{\numberline {6.1.1}Integer representation}{21}{}%
+\contentsline {subsection}{\numberline {6.1.2}Polynomial representation}{22}{}%
+\contentsline {section}{\numberline {6.2}Operations in Galois Field}{22}{}%
+\contentsline {chapter}{\chapternumberline {7}Application in Coding Theory}{23}{}%
+\contentsline {section}{\numberline {7.1}Linear Codes}{24}{}%
+\contentsline {section}{\numberline {7.2}Illustration}{25}{}%
+\contentsline {section}{\numberline {7.3}Syndrome Decoding}{25}{}%
+\contentsline {subsection}{\numberline {7.3.1}Decoding Process}{26}{}%
+\contentsline {section}{\numberline {7.4}Perfect Code}{26}{}%
+\contentsline {section}{\numberline {7.5}Cyclic Code}{27}{}%
+\contentsline {subsection}{\numberline {7.5.1}Usages}{28}{}%
+\contentsline {chapter}{\chapternumberline {8}Application in Cryptography}{29}{}%
+\contentsline {section}{\numberline {8.1}Cryptography}{29}{}%
+\contentsline {section}{\numberline {8.2}Advance Encryption Standard(AES)}{29}{}%
+\contentsline {section}{\numberline {8.3}The Cipher(Alogrithm)}{30}{}%
+\contentsline {subsection}{\numberline {8.3.1}The State}{30}{}%
+\contentsline {subsection}{\numberline {8.3.2}Sub-Bytes}{30}{}%
+\contentsline {subsection}{\numberline {8.3.3}Mathematical Preliminaries}{30}{}%
+\contentsline {subsection}{\numberline {8.3.4}Shift-Rows}{30}{}%
+\contentsline {subsection}{\numberline {8.3.5}Mix-Columns}{31}{}%
+\contentsline {subsection}{\numberline {8.3.6}Add-Round-Key}{31}{}%
+\contentsline {subsection}{\numberline {8.3.7}Algorithms}{31}{}%
+\contentsline {section}{\numberline {8.4}Illustration}{32}{}%
+\contentsline {chapter}{\chapternumberline {9}Conclusion}{33}{}%
+\contentsline {chapter}{REFERENCES}{34}{}%

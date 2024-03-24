@@ -1,5 +1,6 @@
 \section{Galois Group}
-Let \(F\) be a field. The set \(AutF\) of all field-automorphisms \(F \rightarrow F \) forms a group under the function composition.\\ \\
+Let \(F\) be a field. ``The set \(AutF\) of all field-automorphisms \(F \rightarrow F \) forms a group under the function composition'' \cite{hunger}.\\[3mm]
+\noindent
 Let \(E\) and \(F\) be the extension fields of a field \(K\).\\
 If a non-zero field-homomorphism \(\sigma : E \rightarrow F\) is a K-module homomorphism then\\
 \(\sigma(k)=\sigma(k1_E)=k\sigma(1_E)=k1_F=k\).\hspace{7mm}
@@ -11,14 +12,14 @@ i.e \(\sigma\) is a K-module homomorphism \cite{hunger}.
 \end{definition}
 
 \begin{definition}
-  The group of all K-automorphisms of \(F\) is called the Galois group of \(F\) over \(K\) and it is denoted by \(Aut_K^F\) \cite{hunger}.
+  ``The group of all K-automorphisms of \(F\) is called the Galois group of \(F\) over \(K\) and it is denoted by \(Aut_K^F\)'' \cite{hunger}.
 \end{definition}
 
 \section{Galois extension}
 Let \(E\) be an intermediate field and \(H\) be a subgroup of \(Aut_K^F\), then:
 \begin{enumerate}
-\item[i)] \(H' = \{v \in F \; | \: \sigma(v)=v,\) for all \(\sigma \in H \}\) is an intermediate field of the extension field \(F\) of \(K\);
-\item[ii)] \(E' = \{\sigma \in Aut_K^F \; | \; \sigma(u)=u,\) for all \(u \in E\}=Aut_E^F\) is a subgroup of \(Aut_K^F\).
+\item[i)] ``\(H' = \{v \in F \; | \: \sigma(v)=v,\) for all \(\sigma \in H \}\)'' \cite{hunger} is an intermediate field of the extension field \(F\) of \(K\);
+\item[ii)] ``\(E' = \{\sigma \in Aut_K^F \; | \; \sigma(u)=u,\) for all \(u \in E\}=Aut_E^F\)'' \cite{hunger} is a subgroup of \(Aut_K^F\).
 \end{enumerate}
 
 The field \(H'\) is called the fixed field of the subgroup H in F \cite{hunger}.
@@ -26,47 +27,45 @@ The field \(H'\) is called the fixed field of the subgroup H in F \cite{hunger}.
 \subsection{Fixed Field}
 We have,\\
 \(H' \rightarrow\) fixed field and \(E' \rightarrow\) \(Aut_E^F\).\hspace{5mm} Let \(Aut_K^F = G\) then the field fixed by it is \(G'\). It is not necessary that the field fixed by \(G\) is \(K\) i.e, \(G'=K\).
+\vspace{3mm}
 \begin{example}
   For \(f(x)=x^3-2 \in Q[x]\). Let \(u \in F\) such that \(f(u)=0\) and let \(F=Q[u]\).Then
   \(G=Aut_Q^{Q(u)}={1}\) so, \hspace{5mm}\(G'=F \neq K\).
 \end{example}
 
+\vspace{3mm}
 \begin{definition}
-  Let \(F\) be an extension field of \(K\) such that the fixed field of the Galois group \(Aut_K^F\) is \(K\) itself. Then \(F\) is said to be a Galois extension of \(K\) or Galois over \( K\) \cite{hunger}.
+``Let \(F\) be an extension field of \(K\) such that the fixed field of the Galois group \(Aut_k^F\) is \(K\) itself. Then \(F\) is said to be a Galois extension of \(K\) or Galois over K'' \cite{hunger}.
 \end{definition}
 
 \section{Fundamental Theorem of Galois Theory}
+\begin{tcolorbox}
 \begin{theorem}
-  If \(F\) is a finite dimensional Galois extension of \(K\), then there is a one-to-one correspondence between the set of all intermediate fields of \(F\) over \(K\) and the set of subgroups of the Galois group \(Aut_K^F\) such that:
+  ``If \(F\) is a finite dimensional Galois extension of \(K\), then there is a one-to-one correspondence between the set of all intermediate fields of \(F\) over \(K\) and the set of subgroups of the Galois group \(Aut_K^F\) such that:
   \begin{enumerate}
   \item[i)] the relative dimension of two intermediate fields is equal to the relative index of the corresponding subgroups. In particular \(Aut_K^F\) has order \([F:K]\);
-  \item[ii)] \(F\) is Galois over every intermediate field \(E\), but \(E\) is Galois over \(K\) if and only if the corresponding subgroup \(E'= Aut_E^F\) is normal in \(G=Aut_K^F\).In this case \(G/E'\) is isomorphic to the Galois group \(Aut_K^E\) of \(E\) over \(K\) \cite{hunger}.
+  \item[ii)] \(F\) is Galois over every intermediate field \(E\), but \(E\) is Galois over \(K\) if and only if the corresponding subgroup \(E'= Aut_E^F\) is normal in \(G=Aut_K^F\).In this case \(G/E'\) is isomorphic to the Galois group \(Aut_K^E\) of \(E\) over \(K\)'' \cite{hunger}.
   \end{enumerate}
 \end{theorem}
+\end{tcolorbox}
+
+\vspace{2mm}
 We already have a correspondence between the intermediate fields and the subgroup of Galois group.\\
 That is to each intermediate field \(E\), there is a subgroup \(Aut_E^F\) and to each subgroup \(H\) there is a fixed field \(H'\). But this correspondence is one-to-one if and only if for each intermediate field \(E\), it satisfies \(E''=E\) and for each subgroup \(H\), it satisfies \(H''=H\).
 
 \subsection{Closed Field and Subgroup}
-We have, \hspace{2cm}
-i) \(F'=1\) and \(K'=G\); \hspace{3cm} ii) \(1'=F\).\\
-
-If \(F\) is Galois over \(K\) then by definition, \(G'=K\). Since \(K'=G\) we have \(K=K''\) if and only if \(F\) is Galois over \(K\).
-
 \begin{definition}
-  Let \(X\) be an intermediate field or subgroup of the Galois group. \(X\) will be called \textbf{closed} provided \(X=X''\) \cite{hunger}.\\
+  ``Let \(X\) be an intermediate field or subgroup of the Galois group. \(X\) will be called \textbf{closed} provided \(X=X''\)'' \cite{hunger}.\\
 \end{definition}
+\clearpage
 
-\begin{lemma}. If \(F\) is an extension field of \(K\), then there is one-to-one correspondence between the closed intermediate fields of the extension and the closed subgroups of the Galois group, given by \(E \rightarrow E' =  Aut_E^F\) \cite{hunger}.
-\end{lemma}
-
-\begin{lemma}. Let \(F\) be an extension field of \(K\), \(L\) and \(M\) intermediate fields with \(L \subset M\), and \(H\), \(J\) subgroups of Galois group \(Aut_K^F\) with \(H<J\).
-  \begin{enumerate}
-  \item[i)] If \(L\) is closed and \([M:L]\) finite, then \(M\) is closed and \([L':M']=[M:L]\);
-  \item[ii)] if \(H\) is closed and \([J:H]\) finite, then \(J\) is closed and \([H':J']=[J:H]\);
-  \item[iii)] if \(F\) is a finite dimensional Galois extension of \(K\), then all intermediate fields and all subgroups of the Galois group are closed and \(Aut_K^F\) has order \([F:K]\) \cite{hunger}.
+\begin{lemma}.
+\begin{enumerate}
+\item[i)] ``If \(F\) is an extension field of \(K\), then there is one-to-one correspondence between the closed intermediate fields of the extension and the closed subgroups of the Galois group, given by \(E \rightarrow E' =  Aut_E^F\)'' \cite{hunger}.
+\item[ii)]``If \(F\) is a finite dimensional Galois extension of \(K\), then all intermediate fields and all subgroups of the Galois group are closed and \(Aut_K^F\) has order \([F:K]\)'' \cite{hunger}.
   \end{enumerate}
 \end{lemma}
-
+\vspace{3mm}
 
 \subsection{Stable Intermediate}
 \begin{definition}
@@ -75,21 +74,22 @@ If \(F\) is Galois over \(K\) then by definition, \(G'=K\). Since \(K'=G\) we ha
 
 \begin{lemma}
   \begin{enumerate}
-  \item[i)] If E is a stable intermediate field of the extension, then \(E'=Aut_E^F\) is a normal subgroup of the Galois group \(Aut_K^F\);
-  \item[ii)] if \(H\) is a normal subgroup of \(Aut_K^F\), then the fixed field \(H'\) of \(H\) is a stable intermediate field of the extension
+  \item[i)] ``If E is a stable intermediate field of the extension, then \(E'=Aut_E^F\) is a normal subgroup of the Galois group \(Aut_K^F\)'' \cite{hunger};
+  \item[ii)] ``if \(H\) is a normal subgroup of \(Aut_K^F\), then the fixed field \(H'\) of \(H\) is a stable intermediate field of the extension''
     \cite{hunger}.
   \end{enumerate}
 \end{lemma}
+\vspace{3mm}
 
 \subsection{Proof of the Fundamental Theorem}
 \begin{proof}
-  From the above section there is one-to-one correspondence between closed intermediate fields of the extension and closed subgroups of the Galois group. But in this case all intermediate fields and all subgroups are closed. Thus follows statement(i) of the theorem.\\
-
-  \(F\) is Galois over \(E\) since \(E\) is closed. \(E\) is finite dimensional over \(K\) since \(F\) is and hence algebraic over \(K\). Consequently, if \(E\) is Galois over \(K\), then \(E\) is stable.
-  \(E'=Aut_E^F\) is normal in \(Aut_K^F\). Conversely if \(E'\) is normal in \(Aut_K^F\), then \(E''\) is stable intermediate field. But \(E=E''\) since all intermediate fields are closed and hence \(E\) is Galois over \(K\).\\
-
-  Suppose \(E\) is an intermediate field that is Galois over \(K\). Since \(E\) and \(E'\) are closed and \(G'=K\)(F is Galois over K), we have \(|G/E'|=[G:E']=[E''=G']=[E:K]\). So, \(G/E'=Aut_K^F/Aut_E^F\) is isomorphic to a subgroup of \(Aut_K^F\). But by first part of the theorem, \(|Aut_K^E|=[E:F]\)(since E is Galois over K). This implies \(G/E'=Aut_K^E\) \cite{hunger}.
+From lemma 1 above, one-to-one correspondence between the intermediate fields and the subgroups follows \cite{hunger}. And from lemma 2 the next two statements of the theorem follows \cite{hunger}.
 \end{proof}
+\vspace{3mm}
+
+\section{Application}
+The fundamental theorem links Field theory to Group theory. This allows us to use the tools of Group theory to solve the problems involving field theory. Solving a polynomial equation is a problem of field theory. We can use insights of Group theory to solve this problem of field theory which is discussed in some detail in next part of this thesis.
+\clearpage
 
 \section{Illustration of The Fundamental Theorem}
 \begin{minipage}{0.68\textwidth}
@@ -113,15 +113,15 @@ If \(F\) is Galois over \(K\) then by definition, \(G'=K\). Since \(K'=G\) we ha
       \node[below of=f, yshift=-3mm] (e) {E};
       \node[below of=e, yshift=-3mm] (k) {K};
 
-      \draw[->,thick] (f)--(e);
-      \draw[->,thick] (e)--(k);
+      \draw[<-,thick] (f)--(e);
+      \draw[<-,thick] (e)--(k);
 
       \node[right of=f, xshift=15mm] (i) {\{e\}};
       \node[below of=i, yshift=-3mm] (h) {H};
       \node[below of=h, yshift=-3mm] (g) {G};
 
-      \draw[<-, thick] (i)--(h);
-      \draw[<-, thick] (h)--(g);
+      \draw[->, thick] (i)--(h);
+      \draw[->, thick] (h)--(g);
 
       \draw[<->, thick] (f)--(i);
       \draw[<->, thick] (e)--(h);
@@ -135,12 +135,92 @@ If \(F\) is Galois over \(K\) then by definition, \(G'=K\). Since \(K'=G\) we ha
   The intermediate fields are getting larger as we go from top to bottom  as the fields are getting extended. But the subgroups are getting smaller.
 \end{remark}
 
+\vspace{7mm}
 \section{Insights to the Fundamental Theorem}
 
-\subsection{}
-The nature of a number depends upon the underlying field. As a field-automorphism of  \(\mathbb{Q}(\sqrt{2})\) is \(\mathbb{Q}(-\sqrt{2})\) fixing \(\mathbb{Q}\). these two fields are same. So any polynomial equation over \(\mathbb{Q}\) satisfied by the number \(\sqrt{2}\) is also satisfied by the number \(-\sqrt{2}\). \textit{Hence the two numbers \(\sqrt{2}\) and \(-\sqrt{2}\) are algebraically same over \(\mathbb{Q}\).}\\
+\subsection{Nature of a Number}
+The nature of a number depends upon the underlying field. As a field-automorphism of  \(\mathbb{Q}(\sqrt{2})\) that fixes \(\mathbb{Q}\) is \(\mathbb{Q}(-\sqrt{2})\) i.e \(\sqrt{2} \longmapsto -\sqrt{2}\). So,  any polynomial equation over \(\mathbb{Q}\) satisfied by the number \(\sqrt{2}\) is also satisfied by the number \(-\sqrt{2}\). You can fluidly pass between these two numbers and the equation with a rational coefficient will not know. \textit{Hence the two numbers \(\sqrt{2}\) and \(-\sqrt{2}\) are algebraically same over \(\mathbb{Q}\).}\\
 
-\subsection{}
-The structure of a field as an extension field over some field is mirrored in the structure of the ``group'' of  permutations of its elements that keeps the base field fixed. i.e \textit{The structure of field extension is equals to its own symmetry.}\\
+But the map \(\sqrt{2} \longmapsto -\sqrt{2}\) is not an automorphism of the field \(\mathbb{Q}(\sqrt{2})\) fixing itself, i.e fixing \(\mathbb{Q}(\sqrt{2})\). The only automorphism of \(\mathbb{Q}(\sqrt{2})\) is the identity map. So, you cannot pass \(\sqrt{2}\) for \(-\sqrt{2}\) for every equation with coefficients in \(\mathbb{Q}(\sqrt{2})\). \textit{Hence the two numbers \(\sqrt{2}\) and \(-\sqrt{2}\) are not algebraically same over \(\mathbb{Q}(\sqrt{2})\).}
+\vspace{7mm}
+
+\begin{figure}[h]
+  \centering
+ \begin{tikzpicture}
+      \node (f) {\large \(\mathbb{Q}(\sqrt{2})\)};
+      \node[below of=f, yshift=-17mm] (e) {\large \(\mathbb{Q}\)};
+
+
+      \draw[<-,thick] (f)--(e);
+
+      \node[right of=f, xshift=55mm] (i) {\large \{e\}};
+      \node[below of=i, yshift=-17mm] (h) {\large \{\(i\), \(\sqrt{2} \mapsto -\sqrt{2}\)\}};
+
+
+      \draw[->, thick] (i)--(h);
+
+
+      \draw[<->, thick] (f)--(i);
+      \draw[<->, thick] (e)--(h);
+    \end{tikzpicture}
+    \end{figure}
+\clearpage
+
+\subsection{Structure of a Field}
+The structure of a field as an extension field over some field is mirrored in the structure of the ``group'' of  permutations of its elements that keeps the base field fixed. But these permutations are the symmetries of the field. \textit{So, the structure of field extension is equals to its own symmetry.}\\
 
 The structure of a field is a \textbf{complicated} thing; specially if it is infinite. But the structure of a group is rather simple; especially if it is finite. So the Galois theory has fairly simplified the complicated thing in a very insightful and beautiful way.\\
+
+Also Galois theory gives a new sights of study of fields which is ``study of fields via study of its automorphisms'' which are permutations of the field.
+\vspace{15mm}
+That is,
+\begin{minipage}{0.33\textwidth}
+  \begin{tcolorbox}[colback=gray!20, colframe=blue!20, title={ \textcolor{red}{Structure of a Field \(F\)}}, width=5cm]
+    \begin{tikzpicture}
+      \hspace{10mm}
+      \node[minimum width=7mm,
+      minimum height=7mm,
+      fill=brown!70] (f) {\large F};
+
+      \node[minimum width=7mm,
+      minimum height=7mm,
+      fill=brown!70,
+      below of=f, yshift=-3mm] (e) {\large E};
+
+      \node[minimum width=7mm,
+      minimum height=7mm,
+      fill=brown!70,
+      below of=e, yshift=-3mm] (k) {\large K};
+
+      \draw[<-,thick] (f)--(e);
+      \draw[<-,thick] (e)--(k);
+    \end{tikzpicture}
+   \end{tcolorbox}
+  \end{minipage} \hrulefill
+    \begin{minipage}{0.37\textwidth}
+      \begin{tcolorbox}[colback=gray!20, colframe=blue!20, title={ \textcolor{red}{Structure of its symmetry}},  width=6cm]
+        \begin{tikzpicture}
+          \hspace{11mm}
+      \node[minimum width=7mm,
+      minimum height=7mm,
+      fill=violet!50,
+      ] (i) {\large \{e\}};
+
+      \node[minimum width=7mm,
+      minimum height=7mm,
+      fill=violet!50,
+      below of=i, yshift=-3mm] (h) {\large H};
+
+      \node[
+      minimum width=7mm,
+      minimum height=7mm,
+      fill=violet!50,
+      below of=h, yshift=-3mm] (g) {\large G};
+
+      \draw[->, thick] (i)--(h);
+      \draw[->, thick] (h)--(g);
+    \end{tikzpicture}
+    \end{tcolorbox}
+  \end{minipage}\\
+
+  These two things are equivalent.

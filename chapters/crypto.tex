@@ -3,30 +3,30 @@ It is the science of safe-guarding information by converting the original messag
 Galois Fields are the life of modern cryptography used in digital communication.
 
 \section{Advance Encryption Standard(AES)}
-The Advance Encryption Standard is a Computer Security Standard for cryptography which is approved by the ``Federal Information Processing Standards Publications'' of USA which became effective on May 26, 2002. The AES algorithm is a \textit{symmetric block cipher} that can encrypt and decrypt digital information \cite{aes}. Symmetric key cryptography is used to share information between two parties where the two parties share a secret ``key'' and a public encryption algorithm.\\
+The Advance Encryption Standard is a Computer Security Standard for cryptography which is approved by the ``Federal Information Processing Standards Publications'' of USA which became effective on May 26, 2002. ``The AES algorithm is a \textit{symmetric block cipher} that can encrypt and decrypt digital information'' \cite{aes}. Symmetric key cryptography is used to share information between two parties where the two parties share a secret ``key'' and a public encryption algorithm.\\
 
-In 2000, National Institute of Standards and Technology(NIST) announced the selection of the ``Rijndael'' block cipher family as the winner of the AES cometition and since then AES has been the standard for digital cryptography \cite{aes} The Rijendael block cipher was developed by two Belgian cryptographers, \underline{Vincent Rijmen and Joan Daemen}.\\
+``In 2000, National Institute of Standards and Technology(NIST) announced the selection of the ``Rijndael'' block cipher family as the winner of the AES cometition and since then AES has been the standard for digital cryptography'' \cite{aes}. ``The Rijendael block cipher was developed by two Belgian cryptographers, \underline{Vincent Rijmen and Joan Daemen}'' \cite{aes}.\\
 
-The generic algorithm of AES consists of smaller sub-algorithms namely\\ Sub-Bytes, Shift-Rows, Mix-Columns and Add-Round-Key \cite{aes}.
+The generic algorithm of AES consists of smaller sub-algorithms namely\\ ``Sub-Bytes, Shift-Rows, Mix-Columns and Add-Round-Key'' \cite{aes}.
 
 \begin{table}[h!]
   \centering
 \begin{tabular}{|l|l|}
   \hline
-  Bit & \hspace{7mm}A binary digit: 0 or 1.\\
+  Bit & \hspace{7mm}''A binary digit: 0 or 1'' \cite{aes}.\\
     \hline
-  Byte & \hspace{7mm}A sequence of 8 bits.\\
+  Byte & \hspace{7mm}''A sequence of 8 bits'' \cite{aes}.\\
     \hline
-  Block & \hspace{7mm}A sequence of bits of a fixed length.\\
-  \ & \hspace{13mm}In this Standard, block consists of 128 bits.\\
+  Block & \hspace{7mm}''A sequence of bits of a fixed length'' \cite{aes}.\\
+  \ & \hspace{13mm}''In this Standard, block consists of 128 bits'' \cite{aes}.\\
     \hline
-  Block cipher &  \hspace{7mm}A family of permutations of blocks.\\
+  Block cipher &  \hspace{7mm}''A family of permutations of blocks'' \cite{aes}.\\
     \hline
-  Key & \hspace{7mm}The parameter that selects the permutation \\
+  Key & \hspace{7mm}''The parameter that selects the permutation'' \cite{aes} \\
   \ & \hspace{13mm}from the block cipher.\\
     \hline
 \end{tabular}
-\caption{\footnotesize Terms and their meanings.}
+\caption{\small Terms and their meanings.}
 \end{table}
 
 
@@ -79,7 +79,7 @@ procedure CIPHER(state, key)
         4)   ADDROUNDKEY(state, key)
     end for
 end procedure
-\end{verbatim}
+\end{verbatim} \cite{aes}
 \end{tcolorbox}
 
 \vspace{7mm}
@@ -93,7 +93,7 @@ procedure CIPHER(state, key)
         4)   InvSUBBYTES(state)
     end for
 end procedure
-\end{verbatim}
+\end{verbatim}\cite{aes}
 \end{tcolorbox}
 
 \section{Illustration}

@@ -1,27 +1,28 @@
-Galois fields are the finite fields. They can be completely characterized in terms of splitting fields of some polynomials. It is found that the Galois group of an extension of a finite field by a finite field is cyclic. The Galois field with \(q\) elements is denoted by \(GF(q)\) \cite{hunger}.
+Galois fields are the finite fields. ``They can be completely characterized in terms of splitting fields of some polynomials. It is found that the Galois group of an extension of a finite field by a finite field is cyclic'' \cite{hunger}. We denote Galois field with \(q\) elements by \(GF(q)\).
 
 \begin{definition}[Prime Fields]
-Let \(F\) be a field and let \(P\) be the intersection of all subfields of \(F\). Then \(P\) is a field with no proper subfields. This field \(P\) is called the Prime subfield of \(F\) \cite{hunger}.
+``Let \(F\) be a field and let \(P\) be the intersection of all subfields of \(F\). Then \(P\) is a field with no proper subfields. This field \(P\) is called the Prime subfield of \(F\) \cite{hunger}.
 \end{definition}
 
 \begin{enumerate}
 \item If \(charF=p(prime)\), then \(P\cong {\mathbb{Z}}_p\).
-\item If \(charF=0\), then \(P\cong \mathbb{Q}\) \cite{hunger}.
+\item If \(charF=0\), then \(P\cong \mathbb{Q}\)'' \cite{hunger}.
 \end{enumerate}
 
 \begin{theorem}
-A  finite field \(F\) has \(p^n\) number of elements where \(p \in \mathbb{Z}_+\) is a prime and it has \(p^n\) number of elements if and only if \(F\) is a splitting field of \(x^{p^n} - x\) over \(\mathbb{Z}_p\) \cite{hunger}.\\
+``A  finite field \(F\) has \(p^n\) number of elements where \(p \in \mathbb{Z}_+\) is a prime and it has \(p^n\) number of elements if and only if \(F\) is a splitting field of \(x^{p^n} - x\) over \(\mathbb{Z}_p\)'' \cite{hunger}.
 \end{theorem}
+\vspace{4mm}
 
 \begin{theorem}
-  If \(F\) is a finite dimensional extension field of a finite field \(K\), then \(F\) is finite and is Galois over \(K\). The Galois group \(Aut_K^F\) is cyclic \cite{hunger}.
+  ``If \(F\) is a finite dimensional extension field of a finite field \(K\), then \(F\) is finite and is Galois over \(K\). The Galois group \(Aut_K^F\) is cyclic'' \cite{hunger}.
 \end{theorem}
 
 \section{Representation of Finite Fields}
 Basically there are two types of representation of a finite field. These two representations are equivalent.
 \subsection{Integer representation}
 
-\(GF(p^n)=\{0,1,...,p-1\} \cup \{p,p+1,...,p+p-1\} \cup ... \cup \{p^{n-1},p^{n-1}+1,...,p^{n-1}+p^{n-2}+...+p-1\}\).
+``\(GF(p^n)=\{0,1,...,p-1\} \cup \{p,p+1,...,p+p-1\} \cup ... \cup \{p^{n-1},p^{n-1}+1,...,p^{n-1}+p^{n-2}+...+p-1\}\)'' \cite{galois}.
 
 \begin{example}
     \(GF(2)=\{0,1\}\)\\
@@ -42,7 +43,7 @@ But the digits \(2,3,..,7\) of the field \(GF(2^3)\) do not lie on the field \(G
     5 & \(2^2+1\) & 110 \\
     \hline
 \end{tabular}
-\caption{\footnotesize Binary representation table of field elements.}
+\caption{\small Binary representation table of field elements.}
 \end{table}
 \vspace{3mm}
 
@@ -51,7 +52,7 @@ This is actually \textbf{Binary representation} of the field \(GF(2^3)\)
 
 
 \subsection{Polynomial representation}
-For a field \(F\) and an irreducible polynomial \(f(x) \in F[x]\) the quotient ring \(F[x]/(f(x))\) is field.\\
+``For a field \(F\) and an irreducible polynomial \(f(x) \in F[x]\) the quotient ring \(F[x]/(f(x))\) is field'' \cite{galois}.\\
 If \(F\) is a finite field consisting of \(p\) elements and \(f(x) \in F[x]\) is irreducible then \(F[x]/(f(x))\) is finite field. This field consists of all polynomials modulo \(f(x)\). If \(F=GF(2^3)\) then \(x^8+x^7+...+x+1 \in F[x]\) is irreducible in \(F[x]\). Since \(F\) has \(8\) elements which are modulo \(8\), elements of \(F\) is represented by the elements of the factor ring \(F[x]/(f(x))\) \cite{aes}. \\
 
 
