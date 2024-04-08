@@ -1,21 +1,21 @@
 Galois fields are the finite fields. ``They can be completely characterized in terms of splitting fields of some polynomials. It is found that the Galois group of an extension of a finite field by a finite field is cyclic'' \cite{hunger}. We denote Galois field with \(q\) elements by \(GF(q)\).
 
-\begin{definition}[Prime Fields]
-``Let \(F\) be a field and let \(P\) be the intersection of all subfields of \(F\). Then \(P\) is a field with no proper subfields. This field \(P\) is called the Prime subfield of \(F\) \cite{hunger}.
+\begin{definition} \cite{hunger} [Prime Fields]
+Let \(F\) be a field and let \(P\) be the intersection of all subfields of \(F\). Then \(P\) is a field with no proper subfields. This field \(P\) is called the Prime subfield of \(F\).
 \end{definition}
 
 \begin{enumerate}
-\item If \(charF=p(prime)\), then \(P\cong {\mathbb{Z}}_p\).
+\item ``If \(charF=p(prime)\), then \(P\cong {\mathbb{Z}}_p\).
 \item If \(charF=0\), then \(P\cong \mathbb{Q}\)'' \cite{hunger}.
 \end{enumerate}
 
-\begin{theorem}
-``A  finite field \(F\) has \(p^n\) number of elements where \(p \in \mathbb{Z}_+\) is a prime and it has \(p^n\) number of elements if and only if \(F\) is a splitting field of \(x^{p^n} - x\) over \(\mathbb{Z}_p\)'' \cite{hunger}.
+\begin{theorem} \cite{hunger}
+A  finite field \(F\) has \(p^n\) number of elements where \(p \in \mathbb{Z}_+\) is a prime and it has \(p^n\) number of elements if and only if \(F\) is a splitting field of \(x^{p^n} - x\) over \(\mathbb{Z}_p\).
 \end{theorem}
 \vspace{4mm}
 
-\begin{theorem}
-  ``If \(F\) is a finite dimensional extension field of a finite field \(K\), then \(F\) is finite and is Galois over \(K\). The Galois group \(Aut_K^F\) is cyclic'' \cite{hunger}.
+\begin{theorem} \cite{hunger}
+  If \(F\) is a finite dimensional extension field of a finite field \(K\), then \(F\) is finite and is Galois over \(K\). The Galois group \(Aut_K^F\) is cyclic.
 \end{theorem}
 
 \section{Representation of Finite Fields}
@@ -63,6 +63,6 @@ Let the Galois field be \(GF(p^n)\). Since the elements of a Galois field can be
 \begin{enumerate}
   \item Addition \\
   \(f(x)+g(x)\;\;\;\; (modp)\)
-  \item Multiplicaiton \\
+  \item Multiplication \\
   \(f(x).g(x)\;\;\; (modp)\) \cite{aes}.
 \end{enumerate}

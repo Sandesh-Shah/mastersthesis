@@ -5,7 +5,7 @@ Galois Fields are the life of modern cryptography used in digital communication.
 \section{Advance Encryption Standard(AES)}
 The Advance Encryption Standard is a Computer Security Standard for cryptography which is approved by the ``Federal Information Processing Standards Publications'' of USA which became effective on May 26, 2002. ``The AES algorithm is a \textit{symmetric block cipher} that can encrypt and decrypt digital information'' \cite{aes}. Symmetric key cryptography is used to share information between two parties where the two parties share a secret ``key'' and a public encryption algorithm.\\
 
-``In 2000, National Institute of Standards and Technology(NIST) announced the selection of the ``Rijndael'' block cipher family as the winner of the AES cometition and since then AES has been the standard for digital cryptography'' \cite{aes}. ``The Rijendael block cipher was developed by two Belgian cryptographers, \underline{Vincent Rijmen and Joan Daemen}'' \cite{aes}.\\
+``In 2000, National Institute of Standards and Technology(NIST) announced the selection of the ``Rijndael'' block cipher family as the winner of the AES competition and since then AES has been the standard for digital cryptography'' \cite{aes}. ``The Rijendael block cipher was developed by two Belgian cryptographers, \underline{Vincent Rijmen and Joan Daemen}'' \cite{aes}.\\
 
 The generic algorithm of AES consists of smaller sub-algorithms namely\\ ``Sub-Bytes, Shift-Rows, Mix-Columns and Add-Round-Key'' \cite{aes}.
 
@@ -31,9 +31,9 @@ The generic algorithm of AES consists of smaller sub-algorithms namely\\ ``Sub-B
 
 
 \vspace{7mm}
-\section{The Cipher(Alogrithm)}
+\section{The Cipher(Algorithm)}
 \subsection{The State}
-First the data is broken into blocks and each block is broken into smaller chunks of a size byte (16 bytes for a block of size 128bits). This block is then represented in a  which consisting of bytes of the word. This matrix is called the State.\\
+First the data is broken into blocks and each block is broken into smaller chunks of a size byte (16 bytes for a block of size 128 bits). This block is then represented in a  which consisting of bytes of the word. This matrix is called the State.\\
 Mathematical operations are not applicable to the data directly so the significance of this step is to make the data applicable for mathematical operations.\\
 For the 128-bit key encryption the algorithm forms a \(4 \times 4\) matrix with each entry of a size one byte. This matrix can afford to evaluate a data of size 16 byte at a time \cite{aes}.
 
@@ -41,7 +41,7 @@ For the 128-bit key encryption the algorithm forms a \(4 \times 4\) matrix with 
 \subsection{Sub-Bytes}
 In this step, first each byte of the matrix is replaced with its multiplicative inverse if it has one. Then it transforms each bytes using an invertible affine transformation, \(x \mapsto Ax+b\) \cite{aes}.
 
-\subsection{Mathematical Preliminaries}
+\subsection{ Mathematical Preliminaries}
 Each byte in the state i.e each entry in the matrix, is interpreted as one of the 256 elements of a finite field \(GF(2^8)\). Then the addition, multiplication operations are performed according to the respective field operations of the field \(GF(2^8)\).
 
 \vspace{3mm}
@@ -100,7 +100,7 @@ end procedure
 Let us encrypt the sentence "Fun Cryptography". This consists of exactly 16 characters.\vspace{2mm}
 
 \begin{enumerate}
-\item First we write the ASCII representation of each character of the sentence as shown below. We do so because the ASCII representation gives the binary representation of each character which has a size of a byte. The ASCII representaion of "F" is \(70\) which is \(01000110\) in binary.\vspace{2mm}
+\item First we write the ASCII representation of each character of the sentence as shown below. We do so because the ASCII representation gives the binary representation of each character which has a size of a byte. The ASCII representation of "F" is \(70\) which is \(01000110\) in binary.\vspace{2mm}
 
   \[\begin{bmatrix}
       70 & 117 & 110 & 32 \\

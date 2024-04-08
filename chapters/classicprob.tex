@@ -3,13 +3,13 @@
 \item Equivalently, does there exist an explicit "formula" which gives all solutions of a polynomial equation?
 \end{enumerate}
 
-``If the degree of  the polynomial \(f\) is at most four then the answer is \textbf{yes}'' \cite{hunger}.
+If the degree of  the polynomial \(f\) is at most four then the answer is \textbf{yes} \cite{hunger}.
 
 \section{Formulation of the Classic Problem}
 The formula by the method of radicals means the ``formula involving only field operations and the extraction of \(nth\) roots'' \cite{hunger}.
-``The existence of a formula means there is a finite sequence of steps, each step being a field operatioin or the extraction of an \(nth\) roots, which yields all solutions of the given polynomial.
-Performing a field operatioin leaves the base field unchanged, but the extraction of an \(nth\) root of an element
-\(c\) in a field \(K\) amounts to constructing an extenstion field \(K(u)\) with \(u^n \in K\). Thus the existence of a formula for solving \(f(x)=0\) would imply
+``The existence of a formula means there is a finite sequence of steps, each step being a field operation or the extraction of an \(nth\) roots, which yields all solutions of the given polynomial.
+Performing a field operation leaves the base field unchanged, but the extraction of an \(nth\) root of an element
+\(c\) in a field \(K\) amounts to constructing an extension field \(K(u)\) with \(u^n \in K\). Thus the existence of a formula for solving \(f(x)=0\) would imply
 the existence of a finite tower of fields
 \[K=E_0 \subset E_1 \subset ... \subset E_n\]
 such that \(E_n\) contains a splitting field of \(f\) over \(K\) and for each \(i \geq 1\), \(E_i=E_{i-1}(u_i)\) with some positive power of \(u_i\) lying in \(E_{i-1}\)'' \cite{hunger}.\\
@@ -17,49 +17,50 @@ such that \(E_n\) contains a splitting field of \(f\) over \(K\) and for each \(
 \[E_n = K(u_1,u_2,...,u_n)\]
 and each solution is of the form \(f(u_1,...,u_n)/g(u_1,...,u_n)\) where \(f,g \in K[x_1,...,x_n]\). \\
 Thus each solution is expressible in terms of a finite number of elements of \(K\), a finite number of field operations and \(u_1,...,u_n\). But
-this amounts to saying that there is a formula for the solutions of the particular given equation'' \cite{hunger}. \\
+this amounts to saying that there is a formula for the solutions of the particular given equation'' \cite{hunger}.
+\vspace{3mm}
 
-\begin{definition}[Radical Extension]
-``An extenstion field \(F\) of a field \(K\) is a radical extenstion of \(K\) if \(F=K(u_1,...,u_n)\), some power of \(u_1\) lies in \(K\) and for each \(i \geq 2\), some power of \(u_i\) lies in \(K(u_1,...,u_{i-1})\)'' \cite{hunger}.
+\begin{definition} \cite{hunger} [Radical Extension]
+An extension field \(F\) of a field \(K\) is a radical extension of \(K\) if \(F=K(u_1,...,u_n)\), some power of \(u_1\) lies in \(K\) and for each \(i \geq 2\), some power of \(u_i\) lies in \(K(u_1,...,u_{i-1})\).
 \end{definition}
 
-\begin{remark}
-``If \(u_i^m \in K(u_1,...,u_{i-1})\) then \(u_i\) is a root of \(x^m-u_i^m \in K(u_1,...,u_{i-1})[x]\). \\
-Therefore every radical extenstion \(F\) of \(K\) is finite dimensional algebraic over \(K\)'' \cite{hunger}.
+\begin{remark} \cite{hunger}
+If \(u_i^m \in K(u_1,...,u_{i-1})\) then \(u_i\) is a root of \(x^m-u_i^m \in K(u_1,...,u_{i-1})[x]\). \\
+Therefore every radical extension \(F\) of \(K\) is finite dimensional algebraic over \(K\).
 \end{remark}
 
-\begin{definition}
-``The equation \(f(x)=0\) is \textit{solvable by radicals} if there exists a radical extenstion \(F\) of \(K\) and splitting field \(E\) of \(f\) over \(K\) such that \(F \supset E \supset K\)'' \cite{hunger}.
+\begin{definition} \cite{hunger}
+  The equation \(f(x)=0\) is \textit{solvable by radicals} if there exists a radical extension \(F\) of \(K\) and splitting field \(E\) of \(f\) over \(K\) such that \(F \supset E \supset K\).
 \end{definition}
 
-\begin{theorem}
-``If \(F\) is a radical extenstion of \(K\) and \(E\) is an intermediate field, then \(Aut_K^E\) is a solvable group'' \cite{hunger}.
+\begin{theorem} \cite{hunger}
+If \(F\) is a radical extension of \(K\) and \(E\) is an intermediate field, then \(Aut_K^E\) is a solvable group.
 \end{theorem}
 
-\begin{corollary}
-``If the equation \(f(x)=0\) is solvable by radicals, then the Galois group of \(f\) is a solvable group'' \cite{hunger}.
+\begin{corollary} \cite{hunger}
+If the equation \(f(x)=0\) is solvable by radicals, then the Galois group of \(f\) is a solvable group.
 \end{corollary}
 
-\section{Group Theoritic Concepts}
+\section{Group Theoretic Concepts}
 Let \(G\) be a group.
 
-\begin{definition}[Solvable Series]
-``A finite chain of subgroups \(G=G_0>G_1>...>G_n={e}\) such that \(G_{i+1}\) is normal in \(G_i\) for \(0 \leq i < n\) is called a subnormal series of \(G\)'' \cite{hunger}.\\
-``A subnormal series is a solvable series if each factor group \(G_i/G_{i+1}\) is abelian'' \cite{hunger}.
+\begin{definition} \cite{hunger} [Solvable Series]
+A finite chain of subgroups \(G=G_0>G_1>...>G_n={e}\) such that \(G_{i+1}\) is normal in \(G_i\) for \(0 \leq i < n\) is called a subnormal series of \(G\).\\
+A subnormal series is a solvable series if each factor group \(G_i/G_{i+1}\) is abelian.
 \end{definition}
 
-\begin{definition}[Solvable Group]
-``A group is solvable if and only if it has a solvable series'' \cite{hunger}.
+\begin{definition} \cite{hunger} [Solvable Group]
+ A group is solvable if and only if it has a solvable series.
 \end{definition}
 
 If \(F\) is a radical extension of \(K\) then \(F\) is Galois over \(K\) and by the Fundamental Theorem of Galois \(Aut_K^E\) has a solvable series where \(E\) is an intermediate field. So \(Aut_K^E\) is solvable.
 
-\section{Conclusion}
-\begin{theorem}
-``The symmetric group \(S_n\) is not solvable for \(n \geq 5\)'' \cite{hunger}.
+\section{Outcomes}
+\begin{theorem} \cite{hunger}
+The symmetric group \(S_n\) is not solvable for \(n \geq 5\).
 \end{theorem}
 
-The polynomial \(f(x)=x^5-10x+5 \in \mathbb{Q}[x]\) has Galois group ``\(S_5\), which is not a solvable group'' \cite{hunger}. \\ \\
+The polynomial \(f(x)=x^5-10x+5 \in \mathbb{Q}[x]\) has Galois group ``\(S_5\), which is not a solvable group'' \cite{hunger}. \\[3mm]
 The quantic polynomials over \(\mathbb{Q}\) are not solvable by radicals. That is there does not exist an explicit formula for solving the quantics. \\
 Moreover, ``polynomials of degree \(n \geq 5\) are not solvable by radicals'' \cite{hunger}.
 
@@ -73,13 +74,13 @@ Galois theory gives the precise condition under which a polynomial of degree \(n
 \end{example}
 
 \vspace{3mm}
-\begin{definition}[Cyclotomic Polynomial]
-  ``The \(nth\)-cyclotomic polynomial is the polynomial \({\Phi}_n\) defined as \({\Phi}_n= \prod {(x-\zeta)}\), where \(\zeta\) is a primitive-\(nth\) of unity'' \cite{galois}.
+\begin{definition} \cite{galois} [Cyclotomic Polynomial]
+  The \(nth\)-cyclotomic polynomial is the polynomial \({\Phi}_n\) defined as \({\Phi}_n= \prod {(x-\zeta)}\), where \(\zeta\) is a primitive-\(nth\) of unity.
 \end{definition}
 
 \vspace{3mm}
-\begin{theorem}
-  ``The Galois group of a \(nth\)-cyclotomic polynomial \({\Phi}_n\) of is \(\mathbb{Z}_n\)'' \cite{galois}.
+\begin{theorem} \cite{galois}
+  The Galois group of a \(nth\)-cyclotomic polynomial \({\Phi}_n\) of is \(\mathbb{Z}_n\).
 \end{theorem}
 
 \vspace{3mm}

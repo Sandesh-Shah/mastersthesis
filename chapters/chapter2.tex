@@ -7,12 +7,12 @@ If a non-zero field-homomorphism \(\sigma : E \rightarrow F\) is a K-module homo
 i.e, \(\sigma\) fixes \(K\) element-wise.\\
 Conversely, if a field homomorphism \(\sigma : E \rightarrow F\) fixes K element-wise, then \(\sigma\) is a non-zero and for any \(u \in E\), we have, \(\sigma(ku)=\sigma(k)\sigma(u)=k\sigma(u)\)
 i.e \(\sigma\) is a K-module homomorphism \cite{hunger}.
-\begin{definition}
-  A field-automorphism \(\sigma \in Aut F\) which is also K-homomorphism is called K-automorphism. In other words, a field-automorphism \(\sigma \in Aut F\) that fixes K element-wise is called K-automorphism \cite{hunger}.
+\begin{definition} \cite{hunger}
+  A field-automorphism \(\sigma \in Aut F\) which is also K-homomorphism is called K-automorphism. In other words, a field-automorphism \(\sigma \in Aut F\) that fixes K element-wise is called K-automorphism.
 \end{definition}
 
-\begin{definition}
-  ``The group of all K-automorphisms of \(F\) is called the Galois group of \(F\) over \(K\) and it is denoted by \(Aut_K^F\)'' \cite{hunger}.
+\begin{definition} \cite{hunger}
+  ``The group of all K-automorphisms of \(F\) is called the Galois group of \(F\) over \(K\) and it is denoted by \(Aut_K^F\).''
 \end{definition}
 
 \section{Galois extension}
@@ -34,17 +34,17 @@ We have,\\
 \end{example}
 
 \vspace{3mm}
-\begin{definition}
-``Let \(F\) be an extension field of \(K\) such that the fixed field of the Galois group \(Aut_k^F\) is \(K\) itself. Then \(F\) is said to be a Galois extension of \(K\) or Galois over K'' \cite{hunger}.
+\begin{definition} \cite{hunger}
+``Let \(F\) be an extension field of \(K\) such that the fixed field of the Galois group \(Aut_k^F\) is \(K\) itself. Then \(F\) is said to be a Galois extension of \(K\) or Galois over K.''
 \end{definition}
 
 \section{Fundamental Theorem of Galois Theory}
 \begin{tcolorbox}
-\begin{theorem}
+\begin{theorem} \cite{hunger}
   ``If \(F\) is a finite dimensional Galois extension of \(K\), then there is a one-to-one correspondence between the set of all intermediate fields of \(F\) over \(K\) and the set of subgroups of the Galois group \(Aut_K^F\) such that:
   \begin{enumerate}
   \item[i)] the relative dimension of two intermediate fields is equal to the relative index of the corresponding subgroups. In particular \(Aut_K^F\) has order \([F:K]\);
-  \item[ii)] \(F\) is Galois over every intermediate field \(E\), but \(E\) is Galois over \(K\) if and only if the corresponding subgroup \(E'= Aut_E^F\) is normal in \(G=Aut_K^F\).In this case \(G/E'\) is isomorphic to the Galois group \(Aut_K^E\) of \(E\) over \(K\)'' \cite{hunger}.
+  \item[ii)] \(F\) is Galois over every intermediate field \(E\), but \(E\) is Galois over \(K\) if and only if the corresponding subgroup \(E'= Aut_E^F\) is normal in \(G=Aut_K^F\).In this case \(G/E'\) is isomorphic to the Galois group \(Aut_K^E\) of \(E\) over \(K\).''
   \end{enumerate}
 \end{theorem}
 \end{tcolorbox}
@@ -54,29 +54,29 @@ We already have a correspondence between the intermediate fields and the subgrou
 That is to each intermediate field \(E\), there is a subgroup \(Aut_E^F\) and to each subgroup \(H\) there is a fixed field \(H'\). But this correspondence is one-to-one if and only if for each intermediate field \(E\), it satisfies \(E''=E\) and for each subgroup \(H\), it satisfies \(H''=H\).
 
 \subsection{Closed Field and Subgroup}
-\begin{definition}
-  ``Let \(X\) be an intermediate field or subgroup of the Galois group. \(X\) will be called \textbf{closed} provided \(X=X''\)'' \cite{hunger}.\\
+\begin{definition} \cite{hunger}
+  ``Let \(X\) be an intermediate field or subgroup of the Galois group. \(X\) will be called \textbf{closed} provided \(X=X''\).''
 \end{definition}
 \clearpage
 
-\begin{lemma}.
+\begin{lemma} \cite{hunger}
 \begin{enumerate}
-\item[i)] ``If \(F\) is an extension field of \(K\), then there is one-to-one correspondence between the closed intermediate fields of the extension and the closed subgroups of the Galois group, given by \(E \rightarrow E' =  Aut_E^F\)'' \cite{hunger}.
-\item[ii)]``If \(F\) is a finite dimensional Galois extension of \(K\), then all intermediate fields and all subgroups of the Galois group are closed and \(Aut_K^F\) has order \([F:K]\)'' \cite{hunger}.
+\item[i)] If \(F\) is an extension field of \(K\), then there is one-to-one correspondence between the closed intermediate fields of the extension and the closed subgroups of the Galois group, given by \(E \rightarrow E' =  Aut_E^F\).
+\item[ii)] If \(F\) is a finite dimensional Galois extension of \(K\), then all intermediate fields and all subgroups of the Galois group are closed and \(Aut_K^F\) has order \([F:K]\).
   \end{enumerate}
 \end{lemma}
 \vspace{3mm}
 
 \subsection{Stable Intermediate}
-\begin{definition}
-  An intermediate field \(E\) of \(F\) over \(K\) is said to be stable intermediate if \(\sigma(E) \subseteq E\) for every \(\sigma \in Aut_K^F\) \cite{hunger}.
+\begin{definition} \cite{hunger}
+  An intermediate field \(E\) of \(F\) over \(K\) is said to be stable intermediate if \(\sigma(E) \subseteq E\) for every \(\sigma \in Aut_K^F\) .
 \end{definition}
 
-\begin{lemma}
+\begin{lemma} \cite{hunger}
   \begin{enumerate}
-  \item[i)] ``If E is a stable intermediate field of the extension, then \(E'=Aut_E^F\) is a normal subgroup of the Galois group \(Aut_K^F\)'' \cite{hunger};
-  \item[ii)] ``if \(H\) is a normal subgroup of \(Aut_K^F\), then the fixed field \(H'\) of \(H\) is a stable intermediate field of the extension''
-    \cite{hunger}.
+  \item[i)] If E is a stable intermediate field of the extension, then \(E'=Aut_E^F\) is a normal subgroup of the Galois group \(Aut_K^F\) ;
+
+  \item[ii)] if \(H\) is a normal subgroup of \(Aut_K^F\), then the fixed field \(H'\) of \(H\) is a stable intermediate field of the extension
   \end{enumerate}
 \end{lemma}
 \vspace{3mm}
@@ -88,7 +88,7 @@ From lemma 1 above, one-to-one correspondence between the intermediate fields an
 \vspace{3mm}
 
 \section{Application}
-The fundamental theorem links Field theory to Group theory. This allows us to use the tools of Group theory to solve the problems involving field theory. Solving a polynomial equation is a problem of field theory. We can use insights of Group theory to solve this problem of field theory which is discussed in some detail in next part of this thesis.
+The fundamental theorem links Field theory to Group theory. This allows us to use the tools of Group theory to solve the problems involving field theory. Solving a polynomial equation is a problem of field theory. We can use insights of Group theory to solve this problem of field theory which is discussed in some detail in next part of this thesis \cite{hunger}.
 \clearpage
 
 \section{Illustration of The Fundamental Theorem}
@@ -171,56 +171,74 @@ The structure of a field as an extension field over some field is mirrored in th
 
 The structure of a field is a \textbf{complicated} thing; specially if it is infinite. But the structure of a group is rather simple; especially if it is finite. So the Galois theory has fairly simplified the complicated thing in a very insightful and beautiful way.\\
 
-Also Galois theory gives a new sights of study of fields which is ``study of fields via study of its automorphisms'' which are permutations of the field.
-\vspace{15mm}
-That is,
-\begin{minipage}{0.33\textwidth}
-  \begin{tcolorbox}[colback=gray!20, colframe=blue!20, title={ \textcolor{red}{Structure of a Field \(F\)}}, width=5cm]
-    \begin{tikzpicture}
-      \hspace{10mm}
-      \node[minimum width=7mm,
+Also Galois theory gives a new sights of study of fields which is ``study of fields via study of its automorphisms'' which are permutations of the field. That is\\[5mm]
+
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}
+
+    \node[rectangle, very thick, draw,
+    minimum height=4.5cm,
+    minimum width=2.7cm] (rec) at (0,0) {};
+
+    \node[rectangle, very thick, draw,
+    minimum height=4.5cm,
+    minimum width=2.7cm] (rec2) at (6,0) {};
+
+
+    \node[minimum width=7mm,
       minimum height=7mm,
-      fill=brown!70] (f) {\large F};
+      fill=gray!40,
+      ] (ss) at (0,2.7) {Structure of a field \(F\)};
 
       \node[minimum width=7mm,
       minimum height=7mm,
-      fill=brown!70,
+      fill=gray!40,
+      ] (ss2) at (6,2.7) {Structure of its symmetry};
+
+      \draw[<->, thick] (ss)--(ss2);
+       \draw[<->, thick] (rec)--(rec2);
+
+      \node[minimum width=7mm,
+      minimum height=7mm,
+      fill=gray!40] (f) at (0,1.2) {\large F};
+
+      \node[minimum width=7mm,
+      minimum height=7mm,
+      fill=gray!40,
       below of=f, yshift=-3mm] (e) {\large E};
 
+      \node[right of=e,
+      xshift=20mm, yshift=3mm] (txt) {\textcolor{magenta}{Equivalent}};
+
       \node[minimum width=7mm,
       minimum height=7mm,
-      fill=brown!70,
+      fill=gray!40,
       below of=e, yshift=-3mm] (k) {\large K};
 
       \draw[<-,thick] (f)--(e);
       \draw[<-,thick] (e)--(k);
-    \end{tikzpicture}
-   \end{tcolorbox}
-  \end{minipage} \hrulefill
-    \begin{minipage}{0.37\textwidth}
-      \begin{tcolorbox}[colback=gray!20, colframe=blue!20, title={ \textcolor{red}{Structure of its symmetry}},  width=6cm]
-        \begin{tikzpicture}
-          \hspace{11mm}
-      \node[minimum width=7mm,
+
+      \node[right of=f,
+      xshift=5cm,
+      minimum width=7mm,
       minimum height=7mm,
-      fill=violet!50,
+      fill=gray!40,
       ] (i) {\large \{e\}};
 
       \node[minimum width=7mm,
       minimum height=7mm,
-      fill=violet!50,
+      fill=gray!40,
       below of=i, yshift=-3mm] (h) {\large H};
 
       \node[
       minimum width=7mm,
       minimum height=7mm,
-      fill=violet!50,
+      fill=gray!40,
       below of=h, yshift=-3mm] (g) {\large G};
 
       \draw[->, thick] (i)--(h);
       \draw[->, thick] (h)--(g);
     \end{tikzpicture}
-    \end{tcolorbox}
-  \end{minipage}\\
-
-  These two things are equivalent.
+    \caption{\footnotesize Equivalency}
+\end{figure}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.7)  24 MAR 2024 19:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.5)  8 APR 2024 17:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1232,11 +1232,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--20
-
- []
-
 [5
 
 ]) (./premilinaries/approval.tex
@@ -1342,14 +1337,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
 ) [3
 
-] (./chapters/chapter2.tex [4
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
-
+] (./chapters/chapter2.tex
+Overfull \hbox (1.49387pt too wide) in paragraph at lines 10--12
+[]\OT1/cmr/bx/n/12 Definition 1. [] \OT1/cmr/m/n/12 [3] A field-automorphism $\
+OML/cmm/m/it/12 ^^[ \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 AutF$ \OT1/cmr/m/n/12 w
+hich is also K-homomorphism
  []
 
-[5] [6
+[4
+
+] [5] [6
 
 ]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
@@ -1390,77 +1387,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
  []
 
 
-Overfull \hbox (4.98302pt too wide) in paragraph at lines 198--198
-[] 
- []
-
-
-Overfull \hbox (16.79855pt too wide) in paragraph at lines 223--223
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--225
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 ) [8
 
 ] (./chapters/chapter3.tex
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
 [9
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-) [10] [11
+]) [10] [11
 
 ] (./chapters/chapter4.tex [12
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-[13]
+] [13]
 
 Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 189.
+(caption)                outside box or environment on input line 182.
 See the caption package documentation for explanation.
 
 [14]
 <pictures//quantic2.png, id=144, 877.2775pt x 657.45625pt>
 File: pictures//quantic2.png Graphic file (type png)
 <use pictures//quantic2.png>
-Package pdftex.def Info: pictures//quantic2.png  used on input line 293.
+Package pdftex.def Info: pictures//quantic2.png  used on input line 286.
 (pdftex.def)             Requested size: 369.88635pt x 199.16454pt.
 
-Overfull \hbox (10.79134pt too wide) in paragraph at lines 311--311
+Overfull \hbox (10.79134pt too wide) in paragraph at lines 304--304
 [] 
  []
 
@@ -1470,41 +1427,27 @@ Overfull \hbox (10.79134pt too wide) in paragraph at lines 311--311
 <pictures//seventh2.png, id=148, 282.05376pt x 416.55624pt>
 File: pictures//seventh2.png Graphic file (type png)
 <use pictures//seventh2.png>
-Package pdftex.def Info: pictures//seventh2.png  used on input line 319.
+Package pdftex.def Info: pictures//seventh2.png  used on input line 312.
 (pdftex.def)             Requested size: 313.00159pt x 199.16927pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--332
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
 
  []
 
 [16 <./pictures//seventh2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
+) [17] (./chapters/classicprob.tex [18
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-) [17] (./chapters/classicprob.tex
-Underfull \hbox (badness 10000) in paragraph at lines 17--21
-
- []
-
-[18
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 62--65
-
- []
-
-[19]) [20] (./chapters/chapter5.tex [21
+] [19]) [20] (./chapters/chapter5.tex
+[21
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 55--57
@@ -1512,38 +1455,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--57
  []
 
 ) [22] (./chapters/coding.tex
-Underfull \hbox (badness 10000) in paragraph at lines 8--13
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
 
  []
 
 [23
 
 ] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 85--87
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 167--174
+Underfull \hbox (badness 10000) in paragraph at lines 171--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 [26
 
 ]
-Underfull \hbox (badness 5985) in paragraph at lines 203--204
+Underfull \hbox (badness 5985) in paragraph at lines 207--208
 []\OT1/cmr/m/n/12 Suppose $\OML/cmm/m/it/12 C$ \OT1/cmr/m/n/12 is a code over a
  Ga-lois field $\OML/cmm/m/it/12 F \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 GF\OT1/cm
 r/m/n/12 (\OML/cmm/m/it/12 q\OT1/cmr/m/n/12 )$. Then
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 203--204
+Underfull \hbox (badness 4366) in paragraph at lines 207--208
 \OT1/cmr/m/n/12 there ex-ist a cor-re-spon-dence $^^H : \OML/cmm/m/it/12 C \OMS
 /cmsy/m/n/12 7! \OML/cmm/m/it/12 F\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 x\OT1/cmr/m
 /n/12 ]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[] \OMS/cmsy/m/n/12
@@ -1551,7 +1494,7 @@ Underfull \hbox (badness 4366) in paragraph at lines 203--204
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 203--204
+Underfull \hbox (badness 5924) in paragraph at lines 207--208
 \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; a[]; :::; a[]\OT1/cmr/
 m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; :::; a[]; a[]
 \OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; ::::; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]
@@ -1560,7 +1503,7 @@ m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; :::; a[]; a[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
@@ -1632,10 +1575,10 @@ Package pdftex.def Info: pictures//seminar.jpg  used on input line 81.
 
 (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 37056 strings out of 480247
- 895676 string characters out of 5896152
- 1319719 words of memory out of 5000000
- 54366 multiletter control sequences out of 15000+600000
+ 37084 strings out of 480247
+ 896097 string characters out of 5896152
+ 1320719 words of memory out of 5000000
+ 54394 multiletter control sequences out of 15000+600000
  482457 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,12n,110p,727b,864s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1655,7 +1598,7 @@ nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (47 pages, 11030857 bytes).
+Output written on thesis.pdf (47 pages, 11031037 bytes).
 PDF statistics:
  295 PDF objects out of 1000 (max. 8388607)
  175 compressed objects within 2 object streams
