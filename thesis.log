@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.5)  8 APR 2024 17:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.5)  17 APR 2024 16:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1362,32 +1362,26 @@ Overfull \hbox (17.46251pt too wide) in paragraph at lines 130--130
  []
 
 
-Overfull \hbox (6.75209pt too wide) in paragraph at lines 142--143
-\OT1/cmr/m/n/12 The na-ture of a num-ber de-pends upon the un-der-ly-ing field.
- As a field-automorphism
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
 [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
@@ -1446,7 +1440,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
 ) [17] (./chapters/classicprob.tex [18
 
-] [19]) [20] (./chapters/chapter5.tex
+] [19
+
+]) [20
+
+] (./chapters/chapter5.tex
 [21
 
 ]
@@ -1455,38 +1453,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--57
  []
 
 ) [22] (./chapters/coding.tex
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
 [23
 
 ] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 171--178
+Underfull \hbox (badness 10000) in paragraph at lines 169--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 [26
 
 ]
-Underfull \hbox (badness 5985) in paragraph at lines 207--208
+Underfull \hbox (badness 5985) in paragraph at lines 205--206
 []\OT1/cmr/m/n/12 Suppose $\OML/cmm/m/it/12 C$ \OT1/cmr/m/n/12 is a code over a
  Ga-lois field $\OML/cmm/m/it/12 F \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 GF\OT1/cm
 r/m/n/12 (\OML/cmm/m/it/12 q\OT1/cmr/m/n/12 )$. Then
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 207--208
+Underfull \hbox (badness 4366) in paragraph at lines 205--206
 \OT1/cmr/m/n/12 there ex-ist a cor-re-spon-dence $^^H : \OML/cmm/m/it/12 C \OMS
 /cmsy/m/n/12 7! \OML/cmm/m/it/12 F\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 x\OT1/cmr/m
 /n/12 ]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[] \OMS/cmsy/m/n/12
@@ -1494,7 +1492,7 @@ Underfull \hbox (badness 4366) in paragraph at lines 207--208
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 207--208
+Underfull \hbox (badness 5924) in paragraph at lines 205--206
 \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; a[]; :::; a[]\OT1/cmr/
 m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; :::; a[]; a[]
 \OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; ::::; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]
@@ -1503,7 +1501,7 @@ m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; :::; a[]; a[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--208
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
@@ -1522,22 +1520,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--44
+
+ []
+
 [29
 
 ] [30]
 
-LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 82.
+LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 90.
 
 
-Overfull \hbox (10.79134pt too wide) in paragraph at lines 83--83
+Overfull \hbox (10.79134pt too wide) in paragraph at lines 91--91
 [] 
  []
 
 
-LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 96.
+LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 104.
 
 
-Overfull \hbox (10.79134pt too wide) in paragraph at lines 97--97
+Overfull \hbox (10.79134pt too wide) in paragraph at lines 105--105
 [] 
  []
 
@@ -1552,12 +1555,12 @@ bibitemlist
 <pictures//thesis_grant.jpg, id=216, 3886.52pt x 2695.06876pt>
 File: pictures//thesis_grant.jpg Graphic file (type jpg)
 <use pictures//thesis_grant.jpg>
-Package pdftex.def Info: pictures//thesis_grant.jpg  used on input line 76.
+Package pdftex.def Info: pictures//thesis_grant.jpg  used on input line 75.
 (pdftex.def)             Requested size: 341.40993pt x 227.61794pt.
 <pictures//seminar.jpg, id=217, 3765.06625pt x 2631.8325pt>
 File: pictures//seminar.jpg Graphic file (type jpg)
 <use pictures//seminar.jpg>
-Package pdftex.def Info: pictures//seminar.jpg  used on input line 81.
+Package pdftex.def Info: pictures//seminar.jpg  used on input line 80.
 (pdftex.def)             Requested size: 341.4266pt x 227.61826pt.
  [35
 
@@ -1577,7 +1580,7 @@ Package pdftex.def Info: pictures//seminar.jpg  used on input line 81.
 Here is how much of TeX's memory you used:
  37084 strings out of 480247
  896097 string characters out of 5896152
- 1320719 words of memory out of 5000000
+ 1319719 words of memory out of 5000000
  54394 multiletter control sequences out of 15000+600000
  482457 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1598,7 +1601,7 @@ nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (47 pages, 11031037 bytes).
+Output written on thesis.pdf (47 pages, 11034184 bytes).
 PDF statistics:
  295 PDF objects out of 1000 (max. 8388607)
  175 compressed objects within 2 object streams

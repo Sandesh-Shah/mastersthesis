@@ -1,17 +1,15 @@
-Any information gets deteriorated or lost over time.
+The loss of information is inevitable. It cannot be prevented or stopped. So, we need a way of retrieving the lost information or correcting the false information.
 
 \begin{enumerate}
 \item Paintings gets deteriorated over time and has to be renovated.
-\item Some of the words spoken by teacher in the class is missed due to noise \cite{coding}.
+\item The data stored in a CD is lost over time \cite{coding}.
 \end{enumerate}
 
-To be able to over come this issue , i.e to be able to detect and correct errors during transmission of information in digital system "coding theory" is developed.
-In digital system, information are transmitted as strings of \(0\) and \(1\). The idea of coding theory is to append some extra digits to the information and use this to detect and possibly correct the errors during transmission.
+To be able to detect and correct errors during transmission of information in digital system "coding theory" is developed. The idea of coding theory is to append some extra digits to the information and use this to detect and possibly correct the errors during transmission.
 \begin{definition} \cite{coding}
   These codes that can correct themselves are called ``Error correcting codes''
 \end{definition}
-
-So the fundamental of the coding theory in computer system is the manipulation of strings of binary digits. The proper and complete manipulation of these strings is possibly only if the space of the strings is a field. This field is finite so this field is a \textbf{Galois field}. This is where the application of Galois theory comes.
+In digital system, information are transmitted as strings of \(0\) and \(1\). So the fundamental of the coding theory in computer system is the manipulation of strings of binary digits. The proper and complete manipulation of these strings is possibly only if the space of the strings is a field. This field is finite so this field is a \textbf{Galois field}. This is where the application of Galois theory comes.
 Another advantage of using field is that the space of code forms a vector space over the base field. \\
 The widely used field for coding in electronically transmitting device is an extension field \({\mathbb{Z}}_2\) which is the field \(GF(2)\) consisting of \(0\) and \(1\). Recent works has shown that it is possible to extend codes to more general type of numbers called rings. This rings are called "Galois rings" \cite{error_correct}.\\
 

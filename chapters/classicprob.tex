@@ -3,7 +3,9 @@
 \item Equivalently, does there exist an explicit "formula" which gives all solutions of a polynomial equation?
 \end{enumerate}
 
-If the degree of  the polynomial \(f\) is at most four then the answer is \textbf{yes} \cite{hunger}.
+If the degree of  the polynomial \(f\) is at most four then the answer is \textbf{yes} \cite{hunger}.\\
+For example, the quadratic polynomial equation \(ax^2+bx+c=0\) has the formula \[x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\]
+\vspace{3mm}
 
 \section{Formulation of the Classic Problem}
 The formula by the method of radicals means the ``formula involving only field operations and the extraction of \(nth\) roots'' \cite{hunger}.
@@ -15,7 +17,9 @@ the existence of a finite tower of fields
 such that \(E_n\) contains a splitting field of \(f\) over \(K\) and for each \(i \geq 1\), \(E_i=E_{i-1}(u_i)\) with some positive power of \(u_i\) lying in \(E_{i-1}\)'' \cite{hunger}.\\
 ``Conversely suppose there exists such a tower of fields and that \(E_n\) contains a splitting field of \(f\). Then
 \[E_n = K(u_1,u_2,...,u_n)\]
-and each solution is of the form \(f(u_1,...,u_n)/g(u_1,...,u_n)\) where \(f,g \in K[x_1,...,x_n]\). \\
+and each solution is of the form \(f(u_1,...,u_n)/g(u_1,...,u_n)\) where \(f,g \in K[x_1,...,x_n]\).
+\clearpage
+
 Thus each solution is expressible in terms of a finite number of elements of \(K\), a finite number of field operations and \(u_1,...,u_n\). But
 this amounts to saying that there is a formula for the solutions of the particular given equation'' \cite{hunger}.
 \vspace{3mm}
@@ -24,13 +28,15 @@ this amounts to saying that there is a formula for the solutions of the particul
 An extension field \(F\) of a field \(K\) is a radical extension of \(K\) if \(F=K(u_1,...,u_n)\), some power of \(u_1\) lies in \(K\) and for each \(i \geq 2\), some power of \(u_i\) lies in \(K(u_1,...,u_{i-1})\).
 \end{definition}
 
+\vspace{3mm}
 \begin{remark} \cite{hunger}
 If \(u_i^m \in K(u_1,...,u_{i-1})\) then \(u_i\) is a root of \(x^m-u_i^m \in K(u_1,...,u_{i-1})[x]\). \\
 Therefore every radical extension \(F\) of \(K\) is finite dimensional algebraic over \(K\).
 \end{remark}
+\vspace{3mm}
 
 \begin{definition} \cite{hunger}
-  The equation \(f(x)=0\) is \textit{solvable by radicals} if there exists a radical extension \(F\) of \(K\) and splitting field \(E\) of \(f\) over \(K\) such that \(F \supset E \supset K\).
+  The polynomial equation \(f(x)=0\) is \textit{solvable by radicals} if there exists a radical extension \(F\) of \(K\) and splitting field \(E\) of \(f\) over \(K\) such that \(F \supset E \supset K\).
 \end{definition}
 
 \begin{theorem} \cite{hunger}
@@ -38,8 +44,9 @@ If \(F\) is a radical extension of \(K\) and \(E\) is an intermediate field, the
 \end{theorem}
 
 \begin{corollary} \cite{hunger}
-If the equation \(f(x)=0\) is solvable by radicals, then the Galois group of \(f\) is a solvable group.
+If the polynomial equation \(f(x)=0\) is solvable by radicals, then the Galois group of \(f\) is a solvable group.
 \end{corollary}
+\vspace{3mm}
 
 \section{Group Theoretic Concepts}
 Let \(G\) be a group.
@@ -54,6 +61,7 @@ A subnormal series is a solvable series if each factor group \(G_i/G_{i+1}\) is 
 \end{definition}
 
 If \(F\) is a radical extension of \(K\) then \(F\) is Galois over \(K\) and by the Fundamental Theorem of Galois \(Aut_K^E\) has a solvable series where \(E\) is an intermediate field. So \(Aut_K^E\) is solvable.
+\clearpage
 
 \section{Outcomes}
 \begin{theorem} \cite{hunger}
@@ -61,16 +69,16 @@ The symmetric group \(S_n\) is not solvable for \(n \geq 5\).
 \end{theorem}
 
 The polynomial \(f(x)=x^5-10x+5 \in \mathbb{Q}[x]\) has Galois group ``\(S_5\), which is not a solvable group'' \cite{hunger}. \\[3mm]
-The quantic polynomials over \(\mathbb{Q}\) are not solvable by radicals. That is there does not exist an explicit formula for solving the quantics. \\
-Moreover, ``polynomials of degree \(n \geq 5\) are not solvable by radicals'' \cite{hunger}.
+The quantic polynomial equations over \(\mathbb{Q}\) are not solvable by radicals. That is there does not exist an explicit formula for solving the quantics. \\
+Moreover, ``polynomial equations of degree \(n \geq 5\) are not solvable by radicals'' \cite{hunger}.
 
 \subsection{Illustrations}
 Galois theory gives the precise condition under which a polynomial of degree \(n \geq 5\) is solvable by radicals or not.
 
 \vspace{5mm}
 \begin{example}
-  The polynomial is \(x^5-1 \in \mathbb{Q}[x]\).\\
-  The set of  roots of this polynomial are the fifth roots of unity which forms a group under addition modulo \(5\). Hence the ``Galois group is isomorphic to \(\mathbb{Z}_5\)'' \cite{hunger}. The group \(\mathbb{Z}_5\) is cyclic and ``every cyclic group is solvable'' \cite{galois}. Hence this polynomial is solvable by radicals.
+  The polynomial is \(g(x)=x^5-1 \in \mathbb{Q}[x]\).\\
+  The set of  roots of this polynomial equation \(g(x)=0\) are the fifth roots of unity which forms a group under addition modulo \(5\). Hence the ``Galois group is isomorphic to \(\mathbb{Z}_5\)'' \cite{hunger}. The group \(\mathbb{Z}_5\) is cyclic and ``every cyclic group is solvable'' \cite{galois}. Hence this polynomial is solvable by radicals.
 \end{example}
 
 \vspace{3mm}
@@ -87,5 +95,5 @@ Galois theory gives the precise condition under which a polynomial of degree \(n
 \begin{example}
 The polynomial is \(f(x)=x^{12}-x^{10}+x^8-x^6-x^2+1 \in \mathbb{Q}\)\\
 which is a 58th-cyclotomic polynomal i.e this polynomial \(f(x)={\Phi}_{58}\).\\
-  So its Galois group is \(\mathbb{Z}_{58}\), which is abelian and hence is solvable. Therefore this polynomial \(f(x)\) is solvable by radicals.
+  So its Galois group is \(\mathbb{Z}_{58}\), which is abelian and hence is solvable. Therefore this polynomial equation \(f(x)=0\) is solvable by radicals.
 \end{example}
