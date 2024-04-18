@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.5)  17 APR 2024 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.5)  18 APR 2024 09:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1177,7 +1177,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks57
 \inpenc@posthook=\toks58
 )
-(./premilinaries/titlepage.tex
+(./premilinaries/titlepage2.tex
 <pictures/tulogo.png, id=41, 208.78pt x 243.91125pt>
 File: pictures/tulogo.png Graphic file (type png)
 <use pictures/tulogo.png>
@@ -1579,8 +1579,8 @@ Package pdftex.def Info: pictures//seminar.jpg  used on input line 80.
 (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
  37084 strings out of 480247
- 896097 string characters out of 5896152
- 1319719 words of memory out of 5000000
+ 896103 string characters out of 5896152
+ 1320719 words of memory out of 5000000
  54394 multiletter control sequences out of 15000+600000
  482457 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1601,7 +1601,7 @@ nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (47 pages, 11034184 bytes).
+Output written on thesis.pdf (47 pages, 11033930 bytes).
 PDF statistics:
  295 PDF objects out of 1000 (max. 8388607)
  175 compressed objects within 2 object streams
