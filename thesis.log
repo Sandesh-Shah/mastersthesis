@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.5)  18 APR 2024 09:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.5)  23 APR 2024 11:02
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1240,17 +1240,12 @@ File: pictures/tulogo.png Graphic file (type png)
 Package pdftex.def Info: pictures/tulogo.png  used on input line 4.
 (pdftex.def)             Requested size: 62.39746pt x 72.89479pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
+Overfull \hbox (13.75798pt too wide) in paragraph at lines 8--33
+[]$   $[]$ 
  []
 
 
-Overfull \hbox (23.41235pt too wide) in paragraph at lines 8--30
-[] $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--30
+Underfull \hbox (badness 10000) in paragraph at lines 8--33
 
  []
 
@@ -1283,12 +1278,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 16--25
 []$[]$ 
  []
 
-[7]) (./premilinaries/abs.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-[8
+[7]) (./premilinaries/abs.tex [8
 
 ]) (./premilinaries/symbolconvention.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
@@ -1304,11 +1294,8 @@ Overfull \hbox (0.16266pt too wide) detected at line 6
 
 [10
 
-]) (./thesis.lot [11]) (./thesis.lof) [12] [1
-
-
-] (./chapters/chapter1.tex
-<pictures//galois.jpg, id=97, 197.73875pt x 255.95625pt>
+]) (./thesis.lot) (./thesis.lof) [11] (./chapters/chapter1.tex
+<pictures//galois.jpg, id=90, 197.73875pt x 255.95625pt>
 File: pictures//galois.jpg Graphic file (type jpg)
 <use pictures//galois.jpg>
 Package pdftex.def Info: pictures//galois.jpg  used on input line 2.
@@ -1323,168 +1310,162 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-[2
+[1
+
 
  <./pictures//galois.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 20--22
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--25
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
-) [3
+[2
 
-] (./chapters/chapter2.tex
-Overfull \hbox (1.49387pt too wide) in paragraph at lines 10--12
+]
+Overfull \hbox (1.49387pt too wide) in paragraph at lines 63--65
 []\OT1/cmr/bx/n/12 Definition 1. [] \OT1/cmr/m/n/12 [3] A field-automorphism $\
 OML/cmm/m/it/12 ^^[ \OMS/cmsy/m/n/12 2 \OML/cmm/m/it/12 AutF$ \OT1/cmr/m/n/12 w
 hich is also K-homomorphism
  []
 
-[4
-
-] [5] [6
-
-]
+[3] [4]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 1
-19.
+71.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 171.
 
-Overfull \hbox (17.46251pt too wide) in paragraph at lines 130--130
+Overfull \hbox (17.46251pt too wide) in paragraph at lines 182--182
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--144
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
 
  []
 
+[5]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
-[7
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 209.
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 317--319
+
+ []
+
+[7]) [8] (./chapters/chapter4.tex [9
+
+] [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-) [8
-
-] (./chapters/chapter3.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
-
- []
-
-[9
-
-]) [10] [11
-
-] (./chapters/chapter4.tex [12
-
-] [13]
 
 Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 182.
+(caption)                outside box or environment on input line 186.
 See the caption package documentation for explanation.
 
-[14]
-<pictures//quantic2.png, id=144, 877.2775pt x 657.45625pt>
+[11
+
+]
+<pictures//quantic2.png, id=131, 877.2775pt x 657.45625pt>
 File: pictures//quantic2.png Graphic file (type png)
 <use pictures//quantic2.png>
-Package pdftex.def Info: pictures//quantic2.png  used on input line 286.
+Package pdftex.def Info: pictures//quantic2.png  used on input line 289.
 (pdftex.def)             Requested size: 369.88635pt x 199.16454pt.
 
-Overfull \hbox (10.79134pt too wide) in paragraph at lines 304--304
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (10.79134pt too wide) in paragraph at lines 307--307
 [] 
  []
 
-[15
-
- <./pictures//quantic2.png (PNG copy)>]
-<pictures//seventh2.png, id=148, 282.05376pt x 416.55624pt>
+[12]
+<pictures//seventh2.png, id=135, 282.05376pt x 416.55624pt>
 File: pictures//seventh2.png Graphic file (type png)
 <use pictures//seventh2.png>
-Package pdftex.def Info: pictures//seventh2.png  used on input line 312.
+Package pdftex.def Info: pictures//seventh2.png  used on input line 315.
 (pdftex.def)             Requested size: 313.00159pt x 199.16927pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--321
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--325
+Underfull \hbox (badness 10000) in paragraph at lines 326--328
 
  []
 
-[16 <./pictures//seventh2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+[13 <./pictures//quantic2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
-) [17] (./chapters/classicprob.tex [18
-
-] [19
-
-]) [20
-
-] (./chapters/chapter5.tex
-[21
+[14 <./pictures//seventh2.png>] [15] [16]) [17] (./chapters/coding.tex [18
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-) [22] (./chapters/coding.tex
-Underfull \hbox (badness 10000) in paragraph at lines 12--15
-
- []
-
-[23
-
-] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
-
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 169--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-
- []
-
-[26
+[19
 
 ]
-Underfull \hbox (badness 5985) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
+
+ []
+
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 240--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
+
+ []
+
+[23]
+Underfull \hbox (badness 5985) in paragraph at lines 276--277
 []\OT1/cmr/m/n/12 Suppose $\OML/cmm/m/it/12 C$ \OT1/cmr/m/n/12 is a code over a
  Ga-lois field $\OML/cmm/m/it/12 F \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 GF\OT1/cm
 r/m/n/12 (\OML/cmm/m/it/12 q\OT1/cmr/m/n/12 )$. Then
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 205--206
+Underfull \hbox (badness 4366) in paragraph at lines 276--277
 \OT1/cmr/m/n/12 there ex-ist a cor-re-spon-dence $^^H : \OML/cmm/m/it/12 C \OMS
 /cmsy/m/n/12 7! \OML/cmm/m/it/12 F\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 x\OT1/cmr/m
 /n/12 ]\OML/cmm/m/it/12 =\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x[] \OMS/cmsy/m/n/12
@@ -1492,7 +1473,7 @@ Underfull \hbox (badness 4366) in paragraph at lines 205--206
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 205--206
+Underfull \hbox (badness 5924) in paragraph at lines 276--277
 \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; a[]; :::; a[]\OT1/cmr/
 m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; :::; a[]; a[]
 \OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ; ::::; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]
@@ -1501,68 +1482,63 @@ m/n/12 )\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a[]; :::; a[]; a[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
-[27]) [28
-
-] (./chapters/crypto.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
 
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--44
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
 
  []
 
-[29
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 357--365
 
-] [30]
+ []
 
-LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 90.
+[26]
+
+LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 411.
 
 
-Overfull \hbox (10.79134pt too wide) in paragraph at lines 91--91
+Overfull \hbox (10.79134pt too wide) in paragraph at lines 412--412
 [] 
  []
 
 
-LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 104.
+LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 425.
 
 
-Overfull \hbox (10.79134pt too wide) in paragraph at lines 105--105
+Overfull \hbox (10.79134pt too wide) in paragraph at lines 426--426
 [] 
  []
 
-[31]) [32] (./chapters/summary.tex) [33
+[27] [28]) [29
 
-] (./mybib.tex
+] (./chapters/summary.tex) (./mybib.tex [30
+
+
+]
 bibitemlist
-[34
-
+[31
 
 ])
-<pictures//thesis_grant.jpg, id=216, 3886.52pt x 2695.06876pt>
+<pictures//thesis_grant.jpg, id=202, 3886.52pt x 2695.06876pt>
 File: pictures//thesis_grant.jpg Graphic file (type jpg)
 <use pictures//thesis_grant.jpg>
-Package pdftex.def Info: pictures//thesis_grant.jpg  used on input line 75.
+Package pdftex.def Info: pictures//thesis_grant.jpg  used on input line 55.
 (pdftex.def)             Requested size: 341.40993pt x 227.61794pt.
-<pictures//seminar.jpg, id=217, 3765.06625pt x 2631.8325pt>
+<pictures//seminar.jpg, id=203, 3765.06625pt x 2631.8325pt>
 File: pictures//seminar.jpg Graphic file (type jpg)
 <use pictures//seminar.jpg>
-Package pdftex.def Info: pictures//seminar.jpg  used on input line 80.
+Package pdftex.def Info: pictures//seminar.jpg  used on input line 60.
 (pdftex.def)             Requested size: 341.4266pt x 227.61826pt.
- [35
+ [32
 
 
  <./pictures//thesis_grant.jpg> <./pictures//seminar.jpg>]
@@ -1578,13 +1554,13 @@ Package pdftex.def Info: pictures//seminar.jpg  used on input line 80.
 
 (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 37084 strings out of 480247
- 896103 string characters out of 5896152
- 1320719 words of memory out of 5000000
- 54394 multiletter control sequences out of 15000+600000
+ 37053 strings out of 480247
+ 895393 string characters out of 5896152
+ 1321719 words of memory out of 5000000
+ 54378 multiletter control sequences out of 15000+600000
  482457 words of font info for 79 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,12n,110p,727b,864s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,12n,110p,940b,864s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/sandesh/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen
 /ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
@@ -1601,10 +1577,10 @@ nts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on thesis.pdf (47 pages, 11033930 bytes).
+Output written on thesis.pdf (43 pages, 11033114 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 175 compressed objects within 2 object streams
+ 283 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,8 +8,8 @@
     "error_correct"
     "hunger"
     "algorithm"
+    "aes"
     "coding"
-    "wireless"
-    "aes"))
+    "wireless"))
  :latex)
 

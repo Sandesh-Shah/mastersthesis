@@ -1,3 +1,4 @@
+\section{Galois Group of a Polynomial}
 \begin{definition} \cite{hunger}
   The Galois group of a polynomial \(f \in K[x]\) is the group \(Aut_K^F\), where \(F\) is a splitting field of \(f\) over \(K\).
 \end{definition}
@@ -16,29 +17,31 @@ Because the Galois group \(Aut_K^F\) is a ``group of automorphisms of F which is
   \end{enumerate}
 \end{corollary}
 
-\vspace{-2mm}
 \section{Galois Group of Cubic polynomials}
 \begin{definition} \cite{hunger}
   Let \(K\) be a field with \(char K \neq 2\) and \(f \in K[x]\) a polynomial of degree \(n\) with \(n\) distinct roots \(u_1,u_2,...,u_n\) in some splitting field \(F\) of \(f\) over \(K\). Let \(\Delta = \prod\limits_{i<j}(u_i-u_j) = (u_1-u_2)(u_1-u_3)...(u_{n-1}-u_n) \in F\).\\
   The discriminant of \(f\) is the element \(D= {\Delta}^2\).
 \end{definition}
 
+\clearpage
 \begin{theorem}
 \begin{enumerate}  \cite{hunger}
 \item[i)] The discriminant \({\Delta}^2\) of \(f\) actually lies in \(K\).
   \item[ii)] For each \(\sigma \in Aut_K^F < S_n, \sigma\) is an even[resp. odd] if and only if \(\sigma(\Delta) = \Delta\)[resp. \(\sigma(\Delta) = - \Delta\)].
   \end{enumerate}
 \end{theorem}
+\vspace{2mm}
 Since \({\Delta}^2 \in K\) and \(\Delta \in F\), and \(K(\Delta)\) is a stable intermediate; in the ``Galois correspondence the subfield \(K(\Delta)\) corresponds to the subgroup \(G \cap A_n\). In particular, \(G\) consists of even permutations if and only if \(\Delta \in K\)'' \cite{hunger}.
+\vspace{3mm}
 
 \begin{corollary} \cite{hunger}
   If \(f\) is a separable polynomial of degree \(3\), then the Galois group of \(f\) is \(A_3\) if and only if the discriminant of \(f\) is the square of an element of \(K\).
 \end{corollary}
-\vspace{-3mm}
+\vspace{3mm}
 \begin{theorem} \cite{hunger}
   Let \(K\) be a field of \(char K \neq 2,3 \). If \(f(x)=x^3+bx^2+cx+d \in K[x]\) has three distinct roots in some splitting field, then the polynomial \(g(x)=f(x-b/3) \in K[x]\) has the form \(x^3+p^2+q\) and the discriminant of \(f\) is \(-4p^3-27q^2\).
 \end{theorem}
-\vspace{-2mm}
+\vspace{3mm}
 \section{Galois Group of Quartic polynomials}
 \begin{definition} \cite{hunger} [Resolvant Cubic of a Quartic]
 Let \(K, f, F, u_i, V,\) and \(G=Aut_K^F<S_4\) be as in the preceding paragraph and \(\alpha=u_1u_2+u_3u_4,\) \(\beta=u_1u_3+u_2u_4,\) \(\gamma=u_1u_4+u_2u_3\).
@@ -50,6 +53,7 @@ Now under ``the Galois correspondence the subfield \(K(\alpha, \beta, \gamma)\) 
 
 \begin{remark} \cite{hunger} If \(K\) is a field and \(f = x^4+bx^3+cx^2+dx+e \in K[x]\), then the resolvant cubic of \(f\) is the polynomial \(x^3-cx^2+(bd-4e)x-b^2e+4ce-d^2 \in K[x]\).
 \end{remark}
+\clearpage
 
 \begin{tcolorbox}[boxsep=-1mm]
 \begin{theorem} \cite{hunger}
@@ -64,7 +68,7 @@ Now under ``the Galois correspondence the subfield \(K(\alpha, \beta, \gamma)\) 
 \end{tcolorbox}
 This is because we have \([K(\alpha,\beta,\gamma):K] = |G/G \cap V|\).
 
-\section{Galois Group of some Polynomials}
+\subsection{Galois Group of some Polynomials}
 \begin{example} \cite{hunger}
 The polynomial is \(f(x)=x^4-2 \in \mathbb{Q}[x]\). This polynomial is irreducible and therefore separable over \(\mathbb{Q}\). The resolvant cubic is \(x^3+8x = x(x+2i\sqrt{2})(x-2i\sqrt{2})\) and \(\mathbb{Q}(\alpha,\beta, \gamma)=\mathbb{Q}(i\sqrt{2})\) has dimension \(2\) over \(\mathbb{Q}\). \(x^4-2\) is irreducible over \(\mathbb{Q}(i\sqrt{2})\) because \(\sqrt[\leftroot{-3}\uproot{3}4]{2} \not\in \mathbb{Q}(i\sqrt{2})\). Therefore the Galois group \(G \cong D_8\).
 \end{example}
@@ -180,7 +184,6 @@ may be described either in terms of \(\sigma\) and \(\tau\) or by their action o
   \draw[{Stealth}-, thick] (v)--(g);
 \end{tikzpicture}
 \captionof{figure}{\footnotesize Subgroup diagram of the Galois group 'G'.}
-\clearpage
 
 \begin{tikzpicture}
 
@@ -273,7 +276,7 @@ may be described either in terms of \(\sigma\) and \(\tau\) or by their action o
 \end{tikzpicture}
 \captionof{figure}{\footnotesize Intermediate  field diagram of the Galois extension \(\mathbb{Q}(u,i)\) over \(\mathbb{Q}\)}
 
-\section{Galois group of Quantic polynomials}
+\section{Galois group of Polynomials of degree Five or more}
 ``There are very less techniques for computing Galois groups of polynomials of degree greater than 4 over arbitrary fields''   \cite{hunger}.
 
 \begin{theorem} \cite{hunger}
@@ -351,7 +354,108 @@ The Galois group of a polynomial in single variable can be generalized to the Ga
                        The roots of these simultaneous polynomials are \(\omega, {\omega}^2\). Then the splitting field of this system is \(\mathbb{Q}(\omega)\). Here the automorphisms of \(\mathbb{Q}(\omega)\) are: \\
        \(\omega \longmapsto \omega\) and \hspace{9mm} \(\omega \longmapsto {\omega}^2\).\\
                        Hence the Galois group of this system is \(\{(1), (12)\} \cong {\mathbb{Z}}_2\).
+ \end{example}
+
+ \section{Application to the Classic Problem}
+
+ \begin{enumerate}
+\item Is every polynomial equation solvable by the method of radicals?
+\item Equivalently, does there exist an explicit "formula" which gives all solutions of a polynomial equation?
+\end{enumerate}
+
+If the degree of  the polynomial \(f\) is at most four then the answer is \textbf{yes} \cite{hunger}.\\
+For example, the quadratic polynomial equation \(ax^2+bx+c=0\) has the formula \[x=\frac{-b \pm \sqrt{b^2-4ac}}{2a}\]
+\vspace{3mm}
+
+\subsection{Formulation of the Classic Problem}
+The formula by the method of radicals means the ``formula involving only field operations and the extraction of \(nth\) roots'' \cite{hunger}.
+``The existence of a formula means there is a finite sequence of steps, each step being a field operation or the extraction of an \(nth\) roots, which yields all solutions of the given polynomial.
+Performing a field operation leaves the base field unchanged, but the extraction of an \(nth\) root of an element
+\(c\) in a field \(K\) amounts to constructing an extension field \(K(u)\) with \(u^n \in K\). Thus the existence of a formula for solving \(f(x)=0\) would imply
+the existence of a finite tower of fields
+\[K=E_0 \subset E_1 \subset ... \subset E_n\]
+such that \(E_n\) contains a splitting field of \(f\) over \(K\) and for each \(i \geq 1\), \(E_i=E_{i-1}(u_i)\) with some positive power of \(u_i\) lying in \(E_{i-1}\)'' \cite{hunger}.\\
+``Conversely suppose there exists such a tower of fields and that \(E_n\) contains a splitting field of \(f\). Then
+\[E_n = K(u_1,u_2,...,u_n)\]
+and each solution is of the form \(f(u_1,...,u_n)/g(u_1,...,u_n)\) where \(f,g \in K[x_1,...,x_n]\).
+
+Thus each solution is expressible in terms of a finite number of elements of \(K\), a finite number of field operations and \(u_1,...,u_n\). But
+this amounts to saying that there is a formula for the solutions of the particular given equation'' \cite{hunger}.
+\vspace{3mm}
+
+\begin{definition} \cite{hunger} [Radical Extension]
+An extension field \(F\) of a field \(K\) is a radical extension of \(K\) if \(F=K(u_1,...,u_n)\), some power of \(u_1\) lies in \(K\) and for each \(i \geq 2\), some power of \(u_i\) lies in \(K(u_1,...,u_{i-1})\).
+\end{definition}
+
+\vspace{3mm}
+\begin{remark} \cite{hunger}
+If \(u_i^m \in K(u_1,...,u_{i-1})\) then \(u_i\) is a root of \(x^m-u_i^m \in K(u_1,...,u_{i-1})[x]\). \\
+Therefore every radical extension \(F\) of \(K\) is finite dimensional algebraic over \(K\).
+\end{remark}
+\vspace{3mm}
+
+\begin{definition} \cite{hunger}
+  The polynomial equation \(f(x)=0\) is \textit{solvable by radicals} if there exists a radical extension \(F\) of \(K\) and splitting field \(E\) of \(f\) over \(K\) such that \(F \supset E \supset K\).
+\end{definition}
+
+\begin{theorem} \cite{hunger}
+If \(F\) is a radical extension of \(K\) and \(E\) is an intermediate field, then \(Aut_K^E\) is a solvable group.
+\end{theorem}
+
+\begin{corollary} \cite{hunger}
+If the polynomial equation \(f(x)=0\) is solvable by radicals, then the Galois group of \(f\) is a solvable group.
+\end{corollary}
+\vspace{3mm}
+
+\subsection{Group Theoretic Concepts}
+Let \(G\) be a group.
+
+\begin{definition} \cite{hunger} [Solvable Series]
+A finite chain of subgroups \(G=G_0>G_1>...>G_n={e}\) such that \(G_{i+1}\) is normal in \(G_i\) for \(0 \leq i < n\) is called a subnormal series of \(G\).\\
+A subnormal series is a solvable series if each factor group \(G_i/G_{i+1}\) is abelian.
+\end{definition}
+
+\begin{definition} \cite{hunger} [Solvable Group]
+ A group is solvable if and only if it has a solvable series.
+\end{definition}
+
+If \(F\) is a radical extension of \(K\) then \(F\) is Galois over \(K\) and by the Fundamental Theorem of Galois \(Aut_K^E\) has a solvable series where \(E\) is an intermediate field. So \(Aut_K^E\) is solvable.
+
+\section{Outcomes}
+\begin{theorem} \cite{hunger}
+The symmetric group \(S_n\) is not solvable for \(n \geq 5\).
+\end{theorem}
+
+The polynomial \(f(x)=x^5-10x+5 \in \mathbb{Q}[x]\) has Galois group ``\(S_5\), which is not a solvable group'' \cite{hunger}. \\[3mm]
+The quantic polynomial equations over \(\mathbb{Q}\) are not solvable by radicals. That is there does not exist an explicit formula for solving the quantics. \\
+Moreover, ``polynomial equations of degree \(n \geq 5\) are not solvable by radicals'' \cite{hunger}.
+
+\subsection{Illustrations}
+Galois theory gives the precise condition under which a polynomial of degree \(n \geq 5\) is solvable by radicals or not.
+
+\vspace{5mm}
+\begin{example}
+  The polynomial is \(g(x)=x^5-1 \in \mathbb{Q}[x]\).\\
+  The set of  roots of this polynomial equation \(g(x)=0\) are the fifth roots of unity which forms a group under addition modulo \(5\). Hence the ``Galois group is isomorphic to \(\mathbb{Z}_5\)'' \cite{hunger}. The group \(\mathbb{Z}_5\) is cyclic and ``every cyclic group is solvable'' \cite{galois}. Hence this polynomial is solvable by radicals.
 \end{example}
+
+\vspace{3mm}
+\begin{definition} \cite{galois} [Cyclotomic Polynomial]
+  The \(nth\)-cyclotomic polynomial is the polynomial \({\Phi}_n\) defined as \({\Phi}_n= \prod {(x-\zeta)}\), where \(\zeta\) is a primitive-\(nth\) of unity.
+\end{definition}
+
+\vspace{3mm}
+\begin{theorem} \cite{galois}
+  The Galois group of a \(nth\)-cyclotomic polynomial \({\Phi}_n\) of is \(\mathbb{Z}_n\).
+\end{theorem}
+
+\vspace{3mm}
+\begin{example}
+The polynomial is \(f(x)=x^{12}-x^{10}+x^8-x^6-x^2+1 \in \mathbb{Q}\)\\
+which is a 58th-cyclotomic polynomal i.e this polynomial \(f(x)={\Phi}_{58}\).\\
+  So its Galois group is \(\mathbb{Z}_{58}\), which is abelian and hence is solvable. Therefore this polynomial equation \(f(x)=0\) is solvable by radicals.
+\end{example}
+
 
 %%% Local Variables:
 %%% mode: latex
