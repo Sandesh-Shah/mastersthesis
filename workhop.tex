@@ -1,0 +1,24 @@
+\documentclass{article}
+
+\usepackage{tikz, pgfplots}
+\usepgflibrary{shadings}
+\usetikzlibrary{positioning, shapes.geometric}
+
+
+\begin{document}
+\begin{tikzpicture}
+  \node[ellipse, draw, thick] (e1) {\Large Start};
+  \node[rectangle, draw, thick, below of=e1, yshift=-15mm] (r1) {\Large Input};
+  \node[rectangle, draw, thick, below of=r1, yshift=-15mm] (r2) {\Large Solve};
+  \node[diamond, draw, thick, below of=r2, yshift=-15mm] (d1) {\Large Decision};
+  \node[ellipse, draw, thick, below of=d1, yshift=-15mm] (e2) {\Large Stop};
+
+
+  \draw[->] (e1)--(r1)
+\end{tikzpicture}
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
